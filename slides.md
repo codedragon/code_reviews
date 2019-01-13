@@ -5,18 +5,25 @@
 
 
 
-# You have a stack trace, now what?
+![alt text](assets/Emperor_Gum_Moth.jpg "https://en.wikipedia.org/wiki/Moth#/media/File:Emperor_Gum_Moth.jpg")
 
 
 
 
-# Write a test!
+# Do NOT touch your code
+
+
+
+
+# Write an integration test
 
 
 
 
 ## Review: The stack 
 ![alt text](assets/stack_pancakes.jpg "https://thestayathomechef.com/pancake-recipe/")
+
+
 
 
 The stack is a list of the things you have started, but not finished.
