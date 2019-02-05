@@ -15,13 +15,13 @@
 
 
 
-# Write an integration test
+# Write an integration test that FAILS
 
 
 
 
 ## Review: The stack 
-![alt text](assets/stack_pancakes.jpg "https://thestayathomechef.com/pancake-recipe/")
+![alt text](assets/layer_cake.jpg "https://www.bettycrocker.com/recipes/rainbow-layer-cake-with-rainbow-chip-frosting/6404997b-a255-4942-afd6-b4e6696db70f")
 
 
 
@@ -29,9 +29,8 @@
 The stack is a list of the things you have started, but not finished.
 
 * make cake
-* make buttercream
-* make syrup
-* add sugar
+* make batter
+* add flour
 
 If you don't understand the stack, I highly recommend playing around on this website:
 
@@ -42,7 +41,12 @@ The live help feature is pretty cool.
 
 
 
-## In a simple stacktrace, the problem is usally at the bottom, and the code that caused it directly above it.
+# Start at the bottom of the stack trace
+
+
+
+
+## In a simple stack trace, the problem is usally at the bottom, and the code that caused it directly above it.
 
 ```
 python3 except_excercise.py
@@ -51,4 +55,7 @@ python3 except_excercise.py
     ^
 SyntaxError: not a chance
 ```
+
+
+
 
