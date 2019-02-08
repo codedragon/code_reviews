@@ -20,7 +20,7 @@
 
 
 
-## Review: The stack 
+## Review: The stack
 ![alt text](assets/layer_cake.jpg "https://www.bettycrocker.com/recipes/rainbow-layer-cake-with-rainbow-chip-frosting/6404997b-a255-4942-afd6-b4e6696db70f")
 
 
@@ -28,9 +28,13 @@
 
 The stack is a list of the things you have started, but not finished.
 
-* make cake
-* make batter
-* add flour
+* make cake <!-- .element: class="fragment" data-fragment-index="3" -->
+* make batter <!-- .element: class="fragment" data-fragment-index="2" -->
+* add flour <!-- .element: class="fragment" data-fragment-index="1" -->
+
+
+
+
 
 If you don't understand the stack, I highly recommend playing around on this website:
 
@@ -55,7 +59,3 @@ python3 except_excercise.py
     ^
 SyntaxError: not a chance
 ```
-
-
-
-
