@@ -46,7 +46,7 @@ $selectionColor: #fff;
 // Background
 $backgroundColor: #f7fbfc;
 @mixin bodyBackground() {
-	// @include radial-gradient-image( rgba(0, 0, 0, .2), 'topographic-bg.png' );
+	// @include radial-gradient-image( rgba(0, 0, 0, .2), 'Newspaperrock.jpeg' );
 	background: url('Newspaperrock.jpeg');
 }
 
