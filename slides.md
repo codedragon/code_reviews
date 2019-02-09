@@ -49,14 +49,15 @@ The live help feature is pretty cool.
 
 
 
-## In a simple stack trace, the problem is usally at the bottom, and the code that caused it directly above it.
+## The problem (exception) is at the bottom
+## for a simple stack,  the code that caused it is directly above it.
 
 
 
 
 ```
 Traceback (most recent call last):
-  File "bad_stack.py", line 20, in <module>
+  File "bad_stack.py", line 17, in <module>
     create_exception()
   File "bad_stack.py", line 15, in create_exception
     print(hello)
@@ -65,14 +66,17 @@ NameError: name 'hello' is not defined
 
 
 
+````python
+14 def create_exception():
+15     print(hello)
 
-## Sometimes it only becomes APPARENT during the line executed on the bottom
+17 create_exception()
+````
 
 
 
 
-![alt text](assets/sunken-cake-veronica-tang_grande.jpg "https://www.angesdesucre.com/blogs/anges-de-sucre/why-wont-my-cake-rise")
-##Sunken Cake
+# Let's add to our stack
 
 
 
@@ -98,6 +102,17 @@ Traceback (most recent call last):
     print(okay)
 NameError: name 'okay' is not defined
 ```
+
+
+
+
+## Sometimes an error only becomes APPARENT during the line executed on the bottom
+
+
+
+
+![alt text](assets/sunken-cake-veronica-tang_grande.jpg "https://www.angesdesucre.com/blogs/anges-de-sucre/why-wont-my-cake-rise")
+##Sunken Cake
 
 
 
@@ -143,18 +158,18 @@ ZeroDivisionError: division by zero
 
 
 
-Once upon a time, developers troubleshot without the benefit of a search engine
+##Once upon a time, developers shot trouble without the benefit of a search engine
 Use all the tools available to you
 
 
 
 
-Always suspect your own code first
+##Always suspect your own code first
 
 
 
 
-What if I just have a failing test?
+##What if I just have a failing test?
 
 
 
