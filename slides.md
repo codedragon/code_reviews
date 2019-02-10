@@ -158,23 +158,23 @@ ZeroDivisionError: division by zero
 
 
 
-##Once upon a time, developers shot trouble without the benefit of a search engine
+## Once upon a time, developers shot trouble without the benefit of a search engine
 Use all the tools available to you
 
 
 
 
-##Always suspect your own code first
+## Always suspect your own code first
 
 
 
 
-##What if I just have a failing test?
+## What if I just have a failing test?
 
 
 
 
-#PDB
+# PDB
 
 
 
