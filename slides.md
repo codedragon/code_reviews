@@ -179,3 +179,56 @@ Use all the tools available to you
 
 
 
+# >>>>WHOOSH>>>>>
+
+
+
+
+# W
+
+
+
+
+# Leave the breakpoint in, Use a similar test 
+
+
+
+
+# Use the stack, go back and forth between the tests.
+
+
+
+
+## Change things
+* New Test
+* Fresh commit, then change things (use a version control system)
+* What works, what doesn't?
+
+
+
+
+# Take a break
+![alt text](assets/break.jpg "Costa Rica 2016")
+
+
+
+
+
+## Write down everything
+* Exactly the call and result causing the problem
+* Any related log messages
+* Exactly what should have happened
+* What you have tried so far, clues discovered
+
+
+
+
+# Ask for help
+![alt text](assets/batphone.jpg "https://www.millionaireplayboy.com/toys/batphone.php")
+
+
+
+
+
+# Thank You
+
