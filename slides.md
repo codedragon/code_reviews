@@ -213,7 +213,6 @@ Use all the tools available to you
 
 
 
-
 ## Write down everything
 * Exactly the call and result causing the problem
 * Any related log messages
