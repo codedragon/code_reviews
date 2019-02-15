@@ -10,6 +10,11 @@
 
 
 
+## The Eniac women were among the first coders to discover that software never works right the first time — and that a programmer’s main work, really, is to find and fix the bugs.  ~ *New York Times Magazine*, "The Secret History of Women in Coding"
+
+
+
+
 # Do NOT touch your code
 
 
@@ -49,7 +54,7 @@ The live help feature is pretty cool.
 
 
 
-## The problem (exception) is at the bottom
+## The problem (exception) is always at the bottom
 ## for a simple stack,  the code that caused it is directly above it.
 
 
@@ -179,6 +184,11 @@ Use all the tools available to you
 
 
 
+## Betty Snyder realized that if you wanted to debug a program that wasn’t running correctly, it would help to have a “break point,” a moment when you could stop a program midway through its run. To this day, break points are a key part of the debugging process. ~ *New York Times Magazine*, "The Secret History of Women in Coding"
+
+
+
+
 # >>>>WHOOSH>>>>>
 
 
@@ -189,7 +199,7 @@ Use all the tools available to you
 
 
 
-# Leave the breakpoint in, Use a similar test 
+# Leave the breakpoint in, Use a similar test
 
 
 
@@ -229,4 +239,3 @@ Use all the tools available to you
 
 
 # Thank You
-
