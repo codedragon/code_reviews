@@ -9,8 +9,24 @@
 
 
 
+ 
+### The Eniac women were among the first coders to discover that software never works right the first time - and that a programmer's main work, really, is to find and fix the bugs. *New York Times Magazine*, "The Secret History of Women in Coding"
 
-### The Eniac women were among the first coders to discover that software never works right the first time - and that a programmer's main work, really, is to find and fix the bugs.  ~ *New York Times Magazine*, "The Secret History of Women in Coding"
+
+
+
+# Hunting Bugs
+* scenario
+* strategies
+* along the way learn about the stack and pdb
+
+
+
+
+# PSA
+## periodically check your logs
+* where you think they are
+* logging what you think they should log
 
 
 
