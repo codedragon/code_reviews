@@ -108,6 +108,8 @@ def bad_function():
 
 def add_to_stack():
     bad_function()
+
+add_to_stack()
 ```
 
 
@@ -148,6 +150,8 @@ def ten_divide_by_my_num():
 
 def add_to_stack():
     print(ten_divide_by_my_num())
+
+add_to_stack()
 ```
 
 
