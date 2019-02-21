@@ -145,14 +145,14 @@ NameError: name 'okay' is not defined
 
 ```python
 def bad_function():
-    return 0
+    return '6'
 
-def ten_divide_by_my_num():
+def divide_by_ten():
     my_num = bad_function()
-    return 10/my_num
+    return my_num/10
 
 def add_to_stack():
-    print(ten_divide_by_my_num())
+    print(divide_by_ten())
 
 add_to_stack()
 ```
@@ -162,13 +162,13 @@ add_to_stack()
 
 ```python
 Traceback (most recent call last):
-  File "bad_stack.py", line 15, in <module>
+  File "bad_stack.py", line 11, in <module>
     add_to_stack()
-  File "bad_stack.py", line 11, in add_to_stack
-    print(ten_divide_by_my_num())
-  File "bad_stack.py", line 7, in ten_divide_by_my_num
-    return 10/my_num
-ZeroDivisionError: division by zero
+  File "bad_stack.py", line 9, in add_to_stack
+    print(divide_by_ten())
+  File "bad_stack.py", line 6, in divide_by_ten
+    return my_num/10
+TypeError: unsupported operand type(s) for /: 'str' and 'int'
 ```
 
 
