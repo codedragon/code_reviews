@@ -9,7 +9,7 @@
 
 
 
-<!-- .slide: data-background="TastyEightiesGrey" -->
+<!-- .slide: data-background="#f6f5f3" -->
 ### The Eniac women were among the first coders to discover that software never works right the first time - and that a programmer's main work, really, is to find and fix the bugs.
 ### *New York Times Magazine*
 ### "The Secret History of Women in Coding"
@@ -172,25 +172,6 @@ ZeroDivisionError: division by zero
 
 
 
-## Pylint and Flake8
-
-
-
-
-## Google
-* Sanitize the terms: Nothing unique from your code
-* Python 3
-* Understand what you find
-
-
-
-
-## Once upon a time, developers shot trouble without the benefit of a search engine
-Use all the tools available to you
-
-
-
-
 ## Always suspect your own code first
 
 
@@ -237,6 +218,25 @@ Use all the tools available to you
 * New Test
 * Fresh commit, then change things (use a version control system)
 * What works, what doesn't?
+
+
+
+
+## Pylint and Flake8
+
+
+
+
+## Google
+* Sanitize the terms: Nothing unique from your code
+* Python 3
+* Understand what you find
+
+
+
+
+## Once upon a time, developers shot trouble without the benefit of a search engine
+Use all the tools available to you
 
 
 
