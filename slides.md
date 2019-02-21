@@ -49,7 +49,7 @@
 
 
 
-The stack is a list of the things you have started, but not finished.
+## The stack is a list of the things you have started, but not finished.
 
 * make cake <!-- .element: class="fragment" data-fragment-index="3" -->
 * make batter <!-- .element: class="fragment" data-fragment-index="2" -->
@@ -132,7 +132,7 @@ NameError: name 'okay' is not defined
 
 
 
-## Sometimes an error only becomes APPARENT during the line executed on the bottom
+# Sometimes an error only becomes APPARENT during the line executed on the bottom
 
 
 
@@ -173,12 +173,12 @@ ZeroDivisionError: division by zero
 
 
 
-## Always suspect your own code first
+# Always suspect your own code first
 
 
 
 
-## What if I just have a failing test?
+# What if I just have a failing test?
 
 
 
@@ -196,7 +196,7 @@ ZeroDivisionError: division by zero
 
 
 
-## >>>WHOOSH>>>
+# >>>WHOOSH>>>
 
 
 
@@ -216,7 +216,7 @@ ZeroDivisionError: division by zero
 
 
 
-## Change things
+# Change things
 * New Test
 * Fresh commit, then change things (use a version control system)
 * What works, what doesn't?
@@ -224,12 +224,12 @@ ZeroDivisionError: division by zero
 
 
 
-## Pylint and Flake8
+# Pylint and Flake8
 
 
 
 
-## Google
+# GOOGLE
 * Sanitize the terms: Nothing unique from your code
 * Python 3
 * Understand what you find
@@ -249,7 +249,7 @@ Use all the tools available to you
 
 
 
-## Write down everything
+# Write down everything
 * Exactly the call and result causing the problem
 * Any related log messages
 * Exactly what should have happened
@@ -264,6 +264,6 @@ Use all the tools available to you
 
 
 
-## Thank You
+# Thank You
 ## https://codedragon.github.io/bughunting
 ![bug_wins](https://media.giphy.com/media/qKbDKxfgWGWv6/giphy.gif "https://media.giphy.com/media/qKbDKxfgWGWv6/giphy.gif")
