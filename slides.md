@@ -145,11 +145,11 @@ NameError: name 'okay' is not defined
 
 ```python
 Traceback (most recent call last):
-  File "stack.py", line 11, in <module>
+  File "stack.py", line 14, in <module>
     add_to_stack()
-  File "stack.py", line 9, in add_to_stack
+  File "stack.py", line 12, in add_to_stack
     print(divide_by_ten(my_num))
-  File "stack.py", line 5, in divide_by_ten
+  File "stack.py", line 8, in divide_by_ten
     return num/10
 TypeError: unsupported operand type(s) for /: 'str' and 'int'
 ```
@@ -158,22 +158,21 @@ TypeError: unsupported operand type(s) for /: 'str' and 'int'
 
 
 ```python
-def bad_function():
-    return '6'
+def bad_function(num):
+    return str(num)
+
+def do_something_useless(num):
+    return bad_function(num)
 
 def divide_by_ten(num):
     return num/10
 
 def add_to_stack():
-    my_num = bad_function()
+    my_num = do_something_useless(4)
     print(divide_by_ten(my_num))
 
 add_to_stack()
 ```
-
-
-
-# Always suspect your own code first
 
 
 
@@ -212,6 +211,11 @@ add_to_stack()
 
 
 # Use the stack, go back and forth between the tests.
+
+
+
+
+# Always suspect your own code first
 
 
 
