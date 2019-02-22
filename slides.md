@@ -144,31 +144,31 @@ NameError: name 'okay' is not defined
 
 
 ```python
-def bad_function():
-    return '6'
-
-def divide_by_ten():
-    my_num = bad_function()
-    return my_num/10
-
-def add_to_stack():
-    print(divide_by_ten())
-
-add_to_stack()
+Traceback (most recent call last):
+  File "stack.py", line 11, in <module>
+    add_to_stack()
+  File "stack.py", line 9, in add_to_stack
+    print(divide_by_ten(my_num))
+  File "stack.py", line 5, in divide_by_ten
+    return num/10
+TypeError: unsupported operand type(s) for /: 'str' and 'int'
 ```
 
 
 
 
 ```python
-Traceback (most recent call last):
-  File "bad_stack.py", line 11, in <module>
-    add_to_stack()
-  File "bad_stack.py", line 9, in add_to_stack
-    print(divide_by_ten())
-  File "bad_stack.py", line 6, in divide_by_ten
-    return my_num/10
-TypeError: unsupported operand type(s) for /: 'str' and 'int'
+def bad_function():
+    return '6'
+
+def divide_by_ten(num):
+    return num/10
+
+def add_to_stack():
+    my_num = bad_function()
+    print(divide_by_ten(my_num))
+
+add_to_stack()
 ```
 
 
