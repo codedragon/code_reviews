@@ -247,6 +247,11 @@ Use all the tools available to you
 
 
 
+![alt text](assets/bug_joke.jpg "bughunting meme")
+
+
+
+
 # Take a break
 ![alt text](assets/break.jpg "Costa Rica 2016")
 
@@ -271,8 +276,3 @@ Use all the tools available to you
 # Thank You
 ## https://codedragon.github.io/bughunting
 ![bug_wins](https://media.giphy.com/media/qKbDKxfgWGWv6/giphy.gif "https://media.giphy.com/media/qKbDKxfgWGWv6/giphy.gif")
-
-
-
-
-![alt text](assets/bug_joke.jpg "bughunting meme")
