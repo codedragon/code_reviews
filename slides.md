@@ -174,11 +174,11 @@ NameError: name 'okay' is not defined
 
 ```python
 Traceback (most recent call last):
-  File "stack.py", line 14, in <module>
+  File "stack2.py", line 11, in <module>
     add_to_stack()
-  File "stack.py", line 12, in add_to_stack
+  File "stack2.py", line 9, in add_to_stack
     print(divide_by_ten(my_num))
-  File "stack.py", line 8, in divide_by_ten
+  File "stack2.py", line 5, in divide_by_ten
     return num/10
 TypeError: unsupported operand type(s)
              for /: 'str' and 'int'
@@ -191,17 +191,14 @@ TypeError: unsupported operand type(s)
 1  def bad_function(num):
 2      return str(num)
 3
-4  def do_something_useless(num):
-5      return bad_function(num)
+4  def divide_by_ten(num):
+5      return num/10
 6
-7  def divide_by_ten(num):
-8      return num/10
-9
-10 def add_to_stack():
-11     my_num = do_something_useless(4)
-12     print(divide_by_ten(my_num))
-13
-14 add_to_stack()
+7  def add_to_stack():
+8      my_num = do_something_useless(4)
+9      print(divide_by_ten(my_num))
+10
+11 add_to_stack()
 ```
 
 
@@ -218,6 +215,7 @@ TypeError: unsupported operand type(s)
 
 
 
+
 # PDB
 * # Python
 * # De-
@@ -227,130 +225,9 @@ TypeError: unsupported operand type(s)
 
 
 # But print works
-
-
-
-
-```python
-1  def bad_function(num):
-2      return str(num)
-3
-4  def do_something_useless(num):
-5      return bad_function(num)
-6
-7  def divide_by_ten(num):
-8      return num/10
-9
-10 def add_to_stack():
-11     import pdb; pdb.set_trace()
-12     my_num = do_something_useless(4)
-13     print(divide_by_ten(my_num))
-14
-15 add_to_stack()
-```
-
-
-
-
-```python
-python3 stack2.py
-> /Users/maria/stack2.py(12)add_to_stack()
--> my_num = do_something_useless(4)
-(Pdb)
-```
-
-
-
-
-```python
-python3 stack2.py
-> /Users/maria/stack2.py(12)add_to_stack()
--> my_num = do_something_useless(4)
-(Pdb) s
-```
-
-
-
-
-```python
-python3 stack2.py
-> /Users/maria/stack2.py(12)add_to_stack()
--> my_num = do_something_useless(4)
-(Pdb) s
---Call--
-> /Users/maria/stack2.py(4)do_something_useless()
--> def do_something_useless(num):
-(Pdb)
-```
-
-
-
-
-```python
-python3 stack2.py
-> /Users/maria/stack2.py(12)add_to_stack()
--> my_num = do_something_useless(4)
-(Pdb) s
---Call--
-> /Users/maria/stack2.py(4)do_something_useless()
--> def do_something_useless(num):
-(Pdb) n
-```
-
-
-
-
-```python
-(Pdb) s
---Call--
-> /Users/maria/stack2.py(4)do_something_useless()
--> def do_something_useless(num):
-(Pdb) n
-> /Users/maria/stack2.py(5)do_something_useless()
--> return bad_function(num)
-(Pdb)
-```
-
-
-
-
-```python
-(Pdb) s
---Call--
-> /Users/maria/stack2.py(4)do_something_useless()
--> def do_something_useless(num):
-(Pdb) n
-> /Users/maria/stack2.py(5)do_something_useless()
--> return bad_function(num)
-(Pdb) s
-```
-
-
-
-
-```python
-(Pdb) n
-> /Users/maria/stack2.py(5)do_something_useless()
--> return bad_function(num)
-(Pdb) s
---Call--
-> /Users/maria/stack2.py(1)bad_function()
--> def bad_function(num):
-(Pdb)
-```
-
-
-
-
-```python
-(Pdb) s
---Call--
-> /Users/maria/stack2.py(1)bad_function()
--> def bad_function(num):
-(Pdb) n
-> /Users/maria/stack2.py(2)bad_function()
--> return str(num)
-```
+* Can be slow <!-- .element: class="fragment" data-fragment-index="1" -->
+* forget what you are printing <!-- .element: class="fragment" data-fragment-index="2" -->
+* how did I get here? <!-- .element: class="fragment" data-fragment-index="3" -->
 
 
 
