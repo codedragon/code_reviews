@@ -20,7 +20,7 @@
 # Hunting Bugs
 * scenario
 * strategies
-* along the way learn about the stack and pdb
+* along the way learn about the stack and the debugger
 
 
 
@@ -34,6 +34,11 @@
 ## periodically check your logs
 * where you think they are
 * logging what you think they should log
+
+
+
+
+Verify the bug
 
 
 
@@ -73,6 +78,20 @@ The live help feature is pretty cool.
 
 
 # Stack Trace
+
+
+
+
+```python
+Traceback (most recent call last):
+  File "bakecake.py" line 20, in <module>
+    *make_cake()*
+  File "bakecake.py" line 15, in make_cake
+    *make_batter()*
+  File "bakecake.py" line 13, in make_batter
+    *add_flour(flour)*
+IngredienError: flour is empty
+```
 
 
 
@@ -199,10 +218,10 @@ TypeError: unsupported operand type(s)
 
 
 
-
-# **P**ython
-# **D**e-
-# **B**ugger
+# PDB
+# *P*ython
+# *D*e-
+# *B*ugger
 
 
 
@@ -237,24 +256,105 @@ python3 stack2.py
 > /Users/mckim055/personal/stack2.py(12)add_to_stack()
 -> my_num = do_something_useless(4)
 (Pdb)
-(Pdb) s <!-- .element: class="fragment" data-fragment-index="1" -->
---Call-- <!-- .element: class="fragment" data-fragment-index="1" -->
-> /Users/mckim055/personal/stack2.py(4)do_something_useless() <!-- .element: class="fragment" data-fragment-index="1" -->
--> def do_something_useless(num): <!-- .element: class="fragment" data-fragment-index="1" -->
-(Pdb) <!-- .element: class="fragment" data-fragment-index="1" -->
-(Pdb) n <!-- .element: class="fragment" data-fragment-index="2" -->
-> /Users/mckim055/personal/stack2.py(5)do_something_useless() <!-- .element: class="fragment" data-fragment-index="2" --> <!-- .element: class="fragment" data-fragment-index="2" -->
--> return bad_function(num) <!-- .element: class="fragment" data-fragment-index="2" -->
-(Pdb) <!-- .element: class="fragment" data-fragment-index="2" -->
-(Pdb) s <!-- .element: class="fragment" data-fragment-index="3" -->
---Call-- <!-- .element: class="fragment" data-fragment-index="3" -->
-> /Users/mckim055/personal/stack2.py(1)bad_function() <!-- .element: class="fragment" data-fragment-index="3" -->
--> def bad_function(num): <!-- .element: class="fragment" data-fragment-index="3" -->
-(Pdb) <!-- .element: class="fragment" data-fragment-index="3" -->
-(Pdb) n <!-- .element: class="fragment" data-fragment-index="4" -->
-> /Users/mckim055/personal/stack2.py(2)bad_function() <!-- .element: class="fragment" data-fragment-index="4" -->
--> return str(num) <!-- .element: class="fragment" data-fragment-index="4" -->
 ```
+
+
+
+
+```python
+python3 stack2.py
+> /Users/mckim055/personal/stack2.py(12)add_to_stack()
+-> my_num = do_something_useless(4)
+(Pdb) s
+```
+
+
+
+
+```python
+python3 stack2.py
+> /Users/mckim055/personal/stack2.py(12)add_to_stack()
+-> my_num = do_something_useless(4)
+(Pdb) s
+--Call--
+> /Users/mckim055/personal/stack2.py(4)do_something_useless()
+-> def do_something_useless(num):
+(Pdb)
+````
+
+
+
+
+```python
+python3 stack2.py
+> /Users/mckim055/personal/stack2.py(12)add_to_stack()
+-> my_num = do_something_useless(4)
+(Pdb) s
+--Call--
+> /Users/mckim055/personal/stack2.py(4)do_something_useless()
+-> def do_something_useless(num):
+(Pdb) n
+````
+
+
+
+
+```python
+(Pdb) s
+--Call--
+> /Users/mckim055/personal/stack2.py(4)do_something_useless()
+-> def do_something_useless(num):
+(Pdb) n
+> /Users/mckim055/personal/stack2.py(5)do_something_useless()
+-> return bad_function(num)
+(Pdb)
+
+
+
+
+
+```python
+(Pdb) s
+--Call--
+> /Users/mckim055/personal/stack2.py(4)do_something_useless()
+-> def do_something_useless(num):
+(Pdb) n
+> /Users/mckim055/personal/stack2.py(5)do_something_useless()
+-> return bad_function(num)
+(Pdb) s
+```
+
+
+
+
+```python
+(Pdb) n
+> /Users/mckim055/personal/stack2.py(5)do_something_useless()
+-> return bad_function(num)
+(Pdb) s
+--Call--
+> /Users/mckim055/personal/stack2.py(1)bad_function()
+-> def bad_function(num):
+(Pdb)
+```
+
+
+
+
+```python
+(Pdb) s
+--Call--
+> /Users/mckim055/personal/stack2.py(1)bad_function()
+-> def bad_function(num):
+(Pdb) n
+> /Users/mckim055/personal/stack2.py(2)bad_function()
+-> return str(num)
+```
+
+
+
+
+# Put a break point in code you believe your test should pass through
 
 
 
@@ -265,6 +365,30 @@ python3 stack2.py
 
 
 # W
+
+
+
+
+```python
+> /Users/mckim055/personal/stack2.py(8)divide_by_ten()
+-> return num/10
+(Pdb) w
+  /Users/mckim055/personal/stack2.py(15)<module>()
+-> add_to_stack()
+  /Users/mckim055/personal/stack2.py(13)add_to_stack()
+-> print(divide_by_ten(my_num))
+> /Users/mckim055/personal/stack2.py(8)divide_by_ten()
+-> return num/10
+```
+```python
+Traceback (most recent call last):
+  File "stack2.py", line 15, in <module>
+    add_to_stack()
+  File "stack2.py", line 13, in add_to_stack
+    print(divide_by_ten(my_num))
+  File "stack2.py", line 8, in divide_by_ten
+    return num/10
+```
 
 
 
@@ -326,7 +450,7 @@ python3 stack2.py
 * Exactly the call and result causing the problem
 * Any related log messages
 * Exactly what should have happened
-* What you have tried so far, clues discovered
+* What you have tried and learned
 
 
 
@@ -340,3 +464,4 @@ python3 stack2.py
 # Thank You
 ## https://codedragon.github.io/bughunting
 ![bug_wins](https://media.giphy.com/media/qKbDKxfgWGWv6/giphy.gif "https://media.giphy.com/media/qKbDKxfgWGWv6/giphy.gif")
+maria@mariakathryn.net
