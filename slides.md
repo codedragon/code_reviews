@@ -38,7 +38,7 @@
 
 
 
-Verify the bug
+# Verify the bug
 
 
 
@@ -85,11 +85,11 @@ The live help feature is pretty cool.
 ```python
 Traceback (most recent call last):
   File "bakecake.py" line 20, in <module>
-    *make_cake()*
+    make_cake()
   File "bakecake.py" line 15, in make_cake
-    *make_batter()*
+    make_batter()
   File "bakecake.py" line 13, in make_batter
-    *add_flour(flour)*
+    add_flour(flour)
 IngredienError: flour is empty
 ```
 
@@ -219,9 +219,9 @@ TypeError: unsupported operand type(s)
 
 
 # PDB
-# *P*ython
-# *D*e-
-# *B*ugger
+* # Python
+* # De-
+* # Bugger
 
 
 
@@ -242,10 +242,11 @@ TypeError: unsupported operand type(s)
 8      return num/10
 9
 10 def add_to_stack():
-11     my_num = do_something_useless(4)
-12     print(divide_by_ten(my_num))
-13
-14 add_to_stack()
+11     import pdb; pdb.set_trace()
+12     my_num = do_something_useless(4)
+13     print(divide_by_ten(my_num))
+14
+15 add_to_stack()
 ```
 
 
@@ -253,7 +254,7 @@ TypeError: unsupported operand type(s)
 
 ```python
 python3 stack2.py
-> /Users/mckim055/personal/stack2.py(12)add_to_stack()
+> /Users/maria/stack2.py(12)add_to_stack()
 -> my_num = do_something_useless(4)
 (Pdb)
 ```
@@ -263,7 +264,7 @@ python3 stack2.py
 
 ```python
 python3 stack2.py
-> /Users/mckim055/personal/stack2.py(12)add_to_stack()
+> /Users/maria/stack2.py(12)add_to_stack()
 -> my_num = do_something_useless(4)
 (Pdb) s
 ```
@@ -273,28 +274,28 @@ python3 stack2.py
 
 ```python
 python3 stack2.py
-> /Users/mckim055/personal/stack2.py(12)add_to_stack()
+> /Users/maria/stack2.py(12)add_to_stack()
 -> my_num = do_something_useless(4)
 (Pdb) s
 --Call--
-> /Users/mckim055/personal/stack2.py(4)do_something_useless()
+> /Users/maria/stack2.py(4)do_something_useless()
 -> def do_something_useless(num):
 (Pdb)
-````
+```
 
 
 
 
 ```python
 python3 stack2.py
-> /Users/mckim055/personal/stack2.py(12)add_to_stack()
+> /Users/maria/stack2.py(12)add_to_stack()
 -> my_num = do_something_useless(4)
 (Pdb) s
 --Call--
-> /Users/mckim055/personal/stack2.py(4)do_something_useless()
+> /Users/maria/stack2.py(4)do_something_useless()
 -> def do_something_useless(num):
 (Pdb) n
-````
+```
 
 
 
@@ -302,13 +303,13 @@ python3 stack2.py
 ```python
 (Pdb) s
 --Call--
-> /Users/mckim055/personal/stack2.py(4)do_something_useless()
+> /Users/maria/stack2.py(4)do_something_useless()
 -> def do_something_useless(num):
 (Pdb) n
-> /Users/mckim055/personal/stack2.py(5)do_something_useless()
+> /Users/maria/stack2.py(5)do_something_useless()
 -> return bad_function(num)
 (Pdb)
-
+```
 
 
 
@@ -316,10 +317,10 @@ python3 stack2.py
 ```python
 (Pdb) s
 --Call--
-> /Users/mckim055/personal/stack2.py(4)do_something_useless()
+> /Users/maria/stack2.py(4)do_something_useless()
 -> def do_something_useless(num):
 (Pdb) n
-> /Users/mckim055/personal/stack2.py(5)do_something_useless()
+> /Users/maria/stack2.py(5)do_something_useless()
 -> return bad_function(num)
 (Pdb) s
 ```
@@ -329,11 +330,11 @@ python3 stack2.py
 
 ```python
 (Pdb) n
-> /Users/mckim055/personal/stack2.py(5)do_something_useless()
+> /Users/maria/stack2.py(5)do_something_useless()
 -> return bad_function(num)
 (Pdb) s
 --Call--
-> /Users/mckim055/personal/stack2.py(1)bad_function()
+> /Users/maria/stack2.py(1)bad_function()
 -> def bad_function(num):
 (Pdb)
 ```
@@ -344,10 +345,10 @@ python3 stack2.py
 ```python
 (Pdb) s
 --Call--
-> /Users/mckim055/personal/stack2.py(1)bad_function()
+> /Users/maria/stack2.py(1)bad_function()
 -> def bad_function(num):
 (Pdb) n
-> /Users/mckim055/personal/stack2.py(2)bad_function()
+> /Users/maria/stack2.py(2)bad_function()
 -> return str(num)
 ```
 
@@ -370,14 +371,12 @@ python3 stack2.py
 
 
 ```python
-> /Users/mckim055/personal/stack2.py(8)divide_by_ten()
--> return num/10
 (Pdb) w
-  /Users/mckim055/personal/stack2.py(15)<module>()
+  /Users/maria/stack2.py(15)<module>()
 -> add_to_stack()
-  /Users/mckim055/personal/stack2.py(13)add_to_stack()
+  /Users/maria/stack2.py(13)add_to_stack()
 -> print(divide_by_ten(my_num))
-> /Users/mckim055/personal/stack2.py(8)divide_by_ten()
+> /Users/maria/stack2.py(8)divide_by_ten()
 -> return num/10
 ```
 ```python
