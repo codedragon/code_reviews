@@ -53,6 +53,17 @@
 
 
 
+# Why test?
+## https://www.obeythetestinggoat.com/
+
+
+
+
+# Why before?
+
+
+
+
 ## Review: The stack
 ![alt text](assets/layer_cake.jpg "https://www.bettycrocker.com/recipes/rainbow-layer-cake-with-rainbow-chip-frosting/6404997b-a255-4942-afd6-b4e6696db70f")
 
