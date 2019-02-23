@@ -50,7 +50,7 @@ body {
   margin: 0 0 20px 0;
   color: #333;
   font-family: "Amatic SC", "Open Sans Condensed", sans-serif;
-  font-weight: normal;
+  font-weight: bold;
   line-height: 1.2;
   letter-spacing: normal;
   text-transform: none;
@@ -98,7 +98,9 @@ body {
 .reveal ul {
   display: inline-block;
   text-align: left;
-  margin: 0 0 0 1em; }
+  margin: 0 0 0 1em;
+  font-size: 200%;
+}
 
 .reveal ol {
   list-style-type: decimal; }
@@ -159,12 +161,14 @@ body {
   box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3); }
 
 .reveal code {
-  font-family: monospace; }
+  font-family: monospace;
+  font-size: 180%; }
 
 .reveal pre code {
   display: block;
   padding: 5px;
-  overflow: auto;
+  max-width: 100%;
+  overflow: visible;
   max-height: 600px;
   word-wrap: normal;
   background: #3F3F3F;

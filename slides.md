@@ -78,7 +78,8 @@ The live help feature is pretty cool.
 
 
 
-```
+<!-- .slide: data-background="#000000" -->
+```python
 Traceback (most recent call last):
   File "bad_stack.py", line 17, in <module>
     create_exception()
@@ -90,6 +91,7 @@ NameError: name 'hello' is not defined
 
 
 
+<!-- .slide: data-background="#000000" -->
 ````python
 14 def create_exception():
 15     print(hello)
@@ -105,6 +107,7 @@ NameError: name 'hello' is not defined
 
 
 
+<!-- .slide: data-background="#000000" -->
 ```python
 def bad_function():
     print(okay)
@@ -118,6 +121,7 @@ add_to_stack()
 
 
 
+<!-- .slide: data-background="#000000" -->
 ```python
 Traceback (most recent call last):
   File "bad_stack.py", line 11, in <module>
@@ -143,6 +147,7 @@ NameError: name 'okay' is not defined
 
 
 
+<!-- .slide: data-background="#000000" -->
 ```python
 Traceback (most recent call last):
   File "stack.py", line 14, in <module>
@@ -157,6 +162,7 @@ TypeError: unsupported operand type(s) for /: 'str' and 'int'
 
 
 
+<!-- .slide: data-background="#000000" -->
 ```python
 def bad_function(num):
     return str(num)
@@ -242,7 +248,7 @@ add_to_stack()
 
 
 ## Once upon a time, developers shot trouble without the benefit of a search engine
-Use all the tools available to you
+## Use all the tools available to you
 
 
 
