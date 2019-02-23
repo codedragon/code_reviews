@@ -81,7 +81,7 @@
 
 ## If you don't understand the stack, I highly recommend playing around on this website:
 
-## http://www.pythontutor.com/visualize.html#mode=edit
+## http://www.pythontutor.com
 
 ### The live help feature is pretty cool.
 
@@ -101,7 +101,7 @@ Traceback (most recent call last):
     make_batter()
   File "bakecake.py" line 13, in make_batter
     add_flour(flour)
-IngredienError: flour is empty
+IngredientError: flour is empty
 ```
 
 
