@@ -177,6 +177,11 @@ NameError: name 'okay' is not defined
 
 
 
+![alt text](assets/layer_cake.jpg "https://www.bettycrocker.com/recipes/rainbow-layer-cake-with-rainbow-chip-frosting/6404997b-a255-4942-afd6-b4e6696db70f")
+
+
+
+
 ![alt text](assets/sunken-cake-veronica-tang_grande.jpg "https://www.angesdesucre.com/blogs/anges-de-sucre/why-wont-my-cake-rise")
 ##Sunken Cake
 
@@ -206,7 +211,7 @@ TypeError: unsupported operand type(s)
 5      return num/10
 6
 7  def add_to_stack():
-8      my_num = do_something_useless(4)
+8      my_num = bad_function(4)
 9      print(divide_by_ten(my_num))
 10
 11 add_to_stack()
@@ -351,5 +356,5 @@ Traceback (most recent call last):
 ## Thank You
 ## May you win, not the bug
 ![bug_wins](https://media.giphy.com/media/qKbDKxfgWGWv6/giphy.gif "https://media.giphy.com/media/qKbDKxfgWGWv6/giphy.gif")
-## https://codedragon.github.io/bughunting
-maria@mariakathryn.net
+### https://codedragon.github.io/bughunting
+### maria@mariakathryn.net
