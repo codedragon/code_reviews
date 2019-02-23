@@ -441,7 +441,7 @@ Traceback (most recent call last):
 
 
 # Take a break
-![alt text](assets/break.jpg "Costa Rica 2016")
+![alt text](assets/cat_sleeping.jpg "Lilo")
 
 
 
