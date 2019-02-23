@@ -9,7 +9,7 @@
 
 
 
-<!-- .slide: data-background="#F5DAA3" -->
+
 ### The Eniac women were among the first coders to discover that software never works right the first time - and that a programmer's main work, really, is to find and fix the bugs.
 ### *New York Times Magazine*
 ### "The Secret History of Women in Coding"
@@ -193,7 +193,6 @@ TypeError: unsupported operand type(s)
 
 
 
-<!-- .slide: data-background="#F5DAA3" -->
 ### Betty Snyder realized that if you wanted to debug a program that wasn't running correctly, it would help to have a *break point,* a moment when you could stop a program midway through its run. To this day, break points are a key part of the debugging process.
 ### *New York Times Magazine*
 ### "The Secret History of Women in Coding"
