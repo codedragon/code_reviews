@@ -248,16 +248,6 @@ TypeError: unsupported operand type(s)
 
 
 
-# Put a break point in code you believe your test should pass through
-
-
-
-
-# >>>WHOOSH>>>
-
-
-
-
 # W
 
 
@@ -281,6 +271,21 @@ Traceback (most recent call last):
   File "stack2.py", line 8, in divide_by_ten
     return num/10
 ```
+
+
+
+
+# Put a break point in code you believe your test should pass through
+
+
+
+
+# I realize this is easier said than done
+
+
+
+
+# >>>WHOOSH>>>
 
 
 
