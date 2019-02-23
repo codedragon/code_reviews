@@ -25,6 +25,11 @@
 
 
 
+# Scenario
+
+
+
+
 # PSA
 ## periodically check your logs
 * where you think they are
@@ -67,6 +72,11 @@ The live help feature is pretty cool.
 
 
 
+# Stack Trace
+
+
+
+
 # Start at the bottom of the stack trace
 
 
@@ -78,12 +88,11 @@ The live help feature is pretty cool.
 
 
 
-<!-- .slide: data-background="#000000" -->
 ```python
 Traceback (most recent call last):
-  File "bad_stack.py", line 17, in <module>
-    create_exception()
-  File "bad_stack.py", line 15, in create_exception
+  File "bad_stack.py", line 4, in <module>
+    bad_function()
+  File "bad_stack.py", line 2, in bad_function
     print(hello)
 NameError: name 'hello' is not defined
 ```
@@ -91,12 +100,11 @@ NameError: name 'hello' is not defined
 
 
 
-<!-- .slide: data-background="#000000" -->
 ````python
-14 def create_exception():
-15     print(hello)
-
-17 create_exception()
+1 def bad_function():
+2     print(hello)
+3
+4 bad_function()
 ````
 
 
@@ -107,26 +115,24 @@ NameError: name 'hello' is not defined
 
 
 
-<!-- .slide: data-background="#000000" -->
 ```python
-def bad_function():
-    print(okay)
-
-def add_to_stack():
-    bad_function()
-
-add_to_stack()
+2  def bad_function():
+3      print(okay)
+4
+5  def add_to_stack():
+6      bad_function()
+7
+8  add_to_stack()
 ```
 
 
 
 
-<!-- .slide: data-background="#000000" -->
 ```python
 Traceback (most recent call last):
-  File "bad_stack.py", line 11, in <module>
+  File "bad_stack.py", line 8, in <module>
     add_to_stack()
-  File "bad_stack.py", line 7, in add_to_stack
+  File "bad_stack.py", line 6, in add_to_stack
     bad_function()
   File "bad_stack.py", line 3, in bad_function
     print(okay)
@@ -147,7 +153,6 @@ NameError: name 'okay' is not defined
 
 
 
-<!-- .slide: data-background="#000000" -->
 ```python
 Traceback (most recent call last):
   File "stack.py", line 14, in <module>
@@ -156,28 +161,28 @@ Traceback (most recent call last):
     print(divide_by_ten(my_num))
   File "stack.py", line 8, in divide_by_ten
     return num/10
-TypeError: unsupported operand type(s) for /: 'str' and 'int'
+TypeError: unsupported operand type(s)
+             for /: 'str' and 'int'
 ```
 
 
 
 
-<!-- .slide: data-background="#000000" -->
 ```python
-def bad_function(num):
-    return str(num)
-
-def do_something_useless(num):
-    return bad_function(num)
-
-def divide_by_ten(num):
-    return num/10
-
-def add_to_stack():
-    my_num = do_something_useless(4)
-    print(divide_by_ten(my_num))
-
-add_to_stack()
+1  def bad_function(num):
+2      return str(num)
+3
+4  def do_something_useless(num):
+5      return bad_function(num)
+6
+7  def divide_by_ten(num):
+8      return num/10
+9
+10 def add_to_stack():
+11     my_num = do_something_useless(4)
+12     print(divide_by_ten(my_num))
+13
+14 add_to_stack()
 ```
 
 
@@ -196,7 +201,61 @@ add_to_stack()
 
 
 
-# PDB
+# **P**ython
+# **D**e-
+# **B**ugger
+
+
+
+
+# But print works
+
+
+
+
+```python
+1  def bad_function(num):
+2      return str(num)
+3
+4  def do_something_useless(num):
+5      return bad_function(num)
+6
+7  def divide_by_ten(num):
+8      return num/10
+9
+10 def add_to_stack():
+11     my_num = do_something_useless(4)
+12     print(divide_by_ten(my_num))
+13
+14 add_to_stack()
+```
+
+
+
+
+```python
+python3 stack2.py
+> /Users/mckim055/personal/stack2.py(12)add_to_stack()
+-> my_num = do_something_useless(4)
+(Pdb)
+(Pdb) s <!-- .element: class="fragment" data-fragment-index="1" -->
+--Call-- <!-- .element: class="fragment" data-fragment-index="1" -->
+> /Users/mckim055/personal/stack2.py(4)do_something_useless() <!-- .element: class="fragment" data-fragment-index="1" -->
+-> def do_something_useless(num): <!-- .element: class="fragment" data-fragment-index="1" -->
+(Pdb) <!-- .element: class="fragment" data-fragment-index="1" -->
+(Pdb) n <!-- .element: class="fragment" data-fragment-index="2" -->
+> /Users/mckim055/personal/stack2.py(5)do_something_useless() <!-- .element: class="fragment" data-fragment-index="2" --> <!-- .element: class="fragment" data-fragment-index="2" -->
+-> return bad_function(num) <!-- .element: class="fragment" data-fragment-index="2" -->
+(Pdb) <!-- .element: class="fragment" data-fragment-index="2" -->
+(Pdb) s <!-- .element: class="fragment" data-fragment-index="3" -->
+--Call-- <!-- .element: class="fragment" data-fragment-index="3" -->
+> /Users/mckim055/personal/stack2.py(1)bad_function() <!-- .element: class="fragment" data-fragment-index="3" -->
+-> def bad_function(num): <!-- .element: class="fragment" data-fragment-index="3" -->
+(Pdb) <!-- .element: class="fragment" data-fragment-index="3" -->
+(Pdb) n <!-- .element: class="fragment" data-fragment-index="4" -->
+> /Users/mckim055/personal/stack2.py(2)bad_function() <!-- .element: class="fragment" data-fragment-index="4" -->
+-> return str(num) <!-- .element: class="fragment" data-fragment-index="4" -->
+```
 
 
 
