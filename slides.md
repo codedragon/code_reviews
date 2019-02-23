@@ -68,11 +68,11 @@
 
 
 
-If you don't understand the stack, I highly recommend playing around on this website:
+## If you don't understand the stack, I highly recommend playing around on this website:
 
-http://www.pythontutor.com/visualize.html#mode=edit
+## http://www.pythontutor.com/visualize.html#mode=edit
 
-The live help feature is pretty cool.
+### The live help feature is pretty cool.
 
 
 
@@ -217,9 +217,9 @@ TypeError: unsupported operand type(s)
 
 
 # PDB
-* # Python
-* # De-
-* # Bugger
+* ## Python
+* ## De-
+* ## Bugger
 
 
 
@@ -337,7 +337,8 @@ Traceback (most recent call last):
 
 
 
-# Thank You
-## https://codedragon.github.io/bughunting
+## Thank You
+## May you win, not the bug
 ![bug_wins](https://media.giphy.com/media/qKbDKxfgWGWv6/giphy.gif "https://media.giphy.com/media/qKbDKxfgWGWv6/giphy.gif")
+## https://codedragon.github.io/bughunting
 maria@mariakathryn.net
