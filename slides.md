@@ -5,7 +5,7 @@
 
 
 
-![alt text](assets/eniac4.jpg "U.S. Army Photo")
+![alt text](assets/eniac4.png "U.S. Army Photo")
 
 
 
