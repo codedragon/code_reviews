@@ -5,7 +5,7 @@
 
 
 
-![alt text](assets/Emperor_Gum_Moth.jpg "https://en.wikipedia.org/wiki/Moth#/media/File:Emperor_Gum_Moth.jpg")
+![alt text](assets/eniac4.jpg "U.S. Army Photo")
 
 
 
@@ -102,6 +102,20 @@ Traceback (most recent call last):
   File "bakecake.py" line 13, in make_batter
     add_flour(flour)
 IngredientError: flour is empty
+```
+
+
+
+
+```python
+
+
+    make_cake()
+
+    make_batter()
+
+    add_flour(flour)
+
 ```
 
 
