@@ -19,8 +19,10 @@
 
 # Hunting Bugs
 * scenario
+* the stack
+* the debugger
 * strategies
-* along the way learn about the stack and the debugger
+
 
 
 
@@ -108,7 +110,6 @@ IngredientError: flour is empty
 
 
 ```python
-
 
     make_cake()
 
