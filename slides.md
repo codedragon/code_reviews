@@ -187,23 +187,7 @@ NameError: name 'okay' is not defined
 
 
 
-# Add another stacktrace
-
-
-
-
-```python
-def bad_function(greeting):
-    try:
-        print("Hi" + greeting)
-    except Exception:
-        print(greeting + "does not work")
-
-def add_to_stack(okay):
-    bad_function(okay)
-
-add_to_stack(2)
-```
+# What about this stacktrace
 
 
 
@@ -225,6 +209,21 @@ Traceback (most recent call last):
     print(greeting + "does not work")
 TypeError: unsupported operand type(s) for +: 'int' and 'str'
 ```
+
+
+
+
+```python
+def bad_function(greeting):
+    try:
+        print("Hi" + greeting)
+    except Exception:
+        print(greeting + "does not work")
+
+def add_to_stack(okay):
+    bad_function(okay)
+
+add_to_stack(2)
 
 
 
