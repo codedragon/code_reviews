@@ -26,7 +26,6 @@
 
 
 
-
 # Scenario
 
 
@@ -110,13 +109,14 @@ IngredientError: flour is empty
 
 
 ```python
+Traceback (most recent call last):
 
     make_cake()
 
     make_batter()
 
     add_flour(flour)
-
+IngredientError: flour is empty
 ```
 
 
@@ -187,7 +187,24 @@ NameError: name 'okay' is not defined
 
 
 
+```python
+Traceback (most recent call last):
+  File "bad_function.py", line 3, in bad_function
+    print("Hi" + greeting)
+TypeError: can only concatenate str (not "int") to str
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "bad_function.py", line 10, in <module>
+    add_to_stack(2)
+  File "bad_function.py", line 8, in add_to_stack
+    bad_function(okay)
+  File "bad_function.py", line 5, in bad_function
+    print(greeting + "does not work")
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
 # Sometimes an error only becomes APPARENT during the line executed on the bottom
+```
 
 
 
