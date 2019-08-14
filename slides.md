@@ -262,14 +262,14 @@ TypeError: unsupported operand type(s) for +: 'int' and 'str'
 
 
 ```python
-def bad_function(greeting):
-    try:
-        print("Hi" + greeting)
-    except Exception:
-        print(greeting + "does not work")
-
-def add_to_stack(okay):
-    bad_function(okay)
+1 def bad_function(greeting):
+2     try:
+3         print("Hi" + greeting)
+4     except Exception:
+5         print(greeting + "does not work")
+6
+7 def add_to_stack(okay):
+8     bad_function(okay)
 
 add_to_stack(2)
 ```
