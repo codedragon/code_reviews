@@ -441,3 +441,11 @@ Traceback (most recent call last):
 ![bug_wins](https://media.giphy.com/media/qKbDKxfgWGWv6/giphy.gif "https://media.giphy.com/media/qKbDKxfgWGWv6/giphy.gif")
 ### https://codedragon.github.io/bughunting
 ### maria@mariakathryn.net
+
+
+
+
+## To learn how the real monty pythonistas bug hunt
+https://www.youtube.com/watch?v=BHBbJAIcnBI
+### https://codedragon.github.io/bughunting
+### maria@mariakathryn.net
