@@ -354,12 +354,15 @@ Traceback (most recent call last):
 
 ```python
 (Pdb) w
-  /Users/maria/stack2.py(15)<module>()
+  /Users/mckim055/python/bad_stack.py(15)<module>()
+-> add_more_to_stack()
+  /Users/mckim055/python/bad_stack.py(13)add_more_to_stack()
 -> add_to_stack()
-  /Users/maria/stack2.py(13)add_to_stack()
+  /Users/mckim055/python/bad_stack.py(10)add_to_stack()
 -> print(divide_by_ten(my_num))
-> /Users/maria/stack2.py(8)divide_by_ten()
+> /Users/mckim055/python/bad_stack.py(6)divide_by_ten()
 -> return num/10
+(Pdb)
 ```
 
 
