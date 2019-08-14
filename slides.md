@@ -161,13 +161,13 @@ NameError: name 'hello' is not defined
 
 
 ```python
-2  def bad_function():
-3      print(okay)
-4
-5  def add_to_stack():
-6      bad_function()
-7
-8  add_to_stack()
+1  def bad_function():
+2      print(okay)
+3
+4  def add_to_stack():
+5      bad_function()
+6
+7  add_to_stack()
 ```
 
 
@@ -175,11 +175,11 @@ NameError: name 'hello' is not defined
 
 ```python
 Traceback (most recent call last):
-  File "bad_stack.py", line 8, in <module>
+  File "bad_stack.py", line 7, in <module>
     add_to_stack()
-  File "bad_stack.py", line 6, in add_to_stack
+  File "bad_stack.py", line 5, in add_to_stack
     bad_function()
-  File "bad_stack.py", line 3, in bad_function
+  File "bad_stack.py", line 2, in bad_function
     print(okay)
 NameError: name 'okay' is not defined
 ```
@@ -224,6 +224,7 @@ def add_to_stack(okay):
     bad_function(okay)
 
 add_to_stack(2)
+```
 
 
 
@@ -336,7 +337,7 @@ Traceback (most recent call last):
 
 
 
-# I realize this is easier said than done
+# Run your test
 
 
 
@@ -347,6 +348,19 @@ Traceback (most recent call last):
 
 
 # Leave the breakpoint in, Use a similar test
+
+
+
+
+```python
+(Pdb) w
+  /Users/maria/stack2.py(15)<module>()
+-> add_to_stack()
+  /Users/maria/stack2.py(13)add_to_stack()
+-> print(divide_by_ten(my_num))
+> /Users/maria/stack2.py(8)divide_by_ten()
+-> return num/10
+```
 
 
 
