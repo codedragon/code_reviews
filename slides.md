@@ -378,6 +378,11 @@ Traceback (most recent call last):
 
 
 
+# More Strategies
+
+
+
+
 # Change things
 * New Test
 * Fresh commit, then change things (use a version control system)
