@@ -1,7 +1,40 @@
-* Intro: 2 min
-* Test: write a test to reproduce the bug. 2 min
-* Read the stacktrace: How does it help me? Hints for what to look for, even in a long and complicated stacktrace. 5 min
-* Use the stacktrace to start your bug search: There are many tutorials about how to use the debugger, as in the commands, but we are going to talk about when and why should you use it. And why/how the stack is useful in the debugger. 10 min
-* Google: Yup, even experienced developers use it. Best practices. 2 min
-* Getting desperate: checklist for writing that question. 3 min
-* Conclusion: 1 min
+* Intro
+
+I. basic steps for troubleshooting:
+   A. verify bug
+      1. logs (psa)
+      2. make sure you can reproduce bug
+        a. user error: maybe the documentation is the problem
+	b. can't fix what you can't see
+   B. write a test that fails
+      1. why testing is important
+      	 a. ensures everyone knows what the code is suppose to be doing
+	 b. ensures the code works
+	 c. faster development
+	 d. ensures bugs do not come back
+      2. why before writing code?
+      	 a. make sure you can reproduce the bug
+	 b. make sure you actually fix the bug
+   C. Fix the bug
+
+II. Dig into the code
+   A. Understanding the code
+      1. how code is organized
+      2. understanding the stack
+      3. what is the stacktrace
+   B. the scientific method
+   C. the debugger
+      1. print
+      2. the stack again
+
+III. more tools
+   A. Change things
+   B. Pylint and other code checkers
+   C. Search Engines
+   D. Write everything down
+   E. Take a break
+   F. Ask for help
+      1. checklist for writing that question.
+      2. places to ask
+
+Conclusion
