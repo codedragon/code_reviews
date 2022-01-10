@@ -4,8 +4,8 @@ Intro
    1. verify bug
       1. logs (psa)
       2. make sure you can reproduce bug
-        1. user error: maybe the documentation is the problem
-	2. can't fix what you can't see
+         1. user error: maybe the documentation is the problem
+         2. can't fix what you can't see
    2. write a test that fails
       1. why testing is important
       	 1. ensures everyone knows what the code is suppose to be doing
