@@ -10,11 +10,11 @@ Intro
       1. why testing is important
       	 1. ensures everyone knows what the code is suppose to be doing
          2. ensures the code works
-	 3. faster development
-	 4. ensures bugs do not come back
+         3. faster development
+         4. ensures bugs do not come back
       2. why before writing code?
-      	 1. make sure you can reproduce the bug
-	 2. make sure you actually fix the bug
+         1. make sure you can reproduce the bug
+         2. make sure you actually fix the bug
    3. Fix the bug
 
 2. Dig into the code
