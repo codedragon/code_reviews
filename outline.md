@@ -9,7 +9,7 @@ Intro
    2. write a test that fails
       1. why testing is important
       	 1. ensures everyone knows what the code is suppose to be doing
-	 2. ensures the code works
+         2. ensures the code works
 	 3. faster development
 	 4. ensures bugs do not come back
       2. why before writing code?
