@@ -1,4 +1,4 @@
-Intro
+* Intro An opinionated troubleshooting guide
 
 1. basic steps for troubleshooting:
    1. verify bug
@@ -23,6 +23,7 @@ Intro
       2. understanding the stack
       3. what is the stacktrace
    2. the scientific method
+   3. error messages, more than just the stacktrace
    3. the debugger
       1. print
       2. the stack again
@@ -37,4 +38,4 @@ Intro
       1. checklist for writing that question.
       2. places to ask
 
-Conclusion
+* Conclusion

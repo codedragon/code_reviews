@@ -1,7 +1,16 @@
-# ExamplePresentation
-Just an example of a presentation.
+# My Bughunting Talk
 
-## Instructions
+Talk about troubleshooting Python code
+
+I copied the basic slide framework from:
+https://github.com/MaptimeCalgary/presentation-example
+Please go there for the original slide framwork example
+
+To see my slides:
+https://codedragon.github.io/bughunting/#/
+
+## Instructions for creating a slide presentation
+(copied from the original website from here down)
 
 To copy this template presentation into your Github account so that you can make it your own:
 
