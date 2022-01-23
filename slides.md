@@ -18,15 +18,20 @@
 
 
 # Hunting Bugs
-* scenario
-* the stack
-* the debugger
-* strategies
+* <span style="background-color: #FFFF00">Basic Steps for Trouble Shooting</span>
+* Understanding The Code
+* More Tools for Trouble Shooting
 
 
 
 
-# Scenario
+
+# Scenario(s)
+
+
+
+
+# Verify the bug
 
 
 
@@ -35,11 +40,6 @@
 ## periodically check your logs
 * where you think they are
 * logging what you think they should log
-
-
-
-
-# Verify the bug
 
 
 
@@ -56,11 +56,66 @@
 
 # Why test?
 ## https://www.obeythetestinggoat.com/
+https://www.indiumsoftware.com/blog/why-software-testing/ maybe?
+need something better
 
 
 
 
 # Why before?
+
+
+
+
+# Fix the bug
+
+
+
+
+# Steps for trouble shooting
+* Verify the bug
+* Write a test that fails
+* Fix the bug, test passes
+
+
+
+
+# Hunting Bugs
+* Basic Steps for Trouble Shooting
+* <span style="background-color: #FFFF00">Understanding The Code</span>
+* More Tools for Trouble Shooting
+
+
+
+
+# Play with code
+## http://www.pythontutor.com/visualize.html#mode=edit
+
+
+
+
+# Break the code to its essence: story about fastapi
+# insert code block
+
+
+
+
+# Good time to think about good spots for mocks, as this is for free in this process (too much digression?)
+
+
+
+
+# Places data change are good places to test (too much digression?)
+
+
+
+
+# linear blocks: how we think of code flow
+
+
+
+
+# what code flow really looks like: recipe points to reipe to recipe, eventually return to original recipe, usually
 
 
 

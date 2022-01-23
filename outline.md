@@ -1,3 +1,5 @@
+Made it to where I need graphics for code flow, more or less
+
 * Intro An opinionated troubleshooting guide
 some opinionated best practices thrown in for free
 
@@ -26,20 +28,22 @@ one my real life bug from last week
       if code is difficult for you to understand, it probably is for others
       what happens when you run across code you don't understand
       1.https://pythontutor.com/visualize.html#mode=edit
-         1. break the code down to its essence, if you can.
-	 2. type hints are useful for this, consider using them.
-	 3. as you break the code down to its essence,
-	 you are finding the spots to mock for a unit test, this is for free :)
-	 4. places where data changes are places to test
-      2. how code is organized
+      2. break the code down to its essence, if you can. likely place for my story
+      3. as you break the code down to its essence, you are finding the spots to mock for a unit test, this is for free :)
+      4. places where data changes are places to test	 
+      5. how code is organized
       tree
       but one in which the roots split and reconnect
+      we think of it as linear, a script, a recipe, but with software it is more like each step often sends you off to a new recipe, one that you will need to return from, but may well visit several more recipes first.
       3. understanding the stack
       4. what is the stacktrace
    2. the scientific method
       1. By Efbrazil - Own work, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=102392470
       2. my version of the image
       3. simplify things
+            so ask yourself, from tree, which connections can you sever to simplify the problem?
+	    how do I isolate the problem?
+      2. psa: leave notes when you figure out a bit of code that was confusing
    3. error messages, more than just the stacktrace
       1. read the message
       2. messages have improved! :)
@@ -50,11 +54,22 @@ one my real life bug from last week
 3. more tools
    1. Change things - one at a time, scientific method
    2. Pylint and other code checkers
-   3. Search Engines
-   4. Write everything down
-   5. Take a break
-   6. Ask for help
+   3. type hints are useful for understanding code, and preventing errors, consider using them.
+   4. Search Engines
+   5. Write everything down
+   6. Take a break
+   7. Ask for help
       1. checklist for writing that question.
       2. places to ask
 
 * Conclusion
+
+May have to ask Jordan...
+
+My story in slack messages, lol
+starts inside an fastapi app, inside a docker container, using memcache
+simplify, realize I can lose the docker container, memcache, and even fastapi
+Once I try everything I can think of, and have read website
+go to link to underlying library
+discover I am loading the variables with that library,
+but they aren't making it into the Settings object
