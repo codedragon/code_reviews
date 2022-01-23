@@ -9,6 +9,9 @@ Please go there for the original slide framwork example
 To see my slides:
 https://codedragon.github.io/bughunting/#/
 
+To see changes push to gh-pages
+git push origin gh-pages
+
 ## Instructions for creating a slide presentation
 (copied from the original website from here down)
 
