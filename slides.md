@@ -18,7 +18,7 @@
 
 
 # Hunting Bugs
-* <span style="background-color: #FFFF00">Basic Steps for Trouble Shooting</span>
+* <span style="background-color: #e6d300">Basic Steps for Trouble Shooting</span>
 * Understanding The Code
 * More Tools for Trouble Shooting
 
