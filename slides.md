@@ -35,6 +35,11 @@
 
 
 
+# A bug is a general term used to describe any unexpected problem with hardware or software.
+
+
+
+
 # Hunting Bugs
 * <span style="background-color: #e6d300">Basic Steps for Trouble Shooting</span>
 * Dig into Code & Error Messages
