@@ -167,7 +167,7 @@ body {
 .reveal pre code {
   display: block;
   padding: 5px;
-  max-width: 100%;
+  max-width: 120%;
   overflow: visible;
   max-height: 600px;
   word-wrap: normal;
