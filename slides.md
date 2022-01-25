@@ -22,6 +22,19 @@
 
 
 
+# What is a bug?
+
+
+
+
+![alt text](assets/farside.jpg "Far Side Cartoon")
+## User Error: <!-- .element: class="fragment" data-fragment-index="1" -->
+### Maybe documentation is the problem <!-- .element: class="fragment" data-fragment-index="2" -->
+### Maybe the interface is the problem <!-- .element: class="fragment" data-fragment-index="3" -->
+
+
+
+
 # Hunting Bugs
 * <span style="background-color: #e6d300">Basic Steps for Trouble Shooting</span>
 * Dig into Code & Error Messages
@@ -45,14 +58,6 @@
 * where you think they are
 * logging what you think they should log
 https://blog.guilatrova.dev/how-to-log-in-python-like-a-pro/
-
-
-
-
-![alt text](assets/farside.jpg "Far Side Cartoon")
-## User Error: <!-- .element: class="fragment" data-fragment-index="1" --> 
-### Maybe documentation is the problem <!-- .element: class="fragment" data-fragment-index="2" -->
-### Maybe the interface is the problem <!-- .element: class="fragment" data-fragment-index="3" -->
 
 
 
