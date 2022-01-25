@@ -374,7 +374,7 @@ https://realpython.com/lessons/better-error-messages/
 
 
 
-![alt text](assets/The_Scientific_Method.svg "scientific method")
+<img src="assets/The_Scientific_Method.svg" alt="drawing" width="200"/>
 By Efbrazil - Own work, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=10239247
 
 
