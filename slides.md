@@ -266,7 +266,7 @@ NameError: name 'okay' is not defined
 
 
 
-# An error may only becomes APPARENT as the line on the bottom is executed
+# An error may only become APPARENT as the line on the bottom is executed
 
 
 
