@@ -45,8 +45,9 @@ https://blog.guilatrova.dev/how-to-log-in-python-like-a-pro/
 
 
 ![alt text](assets/farside.jpg "Far Side Cartoon")
-# User Error: 
-## Maybe documentation is the problem
+# User Error: <!-- .element: class="fragment" data-fragment-index="1" --> 
+## Maybe documentation is the problem <!-- .element: class="fragment" data-fragment-index="2" -->
+## Maybe the interface is the problem <!-- .element: class="fragment" data-fragment-index="3" -->
 
 
 
@@ -62,9 +63,14 @@ https://blog.guilatrova.dev/how-to-log-in-python-like-a-pro/
 
 
 # Why test?
+![alt text](assets/software_bugs_news.png "Software Bugs in the News")
+
+
+
+
+## https://www.karllhughes.com/posts/testing-matters
 ## https://www.obeythetestinggoat.com/
-https://www.indiumsoftware.com/blog/why-software-testing/ maybe?
-need something better
+
 
 
 
@@ -101,28 +107,6 @@ need something better
 
 
 
-# Break the code to its essence: story about fastapi
-
-
-
-
-```python 
-from pydantic import BaseSettings
-
-class Settings(BaseSettings):
-    test = 'okay'
-
-    class Config:
-        env_file = '.env'
-        env_file_encoding = 'utf-8'
-
-settings = Settings()
-print(settings.dict())
-```
-
-
-
-
 # Places data change are good places to test
 
 
@@ -138,7 +122,7 @@ print(settings.dict())
 
 
 
-## Review: The stack
+## Understanding the stack
 ![alt text](assets/layer_cake.jpg "https://www.bettycrocker.com/recipes/rainbow-layer-cake-with-rainbow-chip-frosting/6404997b-a255-4942-afd6-b4e6696db70f")
 
 
@@ -153,7 +137,7 @@ print(settings.dict())
 
 
 
-## If you don't understand the stack, I highly recommend playing around on this website:
+## If you don't understand the stack, again, I highly recommend playing on this website:
 
 ## http://www.pythontutor.com
 
@@ -380,6 +364,28 @@ https://realpython.com/lessons/better-error-messages/
 
 
 
+# Break the code to its essence: story about fastapi
+
+
+
+
+```python 
+from pydantic import BaseSettings
+
+class Settings(BaseSettings):
+    test = 'okay'
+
+    class Config:
+        env_file = '.env'
+        env_file_encoding = 'utf-8'
+
+settings = Settings()
+print(settings.dict())
+```
+
+
+
+
 # Comments
 
 
@@ -440,7 +446,18 @@ Traceback (most recent call last):
 
 
 
+# import pdb; pdb.set_trace()
+
+
+
+
 # Run your test
+
+
+
+
+# All goes well, enter the pdb
+## dir(some_variable)
 
 
 
@@ -466,6 +483,58 @@ Traceback (most recent call last):
 > ~/python/bad_stack.py(6)divide_by_ten()
 -> return num/10
 (Pdb)
+```
+
+
+
+
+```python
+1  def bad_function(num):
+2      return str(num)
+3
+4  def divide_by_ten(num):
+       import pdb; pdb.set_trace()
+5      return num/10
+6
+7  def add_to_stack():
+8      my_num = bad_function(4)
+9      print(divide_by_ten(my_num))
+10
+11 add_to_stack()
+```
+
+
+
+
+```python
+(Pdb) w
+  ~/python/bad_stack.py(15)<module>()
+-> add_more_to_stack()
+  ~/python/bad_stack.py(13)add_more_to_stack()
+-> add_to_stack()
+  ~/python/bad_stack.py(10)add_to_stack()
+-> print(divide_by_ten(my_num))
+> ~/python/bad_stack.py(6)divide_by_ten()
+-> return num/10
+(Pdb)
+```
+
+
+
+
+```python
+1  def bad_function(num):
+2      return str(num)
+3
+4  def divide_by_ten(num):
+5      return num/10
+6
+7  def add_to_stack():
+8      my_num = bad_function(4)
+       import pdb; pdb.set_trace()
+9      print(divide_by_ten(my_num))
+10
+11 add_to_stack()
 ```
 
 
