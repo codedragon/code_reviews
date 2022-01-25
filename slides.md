@@ -19,7 +19,7 @@
 
 # Hunting Bugs
 * <span style="background-color: #e6d300">Basic Steps for Trouble Shooting</span>
-* Understanding The Code and Error Messages
+* Understanding Code and Error Messages
 * More Tools for Trouble Shooting
 
 
@@ -89,7 +89,7 @@ need something better
 
 # Hunting Bugs
 * Basic Steps for Trouble Shooting
-* <span style="background-color:<#e6d300">Understanding The Code and Error Messages</span>
+* <span style="background-color:<#e6d300">Understanding Code and Error Messages</span>
 * More Tools for Trouble Shooting
 
 
@@ -363,7 +363,7 @@ https://realpython.com/lessons/better-error-messages/
 
 # Hunting Bugs
 * Basic Steps for Trouble Shooting
-* Understanding The Code and Error Messages
+* Understanding Code and Error Messages
 * <span style="background-color: #e6d300">More Tools for Trouble Shooting</span>
 
 
@@ -375,7 +375,7 @@ https://realpython.com/lessons/better-error-messages/
 
 
 <img src="assets/The_Scientific_Method.svg" alt="scientific method" width="600"/>
-By Efbrazil - Own work, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=10239247
+#### By Efbrazil - Own work, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=10239247
 
 
 
@@ -462,13 +462,13 @@ Traceback (most recent call last):
 
 ```python
 (Pdb) w
-  /Users/mckim055/python/bad_stack.py(15)<module>()
+  ~/python/bad_stack.py(15)<module>()
 -> add_more_to_stack()
-  /Users/mckim055/python/bad_stack.py(13)add_more_to_stack()
+  ~/python/bad_stack.py(13)add_more_to_stack()
 -> add_to_stack()
-  /Users/mckim055/python/bad_stack.py(10)add_to_stack()
+  ~/python/bad_stack.py(10)add_to_stack()
 -> print(divide_by_ten(my_num))
-> /Users/mckim055/python/bad_stack.py(6)divide_by_ten()
+> ~/python/bad_stack.py(6)divide_by_ten()
 -> return num/10
 (Pdb)
 ```
@@ -504,7 +504,7 @@ Traceback (most recent call last):
 
 
 
-# Your Favorite Search Engine
+# Favorite Search Engine
 * Sanitize the terms: Nothing unique from your code
 * Python 3
 * Understand what you find
