@@ -19,7 +19,7 @@
 
 # Hunting Bugs
 * <span style="background-color: #e6d300">Basic Steps for Trouble Shooting</span>
-* Understanding The Code
+* Understanding The Code and Error Messages
 * More Tools for Trouble Shooting
 
 
@@ -90,7 +90,7 @@ need something better
 
 # Hunting Bugs
 * Basic Steps for Trouble Shooting
-* <span style="background-color: #e6d300">Understanding The Code</span>
+* <span style="background-color:<#e6d300">Understanding The Code and Error Messages</span>
 * More Tools for Trouble Shooting
 
 
@@ -358,6 +358,14 @@ add_to_stack(2)
 
 # Error Messages Have Improved! :) Python 3.10
 https://realpython.com/lessons/better-error-messages/
+
+
+
+
+# Hunting Bugs
+* Basic Steps for Trouble Shooting
+* Understanding The Code and Error Messages
+* <span style="background-color: #e6d300">More Tools for Trouble Shooting</span>
 
 
 
