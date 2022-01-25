@@ -123,12 +123,7 @@ print(settings.dict())
 
 
 
-# Good time to think about good spots for mocks, as this is for free in this process (too much digression?)
-
-
-
-
-# Places data change are good places to test (too much digression?)
+# Places data change are good places to test
 
 
 
@@ -505,7 +500,7 @@ Traceback (most recent call last):
 
 
 # Favorite Search Engine
-* Sanitize the terms: Nothing unique from your code
+* Sanitize the terms: Nothing unique
 * Python 3
 * Understand what you find
 * Even the professionals do it
