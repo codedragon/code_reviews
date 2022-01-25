@@ -40,6 +40,14 @@
 ## periodically check your logs
 * where you think they are
 * logging what you think they should log
+https://blog.guilatrova.dev/how-to-log-in-python-like-a-pro/
+
+
+
+
+![alt text](assets/farside.jpg "Far Side Cartoon")
+# User Error: 
+## Maybe documentation is the problem
 
 
 
@@ -82,7 +90,7 @@ need something better
 
 # Hunting Bugs
 * Basic Steps for Trouble Shooting
-* <span style="background-color: #FFFF00">Understanding The Code</span>
+* <span style="background-color: #e6d300">Understanding The Code</span>
 * More Tools for Trouble Shooting
 
 
@@ -95,7 +103,23 @@ need something better
 
 
 # Break the code to its essence: story about fastapi
-# insert code block
+
+
+
+
+```python 
+from pydantic import BaseSettings
+
+class Settings(BaseSettings):
+    test = 'okay'
+
+    class Config:
+        env_file = '.env'
+        env_file_encoding = 'utf-8'
+
+settings = Settings()
+print(settings.dict())
+```
 
 
 
@@ -183,7 +207,7 @@ IngredientError: flour is empty
 
 
 ## The problem (exception) is always at the bottom
-## for a simple stack,  the code that caused it is directly above it.
+## for a simple stack, the code that caused it is directly above it.
 
 
 
@@ -332,7 +356,29 @@ add_to_stack(2)
 
 
 
+# Error Messages Have Improved! :) Python 3.10
+https://realpython.com/lessons/better-error-messages/
+
+
+
+
 # What if I just have a failing test?
+
+
+
+
+![alt text](assets/The_Scientific_Method.svg "scientific method")
+By Efbrazil - Own work, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=10239247
+
+
+
+
+![alt text](assets/The_Bughunting_Method.svg "bughunting method")
+
+
+
+
+# Comments
 
 
 
@@ -446,15 +492,17 @@ Traceback (most recent call last):
 
 
 
-# Pylint and Flake8
+# Black, Pylint and Flake8
 
 
 
 
-# GOOGLE
+# Your Favorite Search Engine
 * Sanitize the terms: Nothing unique from your code
 * Python 3
 * Understand what you find
+* Even the professionals do it
+https://localghost.dev/2019/09/everything-i-googled-in-a-week-as-a-professional-software-engineer/
 
 
 
