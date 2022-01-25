@@ -30,7 +30,7 @@
 
 
 
-# Scenario(s)
+# Scenario
 
 
 
@@ -50,7 +50,7 @@ https://blog.guilatrova.dev/how-to-log-in-python-like-a-pro/
 
 
 ![alt text](assets/farside.jpg "Far Side Cartoon")
-# User Error: <!-- .element: class="fragment" data-fragment-index="1" --> 
+## User Error: <!-- .element: class="fragment" data-fragment-index="1" --> 
 ## Maybe documentation is the problem <!-- .element: class="fragment" data-fragment-index="2" -->
 ## Maybe the interface is the problem <!-- .element: class="fragment" data-fragment-index="3" -->
 
@@ -75,7 +75,6 @@ https://blog.guilatrova.dev/how-to-log-in-python-like-a-pro/
 
 ## https://www.karllhughes.com/posts/testing-matters
 ## https://www.obeythetestinggoat.com/
-
 
 
 
@@ -112,17 +111,15 @@ https://blog.guilatrova.dev/how-to-log-in-python-like-a-pro/
 
 
 
-# Places data change are good places to test
+![alt text](assets/simple_program.png "Simple software program")
 
 
 
 
-# linear blocks: how we think of code flow
-
-
-
-
-# what code flow really looks like: recipe points to reipe to recipe, eventually return to original recipe, usually
+# what code flow really looks like:
+## recipe points to reipe to recipe,
+## eventually return to original recipe,
+## usually
 
 
 
