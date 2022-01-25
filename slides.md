@@ -51,8 +51,8 @@ https://blog.guilatrova.dev/how-to-log-in-python-like-a-pro/
 
 ![alt text](assets/farside.jpg "Far Side Cartoon")
 ## User Error: <!-- .element: class="fragment" data-fragment-index="1" --> 
-## Maybe documentation is the problem <!-- .element: class="fragment" data-fragment-index="2" -->
-## Maybe the interface is the problem <!-- .element: class="fragment" data-fragment-index="3" -->
+### Maybe documentation is the problem <!-- .element: class="fragment" data-fragment-index="2" -->
+### Maybe the interface is the problem <!-- .element: class="fragment" data-fragment-index="3" -->
 
 
 
