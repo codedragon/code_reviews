@@ -89,7 +89,7 @@ need something better
 
 # Hunting Bugs
 * Basic Steps for Trouble Shooting
-* <span style="background-color:<#e6d300">Dig into Code & Error Messages</span>
+* <span style="background-color: #e6d300">Dig into Code & Error Messages</span>
 * More Tools for Trouble Shooting
 
 
