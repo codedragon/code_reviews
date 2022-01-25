@@ -5,6 +5,11 @@
 
 
 
+![alt text](assets/first_computer_bug.jpg "First debugging")
+
+
+
+
 ![alt text](assets/eniac4.png "U.S. Army Photo")
 
 
