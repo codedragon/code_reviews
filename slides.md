@@ -19,7 +19,7 @@
 
 # Hunting Bugs
 * <span style="background-color: #e6d300">Basic Steps for Trouble Shooting</span>
-* Understanding Code and Error Messages
+* Dig into Code & Error Messages
 * More Tools for Trouble Shooting
 
 
@@ -74,7 +74,7 @@ need something better
 
 
 
-# Fix the bug
+# Fix the bug, test passes
 
 
 
@@ -89,7 +89,7 @@ need something better
 
 # Hunting Bugs
 * Basic Steps for Trouble Shooting
-* <span style="background-color:<#e6d300">Understanding Code and Error Messages</span>
+* <span style="background-color:<#e6d300">Dig into Code & Error Messages</span>
 * More Tools for Trouble Shooting
 
 
@@ -358,7 +358,7 @@ https://realpython.com/lessons/better-error-messages/
 
 # Hunting Bugs
 * Basic Steps for Trouble Shooting
-* Understanding Code and Error Messages
+* Dig into Code & Error Messages
 * <span style="background-color: #e6d300">More Tools for Trouble Shooting</span>
 
 
