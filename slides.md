@@ -439,8 +439,24 @@ print(settings.dict())
 
 ```python
 python3 test_silly.py
-OrderedDict([('FASTAPI_ENV', 'development'), ('test_var2', 'hello')])
+OrderedDict([('FASTAPI_ENV', 'development'),
+  ('test_var2', 'hello')])
 {}
+```
+
+
+
+
+```python 
+from pydantic import BaseSettings
+
+class Settings(BaseSettings):
+    test = 'okay'
+
+    class Config:
+        env_file = '.env'
+        env_file_encoding = 'utf-8'
+
 ```
 
 
@@ -506,7 +522,7 @@ Traceback (most recent call last):
 
 
 
-# import pdb; pdb.set_trace()
+## import pdb; pdb.set_trace()
 
 
 
