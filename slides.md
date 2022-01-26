@@ -122,13 +122,13 @@ https://blog.guilatrova.dev/how-to-log-in-python-like-a-pro/
 
 
 
-<img src="assets/simple_program.png" alt="Simple Software Program" width="500"/>
+<img src="assets/simple_program.png" alt="Simple Software Program" width="550"/>
 
 
 
 
 # what code flow more often looks like:
-![alt text](assets/potpie.jpg "chicken pot pie")
+<img src="assets/potpie.jpg" alt="chicken pot pie" width="500"/>
 
 
 
