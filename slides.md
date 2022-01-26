@@ -27,15 +27,15 @@
 
 
 
+# A bug is a general term used to describe any unexpected problem with hardware or software.
+
+
+
+
 ![alt text](assets/farside.jpg "Far Side Cartoon")
 ## User Error: <!-- .element: class="fragment" data-fragment-index="1" -->
 ### Maybe documentation is the problem <!-- .element: class="fragment" data-fragment-index="2" -->
 ### Maybe the interface is the problem <!-- .element: class="fragment" data-fragment-index="3" -->
-
-
-
-
-# A bug is a general term used to describe any unexpected problem with hardware or software.
 
 
 
