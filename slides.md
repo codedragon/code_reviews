@@ -157,7 +157,8 @@ https://blog.guilatrova.dev/how-to-log-in-python-like-a-pro/
 
 
 
-# Stack Trace
+# Stack Trace (or Traceback)
+## The stack at the moment something goes wrong
 
 
 
@@ -303,6 +304,24 @@ TypeError: unsupported operand type(s)
 
 
 
+```python
+1  def bad_function(num: int) -> str:
+2      return str(num)
+3
+4  def divide_by_ten(num: int) -> int:
+5      return num/10
+6
+7  def add_to_stack()  -> None:
+8      my_num = bad_function(4)
+9      print(divide_by_ten(my_num))
+10
+11 add_to_stack()
+```
+Type Hints for the Win
+
+
+
+
 # What about this stacktrace
 
 
@@ -351,15 +370,15 @@ https://realpython.com/lessons/better-error-messages/
 
 
 
+# What if I just have a failing test?
+
+
+
+
 # Hunting Bugs
 * Basic Steps for Trouble Shooting
 * Dig into Code & Error Messages
 * <span style="background-color: #e6d300">More Tools for Trouble Shooting</span>
-
-
-
-
-# What if I just have a failing test?
 
 
 
@@ -375,7 +394,12 @@ https://realpython.com/lessons/better-error-messages/
 
 
 
-# Break the code to its essence: story about fastapi
+# Change one thing at a time
+
+
+
+
+# Reduce the code to its essence
 
 
 
@@ -390,14 +414,39 @@ class Settings(BaseSettings):
         env_file = '.env'
         env_file_encoding = 'utf-8'
 
+```
+
+
+
+
+```python
+from pydantic import BaseSettings
+from dotenv import dotenv_values
+
+class Settings(BaseSettings):
+
+    class Config:
+        env_file = '/Users/Maria.K.Mckinley/python/fastapi/.env'
+        env_file_encoding = 'utf-8'
+
 settings = Settings()
+print(dotenv_values())
 print(settings.dict())
 ```
 
 
 
 
-# Comments
+```python
+python3 test_silly.py
+OrderedDict([('FASTAPI_ENV', 'development'), ('test_var2', 'hello')])
+{}
+```
+
+
+
+
+# Documenting and Comments
 
 
 
