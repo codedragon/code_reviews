@@ -197,7 +197,7 @@ IngredientError: flour is empty
 
 
 ## The problem (exception) is always at the bottom
-## for a simple stack, the code that caused it is directly above it.
+## and the code that caused it is often directly above it.
 
 
 
@@ -426,7 +426,7 @@ from dotenv import dotenv_values
 class Settings(BaseSettings):
 
     class Config:
-        env_file = '/Users/Maria.K.Mckinley/python/fastapi/.env'
+        env_file = '.env'
         env_file_encoding = 'utf-8'
 
 settings = Settings()
