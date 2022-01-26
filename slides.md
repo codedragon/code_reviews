@@ -33,7 +33,7 @@
 
 
 ![alt text](assets/farside.jpg "Far Side Cartoon")
-## User Error: <!-- .element: class="fragment" data-fragment-index="1" -->
+## User Error <!-- .element: class="fragment" data-fragment-index="1" -->
 ### Maybe documentation is the problem <!-- .element: class="fragment" data-fragment-index="2" -->
 ### Maybe the interface is the problem <!-- .element: class="fragment" data-fragment-index="3" -->
 
@@ -73,6 +73,7 @@ https://blog.guilatrova.dev/how-to-log-in-python-like-a-pro/
 
 
 # Write an integration test that FAILS
+### (Test Driven Bughunting?)
 
 
 
@@ -94,7 +95,7 @@ https://blog.guilatrova.dev/how-to-log-in-python-like-a-pro/
 
 
 
-# Fix the bug, test passes
+# Fix the bug so the test passes
 
 
 
@@ -102,7 +103,7 @@ https://blog.guilatrova.dev/how-to-log-in-python-like-a-pro/
 # Steps for trouble shooting
 * Verify the bug
 * Write a test that fails
-* Fix the bug, test passes
+* Fix the bug so the test passes
 
 
 
@@ -121,7 +122,7 @@ https://blog.guilatrova.dev/how-to-log-in-python-like-a-pro/
 
 
 
-![alt text](assets/simple_program.png "Simple software program")
+<img src="assets/simple_program.png" alt="Simple Software Program" width="500"/>
 
 
 
