@@ -424,7 +424,7 @@ from pydantic import BaseSettings
 from dotenv import dotenv_values
 
 class Settings(BaseSettings):
-
+    test = 'okay'
     class Config:
         env_file = '.env'
         env_file_encoding = 'utf-8'
@@ -441,7 +441,7 @@ print(settings.dict())
 python3 test_silly.py
 OrderedDict([('FASTAPI_ENV', 'development'),
   ('test_var2', 'hello')])
-{}
+{'test': 'okay'}
 ```
 
 
@@ -451,7 +451,8 @@ OrderedDict([('FASTAPI_ENV', 'development'),
 from pydantic import BaseSettings
 
 class Settings(BaseSettings):
-    test = 'okay'
+    FASTAPI_ENV: str
+    test_var2: str
 
     class Config:
         env_file = '.env'
@@ -621,12 +622,14 @@ Traceback (most recent call last):
 
 
 
+# Breakpoints in your own code are most useful
+
+
+
+
 # Always suspect your own code first
-
-
-
-
-# More Strategies
+## occasionally we find an error in an imported library
+## but that is statistically speaking very rare...
 
 
 
@@ -682,6 +685,11 @@ https://localghost.dev/2019/09/everything-i-googled-in-a-week-as-a-professional-
 
 # Ask for help
 ![alt text](assets/batphone.jpg "https://www.millionaireplayboy.com/toys/batphone.php")
+
+
+
+
+# Don't be afraid to share your code
 
 
 
