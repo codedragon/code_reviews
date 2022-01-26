@@ -127,10 +127,10 @@ https://blog.guilatrova.dev/how-to-log-in-python-like-a-pro/
 
 
 
-# what code flow really looks like:
-## recipe points to reipe to recipe,
+# what code flow more often looks like:
+## recipe points to recipe points to recipe,
 ## eventually return to original recipe,
-## usually
+## maybe
 
 
 
