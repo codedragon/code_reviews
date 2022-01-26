@@ -128,9 +128,7 @@ https://blog.guilatrova.dev/how-to-log-in-python-like-a-pro/
 
 
 # what code flow more often looks like:
-## recipe points to recipe points to recipe,
-## eventually return to original recipe,
-## maybe
+![alt text](assets/potpie.jpg "chicken pot pie")
 
 
 
