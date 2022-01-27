@@ -27,7 +27,7 @@
 
 
 
-# A bug is a general term used to describe any unexpected problem with hardware or software.
+# A general term used to describe any unexpected problem with hardware or software.
 
 
 
