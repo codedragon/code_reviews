@@ -27,7 +27,7 @@
 
 
 
-# A general term to describe any unexpected problem with hardware or software.
+# General term to describe any unexpected problem with hardware or software.
 
 
 
