@@ -350,7 +350,7 @@ TypeError: unsupported operand type(s) for +: 'int' and 'str'
 
 ## Some best practices with exceptions
 * Don't except Exception
-#### (unless really necessary, and then log, and check logs)
+### (unless really necessary, and then log, and check logs)
 * Minimal code in Try block, ONLY what you expect might fail
 * Be careful with Except block, avoid Traceback hell
 
