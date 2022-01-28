@@ -350,7 +350,7 @@ TypeError: unsupported operand type(s) for +: 'int' and 'str'
 
 ## Some best practices with exceptions
 * Don't except Exception
-  (unless REALLY necessary, but log and check logs)
+  (unless REALLY necessary, but log, READ logs)
 * Minimal code in Try block, ONLY what you expect might fail
 * Be careful with Except block, avoid Traceback hell
 
@@ -643,7 +643,7 @@ Traceback (most recent call last):
 
 # Always suspect your own code first
 ## occasionally we find an error in an imported library
-## but that is statistically speaking very rare...
+## but statistically speaking very rare...
 
 
 
