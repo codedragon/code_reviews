@@ -27,7 +27,7 @@
 
 
 
-# A general term used to describe any unexpected problem with hardware or software.
+# A general term to describe any unexpected problem with hardware or software.
 
 
 
@@ -348,9 +348,9 @@ TypeError: unsupported operand type(s) for +: 'int' and 'str'
 
 
 
-# Some best practices with exceptions
+## Some best practices with exceptions
 * Don't except Exception
-### (unless really necessary, and then log, and check logs)
+#### (unless really necessary, and then log, and check logs)
 * Minimal code in Try block, ONLY what you expect might fail
 * Be careful with Except block, avoid Traceback hell
 
@@ -527,6 +527,11 @@ Traceback (most recent call last):
 
 
 
+# Move up an down the stack in the debugger
+
+
+
+
 # Put a break point in code you believe your test should pass through
 
 
@@ -698,8 +703,8 @@ https://localghost.dev/2019/09/everything-i-googled-in-a-week-as-a-professional-
 
 
 
-# Don't be afraid to share your code
-# Pair coding (or ensemble coding) for the win
+## Don't be afraid to share your code
+## Pair coding (or ensemble coding) for the win
 
 
 
