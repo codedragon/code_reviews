@@ -1,4 +1,5 @@
 # Hunting the bugs
+### An opionated guide
 
 ## Maria Mckinley
 
@@ -348,15 +349,6 @@ TypeError: unsupported operand type(s) for +: 'int' and 'str'
 
 
 
-## Some best practices with exceptions
-* Don't except Exception
-  (if REALLY necessary log, READ logs)
-* Minimal code in Try block, ONLY what you expect might fail
-* Be careful with Except block, avoid Traceback hell
-
-
-
-
 ```python
 1 def bad_function(greeting):
 2     try:
@@ -369,6 +361,15 @@ TypeError: unsupported operand type(s) for +: 'int' and 'str'
 
 add_to_stack(2)
 ```
+
+
+
+
+## Some best practices with exceptions
+* Don't except Exception
+  (if REALLY necessary log, READ logs)
+* Minimal code in Try block, ONLY what you expect might fail
+* Be careful with Except block, avoid Traceback hell
 
 
 
