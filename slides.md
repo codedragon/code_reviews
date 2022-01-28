@@ -27,7 +27,7 @@
 
 
 
-# General term to describe any unexpected problem with hardware or software.
+## General term to describe any unexpected problem with hardware or software.
 
 
 
@@ -704,7 +704,8 @@ https://localghost.dev/2019/09/everything-i-googled-in-a-week-as-a-professional-
 
 
 ## Don't be afraid to share your code
-## Pair coding (or ensemble coding) for the win
+## Pair coding (or ensemble coding)
+## for the win
 
 
 
