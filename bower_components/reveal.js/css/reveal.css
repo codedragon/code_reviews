@@ -454,7 +454,7 @@ body {
           perspective: 1300px; }
 
 .reveal.cube .slides section {
-  padding: 30px;
+  padding: 0px;
   min-height: 700px;
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
