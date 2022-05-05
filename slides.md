@@ -1,4 +1,5 @@
 # Hunting the bugs
+### An opionated guide
 
 ## Maria Mckinley
 
@@ -27,7 +28,7 @@
 
 
 
-# A bug is a general term used to describe any unexpected problem with hardware or software.
+## A bug is a general term used to describe any unexpected problem with hardware or software.
 
 
 
@@ -73,7 +74,6 @@ https://blog.guilatrova.dev/how-to-log-in-python-like-a-pro/
 
 
 # Write an integration test that FAILS
-### (Test Driven Bughunting?)
 
 
 
@@ -91,6 +91,7 @@ https://blog.guilatrova.dev/how-to-log-in-python-like-a-pro/
 
 
 # Why before?
+### (Test Driven Bughunting?)
 
 
 
@@ -364,6 +365,15 @@ add_to_stack(2)
 
 
 
+## Some best practices with exceptions
+* Don't except Exception
+  (if REALLY necessary log, READ logs)
+* Minimal code in Try block, ONLY what you expect might fail
+* Be careful with Except block, avoid Traceback hell
+
+
+
+
 # Error Messages Have Improved! :) Python 3.10
 https://realpython.com/lessons/better-error-messages/
 
@@ -518,6 +528,11 @@ Traceback (most recent call last):
 
 
 
+# Move up an down the stack in the debugger
+
+
+
+
 # Put a break point in code you believe your test should pass through
 
 
@@ -629,7 +644,7 @@ Traceback (most recent call last):
 
 # Always suspect your own code first
 ## occasionally we find an error in an imported library
-## but that is statistically speaking very rare...
+## but statistically speaking very rare...
 
 
 
@@ -689,8 +704,9 @@ https://localghost.dev/2019/09/everything-i-googled-in-a-week-as-a-professional-
 
 
 
-# Don't be afraid to share your code
-# Pair coding (or ensemble coding) for the win
+## Don't be afraid to share your code
+## Pair coding (or ensemble coding)
+## for the win
 
 
 
