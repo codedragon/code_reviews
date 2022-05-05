@@ -383,7 +383,7 @@ https://realpython.com/lessons/better-error-messages/
 
 
 
-<img src="assets/The_Scientific_Method.svg" alt="scientific method" width="600"/>
+<img src="assets/The_Scientific_Method.svg" alt="scientific method" width="550"/>
 #### By Efbrazil - Own work, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=10239247
 
 
