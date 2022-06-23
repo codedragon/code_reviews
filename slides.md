@@ -296,9 +296,37 @@ https://realpython.com/lessons/better-error-messages/
 
 
 # Basic Steps for Trouble Shooting
+* <span style="background-color: #e6d300">Verify the bug</span>
+* Write things down
+* Understand the Problem
+* Write a test that fails
+* Fix the bug so the test passes
+* Verify the bug is gone
+
+
+
+
+![alt text](assets/farside.jpg "Far Side Cartoon")
+## User Error? <!-- .element: class="fragment" data-fragment-index="1" -->
+### Maybe documentation is the problem <!-- .element: class="fragment" data-fragment-index="2" -->
+### Maybe the interface is the problem <!-- .element: class="fragment" data-fragment-index="3" -->
+
+
+
+
+# PSA
+## periodically check your logs
+* where you think they are
+* logging what you think they should log
+https://blog.guilatrova.dev/how-to-log-in-python-like-a-pro/
+
+
+
+
+# Basic Steps for Trouble Shooting
+* Verify the bug
 * <span style="background-color: #e6d300">Understand the Problem</span>
 * Write things down
-* Verify the bug
 * Write a test that fails
 * Fix the bug so the test passes
 * Verify the bug is gone
@@ -336,9 +364,9 @@ https://realpython.com/lessons/better-error-messages/
 
 
 # Basic Steps for Trouble Shooting
+* Verify the bug
 * Understand the Problem
 * <span style="background-color: #e6d300">Write things down</span>
-* Verify the bug
 * Write a test that fails
 * Fix the bug so the test passes
 * Verify the bug is gone
@@ -355,37 +383,9 @@ https://realpython.com/lessons/better-error-messages/
 
 
 # Basic Steps for Trouble Shooting
-* Understand the Problem
-* Write things down
-* <span style="background-color: #e6d300">Verify the bug</span>
-* Write a test that fails
-* Fix the bug so the test passes
-* Verify the bug is gone
-
-
-
-
-![alt text](assets/farside.jpg "Far Side Cartoon")
-## User Error? <!-- .element: class="fragment" data-fragment-index="1" -->
-### Maybe documentation is the problem <!-- .element: class="fragment" data-fragment-index="2" -->
-### Maybe the interface is the problem <!-- .element: class="fragment" data-fragment-index="3" -->
-
-
-
-
-# PSA
-## periodically check your logs
-* where you think they are
-* logging what you think they should log
-https://blog.guilatrova.dev/how-to-log-in-python-like-a-pro/
-
-
-
-
-# Basic Steps for Trouble Shooting
-* Understand the Problem
-* Write things down
 * Verify the bug
+* Understand the Problem
+* Write things down
 * <span style="background-color: #e6d300">Write a test that fails</span>
 * Fix the bug so the test passes
 * Verify the bug is gone
@@ -422,9 +422,9 @@ https://blog.guilatrova.dev/how-to-log-in-python-like-a-pro/
 
 
 # Basic Steps for Trouble Shooting
+* Verify the bug
 * Understand the Problem
 * Write things down
-* Verify the bug
 * Write a test that fails
 * <span style="background-color: #e6d300">Fix the bug so the test passes</span>
 * Verify the bug is gone
@@ -455,7 +455,9 @@ https://blog.guilatrova.dev/how-to-log-in-python-like-a-pro/
 
 
 # Question Assumptions
-## "check the plug"
+* "check the plug"
+* defaults
+* follow the data
 
 
 
@@ -581,9 +583,9 @@ class Settings(BaseSettings):
 
 
 # Basic Steps for Trouble Shooting
+* Verify the bug
 * Understand the Problem
 * Write things down
-* Verify the bug
 * Write a test that fails
 * Fix the bug so the test passes
 * <span style="background-color: #e6d300">Verify the bug is gone</span>
@@ -810,9 +812,9 @@ https://localghost.dev/2019/09/everything-i-googled-in-a-week-as-a-professional-
 
 
 # Basic Steps for Trouble Shooting
+* Verify the bug
 * Understand the Problem
 * Write things down
-* Verify the bug
 * Write a test that fails
 * Fix the bug so the test passes
 * Verify the bug is gone
