@@ -56,7 +56,7 @@
 
 
 
-## If you don't understand the stack, again, I highly recommend playing on this website:
+## I highly recommend playing on this website to get a better grasp of the stack:
 
 ## http://www.pythontutor.com
 
@@ -273,10 +273,10 @@ add_to_stack(2)
 
 
 ## Some best practices with exceptions
-* ##Don't except Exception
+* ###Don't except Exception
   (if REALLY necessary log, READ logs)
-* ##Minimal code in Try block, ONLY what you expect might fail
-* ##Be careful with Except block, avoid Traceback hell
+* ###Minimal code in Try block, ONLY what you expect might fail
+* ###Be careful with Except block, avoid Traceback hell
 
 
 
@@ -306,10 +306,9 @@ https://realpython.com/lessons/better-error-messages/
 
 
 
-![alt text](assets/farside.jpg "Far Side Cartoon")
-## User Error? <!-- .element: class="fragment" data-fragment-index="1" -->
-### Maybe documentation is the problem <!-- .element: class="fragment" data-fragment-index="2" -->
-### Maybe the interface is the problem <!-- .element: class="fragment" data-fragment-index="3" -->
+# Reproduce the bug, if possible
+## Might mean reaching out to the person who wrote the bug report
+## Might mean checking the logs
 
 
 
@@ -319,6 +318,14 @@ https://realpython.com/lessons/better-error-messages/
 * where you think they are
 * logging what you think they should log
 https://blog.guilatrova.dev/how-to-log-in-python-like-a-pro/
+
+
+
+
+![alt text](assets/farside.jpg "Far Side Cartoon")
+## User Error? <!-- .element: class="fragment" data-fragment-index="1" -->
+### Maybe documentation is the problem <!-- .element: class="fragment" data-fragment-index="2" -->
+### Maybe the interface is the problem <!-- .element: class="fragment" data-fragment-index="3" -->
 
 
 
@@ -335,7 +342,6 @@ https://blog.guilatrova.dev/how-to-log-in-python-like-a-pro/
 
 
 # Understand the Problem
-## Scenario
 
 
 
@@ -353,6 +359,14 @@ https://blog.guilatrova.dev/how-to-log-in-python-like-a-pro/
 
 # Try to understand the system, big picture
 ## map out how data flows 
+
+
+
+
+# Understand History
+## what has changed since the last time things worked
+## upgraded libraries
+## time (daylight savings, timezones, format)
 
 
 
@@ -417,6 +431,11 @@ https://blog.guilatrova.dev/how-to-log-in-python-like-a-pro/
 
 # Why before?
 ### (Test Driven Bughunting?)
+
+
+
+
+## New branch for your bug hunting, then change things (use a version control system)
 
 
 
@@ -786,11 +805,9 @@ Traceback (most recent call last):
 
 
 
-# Change things
-* New Test
-* Fresh commit, then change things (use a version control system)
-* Change one thing at a time
-* What helps, what doesn't?
+# Tests
+* Make a New Test
+* New Data (parameterize)
 
 
 
@@ -807,6 +824,13 @@ Traceback (most recent call last):
 * Understand what you find
 * Even the professionals do it
 https://localghost.dev/2019/09/everything-i-googled-in-a-week-as-a-professional-software-engineer/
+
+
+
+
+# Mix things up
+* different browser
+* use curl instead of browser
 
 
 
