@@ -33,103 +33,10 @@
 
 
 
-![alt text](assets/farside.jpg "Far Side Cartoon")
-## User Error <!-- .element: class="fragment" data-fragment-index="1" -->
-### Maybe documentation is the problem <!-- .element: class="fragment" data-fragment-index="2" -->
-### Maybe the interface is the problem <!-- .element: class="fragment" data-fragment-index="3" -->
-
-
-
-
 # Hunting Bugs
-* <span style="background-color: #e6d300">Basic Steps for Trouble Shooting</span>
-* Dig into Code & Error Messages
-* More Tools for Trouble Shooting
-
-
-
-
-# Scenario
-
-
-
-
-# Verify the bug
-
-
-
-
-# PSA
-## periodically check your logs
-* where you think they are
-* logging what you think they should log
-https://blog.guilatrova.dev/how-to-log-in-python-like-a-pro/
-
-
-
-
-# Do NOT touch your code
-
-
-
-
-# Write an integration test that FAILS
-
-
-
-
-# Why test?
-![alt text](assets/software_bugs_news.png "Software Bugs in the News")
-
-
-
-
-## https://www.karllhughes.com/posts/testing-matters
-## https://www.obeythetestinggoat.com/
-
-
-
-
-# Why before?
-### (Test Driven Bughunting?)
-
-
-
-
-# Fix the bug so the test passes
-
-
-
-
-# Steps for trouble shooting
-* Verify the bug
-* Write a test that fails
-* Fix the bug so the test passes
-
-
-
-
-# Hunting Bugs
+* <span style="background-color: #e6d300">Background Information: The stack and stacktrace</span>
 * Basic Steps for Trouble Shooting
-* <span style="background-color: #e6d300">Dig into Code & Error Messages</span>
-* More Tools for Trouble Shooting
-
-
-
-
-# Play with code
-## http://www.pythontutor.com/visualize.html#mode=edit
-
-
-
-
-<img src="assets/simple_program.png" alt="Simple Software Program" width="550"/>
-
-
-
-
-# what code flow more often looks like:
-<img src="assets/potpie.jpg" alt="chicken pot pie" width="500"/>
+* Tools for Easier Bug Hunting
 
 
 
@@ -380,15 +287,147 @@ https://realpython.com/lessons/better-error-messages/
 
 
 
-# What if I just have a failing test?
-
-
-
-
 # Hunting Bugs
-* Basic Steps for Trouble Shooting
-* Dig into Code & Error Messages
-* <span style="background-color: #e6d300">More Tools for Trouble Shooting</span>
+* Background Information: The stack and stacktrace
+* <span style="background-color: #e6d300">Basic Steps for Trouble Shooting</span>
+* Tools for Easier Bug Hunting
+
+
+
+
+# Basic Steps for Trouble Shooting
+* <span style="background-color: #e6d300">Understand the Problem</span>
+* Write things down
+* Verify the bug
+* Write a test that fails
+* Fix the bug so the test passes
+* Verify the bug is gone
+
+
+
+
+# Understand the Problem
+## Scenario
+
+
+
+
+<img src="assets/simple_program.png" alt="Simple Software Program" width="550"/>
+
+
+
+
+# what code flow more often looks like:
+<img src="assets/potpie.jpg" alt="chicken pot pie" width="500"/>
+
+
+
+
+# Try to understand the system, big picture
+## map out how data flows 
+
+
+
+
+# Play with code
+## http://www.pythontutor.com/visualize.html#mode=edit
+
+
+
+
+# Basic Steps for Trouble Shooting
+* Understand the Problem
+* <span style="background-color: #e6d300">Write things down</span>
+* Verify the bug
+* Write a test that fails
+* Fix the bug so the test passes
+* Verify the bug is gone
+
+
+
+
+# Write down everything
+* Exactly the call and result causing the problem
+* Any related log messages
+* Exactly what should have happened
+
+
+
+
+# Basic Steps for Trouble Shooting
+* Understand the Problem
+* Write things down
+* <span style="background-color: #e6d300">Verify the bug</span>
+* Write a test that fails
+* Fix the bug so the test passes
+* Verify the bug is gone
+
+
+
+
+![alt text](assets/farside.jpg "Far Side Cartoon")
+## User Error? <!-- .element: class="fragment" data-fragment-index="1" -->
+### Maybe documentation is the problem <!-- .element: class="fragment" data-fragment-index="2" -->
+### Maybe the interface is the problem <!-- .element: class="fragment" data-fragment-index="3" -->
+
+
+
+
+# PSA
+## periodically check your logs
+* where you think they are
+* logging what you think they should log
+https://blog.guilatrova.dev/how-to-log-in-python-like-a-pro/
+
+
+
+
+# Basic Steps for Trouble Shooting
+* Understand the Problem
+* Write things down
+* Verify the bug
+* <span style="background-color: #e6d300">Write a test that fails</span>
+* Fix the bug so the test passes
+* Verify the bug is gone
+
+
+
+
+# Do NOT touch your code
+
+
+
+
+# Write an integration test that FAILS
+
+
+
+
+# Why test?
+![alt text](assets/software_bugs_news.png "Software Bugs in the News")
+
+
+
+
+## https://www.karllhughes.com/posts/testing-matters
+## https://www.obeythetestinggoat.com/
+
+
+
+
+# Why before?
+### (Test Driven Bughunting?)
+
+
+
+
+# Basic Steps for Trouble Shooting
+* Understand the Problem
+* Write things down
+* Verify the bug
+* Write a test that fails
+* <span style="background-color: #e6d300">Fix the bug so the test passes</span>
+* Verify the bug is gone
 
 
 
@@ -399,12 +438,24 @@ https://realpython.com/lessons/better-error-messages/
 
 
 
-<img src="assets/The_Bughunting_Method.svg" alt="bughunting method" width="600"/>
+<img src="assets/The_Bughunting_Method.svg" alt="bughunting method" width="550"/>
 
 
 
 
-# Change one thing at a time
+# Tips to "Fix the bug so the test passes"
+* Change one thing at a time
+* Question assumptions
+* Reduce code to its essence
+* document everything
+* take a break
+* ask for help
+
+
+
+
+# Question Assumptions
+## "check the plug"
 
 
 
@@ -474,6 +525,90 @@ class Settings(BaseSettings):
 
 
 # Documenting and Comments
+## Be kind to your teammates and future self
+
+
+
+
+![alt text](assets/bug_joke.jpg "bughunting meme")
+
+
+
+
+# Take a break
+![alt text](assets/07-50-Ways-to-Take-a-Break-Illus-Info-07.jpeg "Karen Horneffer-Ginter, http://www.fullcupthirstyspirit.com/posters.php")
+
+
+
+
+# Get some sleep
+![alt text](assets/cat_sleeping.jpg "Lilo")
+
+
+
+
+# Write down everything
+* Exactly the call and result causing the problem
+* Any related log messages
+* Exactly what should have happened
+* What you have tried and learned
+
+
+
+
+# Ask for help
+![alt text](assets/batphone.jpg "https://www.millionaireplayboy.com/toys/batphone.php")
+
+
+
+
+## Don't be afraid to share your code
+## Pair coding (or ensemble coding)
+## for the win
+
+
+
+
+# Tips to "Fix the bug so the test passes"
+* Change one thing at a time
+* Question assumptions
+* Reduce code to its essence
+* document everything
+* take a break
+* ask for help
+
+
+
+
+# Basic Steps for Trouble Shooting
+* Understand the Problem
+* Write things down
+* Verify the bug
+* Write a test that fails
+* Fix the bug so the test passes
+* <span style="background-color: #e6d300">Verify the bug is gone</span>
+
+
+
+
+# Verify the bug is gone
+If at all possible, have the person who reported the bug redo what they were attempting to do when the bug became evident.
+
+
+
+# Hunting Bugs
+* Background Information: The stack and stacktrace
+* Basic Steps for Trouble Shooting
+* <span style="background-color: #e6d300">Tools for Easier Bug Hunting</span>
+
+
+
+
+# Tools for Easier Bug Hunting
+* debugger
+* tests
+* cicd: (formatter, linter, tests)
+* search engine
 
 
 
@@ -652,19 +787,21 @@ Traceback (most recent call last):
 # Change things
 * New Test
 * Fresh commit, then change things (use a version control system)
-* What works, what doesn't?
+* Change one thing at a time
+* What helps, what doesn't?
 
 
 
 
-# Black, Pylint and Flake8
+# Black, Pylint (Flake8), Mypy
+## Put them in your cicd pipeline!
 
 
 
 
 # Favorite Search Engine
 * Sanitize the terms: Nothing unique
-* Python 3
+* Switch up your terms
 * Understand what you find
 * Even the professionals do it
 https://localghost.dev/2019/09/everything-i-googled-in-a-week-as-a-professional-software-engineer/
@@ -672,41 +809,33 @@ https://localghost.dev/2019/09/everything-i-googled-in-a-week-as-a-professional-
 
 
 
-## Once upon a time, developers shot trouble without the benefit of a search engine
-## Use all the tools available to you
+# Basic Steps for Trouble Shooting
+* Understand the Problem
+* Write things down
+* Verify the bug
+* Write a test that fails
+* Fix the bug so the test passes
+* Verify the bug is gone
 
 
 
 
-![alt text](assets/bug_joke.jpg "bughunting meme")
+# Tips to "Fix the bug so the test passes"
+* Change one thing at a time
+* Question assumptions
+* Reduce code to its essence
+* document everything
+* take a break
+* ask for help
 
 
 
 
-# Take a break
-![alt text](assets/cat_sleeping.jpg "Lilo")
-
-
-
-
-# Write down everything
-* Exactly the call and result causing the problem
-* Any related log messages
-* Exactly what should have happened
-* What you have tried and learned
-
-
-
-
-# Ask for help
-![alt text](assets/batphone.jpg "https://www.millionaireplayboy.com/toys/batphone.php")
-
-
-
-
-## Don't be afraid to share your code
-## Pair coding (or ensemble coding)
-## for the win
+# Tools for Easier Bug Hunting
+* debugger
+* tests
+* cicd: (formatter, linter, tests, mypy)
+* search engine
 
 
 
