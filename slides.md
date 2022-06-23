@@ -273,10 +273,10 @@ add_to_stack(2)
 
 
 ## Some best practices with exceptions
-* Don't except Exception
+* ##Don't except Exception
   (if REALLY necessary log, READ logs)
-* Minimal code in Try block, ONLY what you expect might fail
-* Be careful with Except block, avoid Traceback hell
+* ##Minimal code in Try block, ONLY what you expect might fail
+* ##Be careful with Except block, avoid Traceback hell
 
 
 
