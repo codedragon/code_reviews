@@ -295,7 +295,7 @@ https://realpython.com/lessons/better-error-messages/
 
 
 
-# Basic Steps for Trouble Shooting
+## Basic Steps for Trouble Shooting
 * <span style="background-color: #e6d300">Verify the bug</span>
 * Write things down
 * Understand the Problem
@@ -323,7 +323,7 @@ https://blog.guilatrova.dev/how-to-log-in-python-like-a-pro/
 
 
 
-# Basic Steps for Trouble Shooting
+## Basic Steps for Trouble Shooting
 * Verify the bug
 * <span style="background-color: #e6d300">Understand the Problem</span>
 * Write things down
@@ -363,7 +363,7 @@ https://blog.guilatrova.dev/how-to-log-in-python-like-a-pro/
 
 
 
-# Basic Steps for Trouble Shooting
+## Basic Steps for Trouble Shooting
 * Verify the bug
 * Understand the Problem
 * <span style="background-color: #e6d300">Write things down</span>
@@ -382,7 +382,7 @@ https://blog.guilatrova.dev/how-to-log-in-python-like-a-pro/
 
 
 
-# Basic Steps for Trouble Shooting
+## Basic Steps for Trouble Shooting
 * Verify the bug
 * Understand the Problem
 * Write things down
@@ -421,7 +421,7 @@ https://blog.guilatrova.dev/how-to-log-in-python-like-a-pro/
 
 
 
-# Basic Steps for Trouble Shooting
+## Basic Steps for Trouble Shooting
 * Verify the bug
 * Understand the Problem
 * Write things down
@@ -582,7 +582,7 @@ class Settings(BaseSettings):
 
 
 
-# Basic Steps for Trouble Shooting
+## Basic Steps for Trouble Shooting
 * Verify the bug
 * Understand the Problem
 * Write things down
@@ -811,7 +811,7 @@ https://localghost.dev/2019/09/everything-i-googled-in-a-week-as-a-professional-
 
 
 
-# Basic Steps for Trouble Shooting
+## Basic Steps for Trouble Shooting
 * Verify the bug
 * Understand the Problem
 * Write things down
