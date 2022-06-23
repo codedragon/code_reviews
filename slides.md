@@ -18,6 +18,14 @@
 
 
 
+# Hunting Bugs
+* <span style="background-color: #e6d300">Background Information: bugs and stacks</span>
+* Basic Steps for Trouble Shooting
+* Tools for Easier Bug Hunting
+
+
+
+
 # What is a bug?
 
 
@@ -29,14 +37,6 @@
 
 
 ## A bug is a general term used to describe any unexpected problem with hardware or software.
-
-
-
-
-# Hunting Bugs
-* <span style="background-color: #e6d300">Background Information: The stack and stacktrace</span>
-* Basic Steps for Trouble Shooting
-* Tools for Easier Bug Hunting
 
 
 
@@ -288,7 +288,7 @@ https://realpython.com/lessons/better-error-messages/
 
 
 # Hunting Bugs
-* Background Information: The stack and stacktrace
+* Background Information: bugs and stacks
 * <span style="background-color: #e6d300">Basic Steps for Trouble Shooting</span>
 * Tools for Easier Bug Hunting
 
@@ -621,7 +621,7 @@ If at all possible, have the person who reported the bug redo what they were att
 
 
 # Hunting Bugs
-* Background Information: The stack and stacktrace
+* Background Information: bugs and stacks
 * Basic Steps for Trouble Shooting
 * <span style="background-color: #e6d300">Tools for Easier Bug Hunting</span>
 
