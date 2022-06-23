@@ -357,7 +357,8 @@ https://blog.guilatrova.dev/how-to-log-in-python-like-a-pro/
 
 
 
-# Try to understand the system, big picture
+# Try to understand the big picture
+## how the system is suppose to work
 ## map out how data flows 
 
 
@@ -367,12 +368,6 @@ https://blog.guilatrova.dev/how-to-log-in-python-like-a-pro/
 ## what has changed since the last time things worked
 ## upgraded libraries
 ## time (daylight savings, timezones, format)
-
-
-
-
-# Play with code
-## http://www.pythontutor.com/visualize.html#mode=edit
 
 
 
@@ -389,9 +384,10 @@ https://blog.guilatrova.dev/how-to-log-in-python-like-a-pro/
 
 
 # Write down everything
-* Exactly the call and result causing the problem
+* Exactly the call causing the problem
 * Any related log messages
 * Exactly what should have happened
+* Exactly what did happen
 
 
 
