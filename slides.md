@@ -298,8 +298,8 @@ https://realpython.com/lessons/better-error-messages/
 ## Basic Steps for Trouble Shooting
 * <span style="background-color: #e6d300">Verify the bug</span>
 * Write things down
-* Understand the Problem
 * Write a test that fails
+* Understand the Problem
 * Fix the bug so the test passes
 * Verify the bug is gone
 
@@ -332,51 +332,9 @@ https://blog.guilatrova.dev/how-to-log-in-python-like-a-pro/
 
 ## Basic Steps for Trouble Shooting
 * Verify the bug
-* <span style="background-color: #e6d300">Understand the Problem</span>
-* Write things down
-* Write a test that fails
-* Fix the bug so the test passes
-* Verify the bug is gone
-
-
-
-
-# Understand the Problem
-
-
-
-
-<img src="assets/simple_program.png" alt="Simple Software Program" width="550"/>
-
-
-
-
-# what code flow more often looks like:
-<img src="assets/potpie.jpg" alt="chicken pot pie" width="500"/>
-
-
-
-
-# Try to understand the big picture
-## how the system is suppose to work
-## map out how data flows 
-
-
-
-
-# Understand History
-## what has changed since the last time things worked
-## upgraded libraries
-## time (daylight savings, timezones, format)
-
-
-
-
-## Basic Steps for Trouble Shooting
-* Verify the bug
-* Understand the Problem
 * <span style="background-color: #e6d300">Write things down</span>
 * Write a test that fails
+* Understand the Problem
 * Fix the bug so the test passes
 * Verify the bug is gone
 
@@ -394,9 +352,9 @@ https://blog.guilatrova.dev/how-to-log-in-python-like-a-pro/
 
 ## Basic Steps for Trouble Shooting
 * Verify the bug
-* Understand the Problem
 * Write things down
 * <span style="background-color: #e6d300">Write a test that fails</span>
+* Understand the Problem
 * Fix the bug so the test passes
 * Verify the bug is gone
 
@@ -438,9 +396,51 @@ https://blog.guilatrova.dev/how-to-log-in-python-like-a-pro/
 
 ## Basic Steps for Trouble Shooting
 * Verify the bug
-* Understand the Problem
 * Write things down
 * Write a test that fails
+* <span style="background-color: #e6d300">Understand the Problem</span>
+* Fix the bug so the test passes
+* Verify the bug is gone
+
+
+
+
+# Understand the Problem and your code
+
+
+
+
+<img src="assets/simple_program.png" alt="Simple Software Program" width="550"/>
+
+
+
+
+# what code flow more often looks like:
+<img src="assets/potpie.jpg" alt="chicken pot pie" width="500"/>
+
+
+
+
+# Try to understand the big picture
+## how the system is suppose to work
+## map out how data flows 
+
+
+
+
+# Understand History
+## what has changed since the last time things worked
+## upgraded libraries
+## time (daylight savings, timezones, format)
+
+
+
+
+## Basic Steps for Trouble Shooting
+* Verify the bug
+* Write things down
+* Write a test that fails
+* Understand the Problem
 * <span style="background-color: #e6d300">Fix the bug so the test passes</span>
 * Verify the bug is gone
 
@@ -599,9 +599,9 @@ class Settings(BaseSettings):
 
 ## Basic Steps for Trouble Shooting
 * Verify the bug
-* Understand the Problem
 * Write things down
 * Write a test that fails
+* Understand the Problem
 * Fix the bug so the test passes
 * <span style="background-color: #e6d300">Verify the bug is gone</span>
 
@@ -833,9 +833,9 @@ https://localghost.dev/2019/09/everything-i-googled-in-a-week-as-a-professional-
 
 ## Basic Steps for Trouble Shooting
 * Verify the bug
-* Understand the Problem
 * Write things down
 * Write a test that fails
+* Understand the Problem
 * Fix the bug so the test passes
 * Verify the bug is gone
 
