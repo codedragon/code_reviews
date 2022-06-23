@@ -273,10 +273,10 @@ add_to_stack(2)
 
 
 ## Some best practices with exceptions
-* ###Don't except Exception
+* Don't except Exception
   (if REALLY necessary log, READ logs)
-* ###Minimal code in Try block, ONLY what you expect might fail
-* ###Be careful with Except block, avoid Traceback hell
+* Minimal code in Try block, ONLY what you expect might fail
+* Be careful with Except block, avoid Traceback hell
 
 
 
@@ -299,7 +299,7 @@ https://realpython.com/lessons/better-error-messages/
 * <span style="background-color: #e6d300">Verify the bug</span>
 * Write things down
 * Write a test that fails
-* Understand the Problem
+* Understand the problem
 * Fix the bug so the test passes
 * Verify the bug is gone
 
@@ -334,7 +334,7 @@ https://blog.guilatrova.dev/how-to-log-in-python-like-a-pro/
 * Verify the bug
 * <span style="background-color: #e6d300">Write things down</span>
 * Write a test that fails
-* Understand the Problem
+* Understand the problem
 * Fix the bug so the test passes
 * Verify the bug is gone
 
@@ -354,7 +354,7 @@ https://blog.guilatrova.dev/how-to-log-in-python-like-a-pro/
 * Verify the bug
 * Write things down
 * <span style="background-color: #e6d300">Write a test that fails</span>
-* Understand the Problem
+* Understand the problem
 * Fix the bug so the test passes
 * Verify the bug is gone
 
@@ -398,14 +398,15 @@ https://blog.guilatrova.dev/how-to-log-in-python-like-a-pro/
 * Verify the bug
 * Write things down
 * Write a test that fails
-* <span style="background-color: #e6d300">Understand the Problem</span>
+* <span style="background-color: #e6d300">Understand the problem</span>
 * Fix the bug so the test passes
 * Verify the bug is gone
 
 
 
 
-# Understand the Problem and your code
+# Understand the problem and your code
+## When did you look at the code last?
 
 
 
@@ -440,9 +441,14 @@ https://blog.guilatrova.dev/how-to-log-in-python-like-a-pro/
 * Verify the bug
 * Write things down
 * Write a test that fails
-* Understand the Problem
+* Understand the problem
 * <span style="background-color: #e6d300">Fix the bug so the test passes</span>
 * Verify the bug is gone
+
+
+
+
+# Should really be find the bug, since that is the biggest time sink
 
 
 
@@ -458,7 +464,7 @@ https://blog.guilatrova.dev/how-to-log-in-python-like-a-pro/
 
 
 
-# Tips to "Fix the bug so the test passes"
+## Tips to "Fix the bug so the test passes"
 * Change one thing at a time
 * Question assumptions
 * Reduce code to its essence
@@ -586,7 +592,7 @@ class Settings(BaseSettings):
 
 
 
-# Tips to "Fix the bug so the test passes"
+## Tips to "Fix the bug so the test passes"
 * Change one thing at a time
 * Question assumptions
 * Reduce code to its essence
@@ -601,7 +607,7 @@ class Settings(BaseSettings):
 * Verify the bug
 * Write things down
 * Write a test that fails
-* Understand the Problem
+* Understand the problem
 * Fix the bug so the test passes
 * <span style="background-color: #e6d300">Verify the bug is gone</span>
 
@@ -613,6 +619,7 @@ If at all possible, have the person who reported the bug redo what they were att
 
 
 
+
 # Hunting Bugs
 * Background Information: The stack and stacktrace
 * Basic Steps for Trouble Shooting
@@ -621,7 +628,7 @@ If at all possible, have the person who reported the bug redo what they were att
 
 
 
-# Tools for Easier Bug Hunting
+## Tools for Easier Bug Hunting
 * debugger
 * tests
 * cicd: (formatter, linter, tests)
@@ -801,6 +808,15 @@ Traceback (most recent call last):
 
 
 
+## Tools for Easier Bug Hunting
+* debugger
+* tests
+* cicd: (formatter, linter, tests)
+* search engine
+
+
+
+
 # Tests
 * Make a New Test
 * New Data (parameterize)
@@ -819,7 +835,7 @@ Traceback (most recent call last):
 * Switch up your terms
 * Understand what you find
 * Even the professionals do it
-https://localghost.dev/2019/09/everything-i-googled-in-a-week-as-a-professional-software-engineer/
+#### https://localghost.dev/2019/09/everything-i-googled-in-a-week-as-a-professional-software-engineer/
 
 
 
@@ -835,14 +851,14 @@ https://localghost.dev/2019/09/everything-i-googled-in-a-week-as-a-professional-
 * Verify the bug
 * Write things down
 * Write a test that fails
-* Understand the Problem
+* Understand the problem
 * Fix the bug so the test passes
 * Verify the bug is gone
 
 
 
 
-# Tips to "Fix the bug so the test passes"
+## Tips to "Fix the bug so the test passes"
 * Change one thing at a time
 * Question assumptions
 * Reduce code to its essence
@@ -853,20 +869,10 @@ https://localghost.dev/2019/09/everything-i-googled-in-a-week-as-a-professional-
 
 
 
-# Tools for Easier Bug Hunting
-* debugger
-* tests
-* cicd: (formatter, linter, tests, mypy)
-* search engine
-
-
-
-
 ## Thank You
 ## May you win, not the bug
 ![bug_wins](https://media.giphy.com/media/qKbDKxfgWGWv6/giphy.gif "https://media.giphy.com/media/qKbDKxfgWGWv6/giphy.gif")
 ### https://codedragon.github.io/bughunting
-### maria@mariakathryn.net
 
 
 
