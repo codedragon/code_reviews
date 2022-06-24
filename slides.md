@@ -300,7 +300,7 @@ https://realpython.com/lessons/better-error-messages/
 * <span style="background-color: #e6d300">Verify the bug</span>
 * Write things down
 * Write a test that fails
-* Understand the problem
+* Understand the problem space
 * Fix the bug so the test passes
 * Verify the bug is gone
 
@@ -335,7 +335,7 @@ https://blog.guilatrova.dev/how-to-log-in-python-like-a-pro/
 * Verify the bug
 * <span style="background-color: #e6d300">Write things down</span>
 * Write a test that fails
-* Understand the problem
+* Understand the problem space
 * Fix the bug so the test passes
 * Verify the bug is gone
 
@@ -355,7 +355,7 @@ https://blog.guilatrova.dev/how-to-log-in-python-like-a-pro/
 * Verify the bug
 * Write things down
 * <span style="background-color: #e6d300">Write a test that fails</span>
-* Understand the problem
+* Understand the problem space
 * Fix the bug so the test passes
 * Verify the bug is gone
 
@@ -401,14 +401,14 @@ https://blog.guilatrova.dev/how-to-log-in-python-like-a-pro/
 * Verify the bug
 * Write things down
 * Write a test that fails
-* <span style="background-color: #e6d300">Understand the problem</span>
+* <span style="background-color: #e6d300">Understand the problem space</span>
 * Fix the bug so the test passes
 * Verify the bug is gone
 
 
 
 
-# Understand the problem and your code
+# Understand the problem within the context of the code
 ## When did you look at the code last?
 
 
@@ -468,12 +468,20 @@ https://blog.guilatrova.dev/how-to-log-in-python-like-a-pro/
 
 
 ## Tips to "Fix the bug so the test passes"
-* Change one thing at a time
+* Change things: one thing at a time
 * Question assumptions
 * Reduce code to its essence
 * document everything
 * take a break
 * ask for help
+
+
+
+
+# Change things: one thing at a time
+* different browser
+* different computer
+* use curl instead of browser
 
 
 
@@ -664,6 +672,7 @@ If at all possible, have the person who reported the bug redo what they were att
 
 
 # W
+## where
 
 
 
@@ -839,14 +848,6 @@ Traceback (most recent call last):
 * Understand what you find
 * Even the professionals do it
 #### https://localghost.dev/2019/09/everything-i-googled-in-a-week-as-a-professional-software-engineer/
-
-
-
-
-# Mix things up
-* different browser
-* different computer
-* use curl instead of browser
 
 
 
