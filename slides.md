@@ -845,6 +845,7 @@ Traceback (most recent call last):
 
 # Mix things up
 * different browser
+* different computer
 * use curl instead of browser
 
 
@@ -855,7 +856,7 @@ Traceback (most recent call last):
 * Write things down
 * Write a test that fails
 * Understand the problem
-* Fix the bug so the test passes
+* <span style="background-color: #e6d300">Fix the bug so the test passes</span>
 * Verify the bug is gone
 
 
