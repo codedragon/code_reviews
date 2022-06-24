@@ -65,7 +65,8 @@
 
 
 
-# Stack Trace (or Traceback)
+# Stack Trace
+## (aka Traceback)
 ## The stack at the moment something goes wrong
 
 
@@ -274,7 +275,7 @@ add_to_stack(2)
 
 ## Some best practices with exceptions
 * Don't except Exception
-  (if REALLY necessary log, READ logs)
+  (if REALLY necessary log, and READ logs)
 * Minimal code in Try block, ONLY what you expect might fail
 * Be careful with Except block, avoid Traceback hell
 
@@ -343,9 +344,9 @@ https://blog.guilatrova.dev/how-to-log-in-python-like-a-pro/
 
 # Write down everything
 * Exactly the call causing the problem
-* Any related log messages
 * Exactly what should have happened
 * Exactly what did happen
+* Any related log messages
 
 
 
@@ -389,7 +390,9 @@ https://blog.guilatrova.dev/how-to-log-in-python-like-a-pro/
 
 
 
-## New branch for your bug hunting, then change things (use a version control system)
+## New branch for your bug hunting
+## then change things
+## (use a version control system)
 
 
 
@@ -424,14 +427,14 @@ https://blog.guilatrova.dev/how-to-log-in-python-like-a-pro/
 
 # Try to understand the big picture
 ## how the system is suppose to work
-## map out how data flows 
+## think about how data flows and changes
 
 
 
 
 # Understand History
 ## what has changed since the last time things worked
-## upgraded libraries
+## example: bits of code, upgraded libraries
 ## time (daylight savings, timezones, format)
 
 
@@ -448,7 +451,7 @@ https://blog.guilatrova.dev/how-to-log-in-python-like-a-pro/
 
 
 
-# Should really be find the bug, since that is the biggest time sink
+# To fix the bug, we must find it
 
 
 
@@ -572,8 +575,8 @@ class Settings(BaseSettings):
 
 # Write down everything
 * Exactly the call and result causing the problem
-* Any related log messages
 * Exactly what should have happened
+* Any related log messages
 * What you have tried and learned
 
 
