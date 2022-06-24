@@ -852,7 +852,7 @@ Traceback (most recent call last):
 
 
 
-## Basic Steps for Trouble Shooting
+## Review Steps for Trouble Shooting
 * Verify the bug
 * Write things down
 * Write a test that fails
