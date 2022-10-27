@@ -1,13 +1,13 @@
-# My Bughunting Talk
+# My Intro to GIT Talk
 
-Talk about troubleshooting Python code
+Talk about how and why to use git
 
 I copied the basic slide framework from:
 https://github.com/MaptimeCalgary/presentation-example
 Please go there for the original slide framwork example
 
 To see my slides:
-https://codedragon.github.io/bughunting/#/
+https://codedragon.github.io/beginning_git/#/
 
 To see changes push to gh-pages
 git push origin gh-pages
