@@ -1,4 +1,4 @@
-* Intro An opinionated intro to git guide
+An opinionated intro to git guide
 
 1. Why GIT - what problems does it solve
    1. cartoon, revision history

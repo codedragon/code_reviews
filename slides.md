@@ -22,5 +22,15 @@ Git puts everything it needs to keep track of changes in a hidden directory .git
 
 
 
+![alt text](assets/git_connections.gif "One document, many authors")
+
+
+
+Installation
+https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
+
+
+
+
 ### https://codedragon.github.io/beginning_git
 ### maria@mariakathryn.net
