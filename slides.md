@@ -2,6 +2,7 @@
 ### An opionated guide
 
 ## Maria Mckinley
+## Assisted by Franco Mattos Neto
 
 
 
@@ -18,7 +19,7 @@
 
 
 
-![alt text](assets/git_share.jpeg "One document, many authors")
+![alt text](assets/git_share.jpg "One document, many authors")
 
 
 
@@ -29,7 +30,7 @@
 
 
 
-#Some definitions
+##Some definitions
 * Repo: repository, a collection of files and folders that make a body of work
 * Git:  a tool for saving history along with the body of work
 * Github/Gitlab:  a central repository that everyone can reach and use
@@ -55,19 +56,13 @@
 
 
 
+Git puts everything it needs to keep track of changes in a hidden directory .git in each repository
+
+
+
+
 #Installation
 https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
-
-
-
-
-
-
-
-
-
-
-Git puts everything it needs to keep track of changes in a hidden directory .git in each repository
 
 
 
