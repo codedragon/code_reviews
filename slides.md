@@ -22,7 +22,7 @@ Git puts everything it needs to keep track of changes in a hidden directory .git
 
 
 
-
+![alt text](assets/final_doc.gif "")
 
 
 
