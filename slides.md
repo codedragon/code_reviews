@@ -11,7 +11,7 @@
 
 
 
-![alt text](assets/git_connections.gif "One document, many authors")
+![alt text](assets/git_connections.png "One document, many authors")
 
 
 
