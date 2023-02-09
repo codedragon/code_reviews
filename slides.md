@@ -19,7 +19,7 @@
 
 
 
-![alt text](assets/git_share.jpg "One document, many authors")
+![alt text](assets/share_manuscript.png "One document, many authors")
 
 
 
@@ -45,7 +45,7 @@
 
 
 
-![alt text](assets/git_connections.png "Git repo, many authors")
+![alt text](assets/github_gitlab.png "Git repo, many authors")
 
 
 
