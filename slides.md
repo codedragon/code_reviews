@@ -11,6 +11,10 @@
 * Introduction to GIT
 * Demonstration of using GIT
 
+Disclosure: This talk is about understanding how to use git, so I will not be going into
+certain details, like installing git. I will have links for instructions and feel free
+to ping me on slack later for help.
+
 
 
 
@@ -24,8 +28,11 @@
 
 
 
-##Git keeps track of history and serves as a backup
+##Git keeps track of history
+##Serves as a backup
 ###(as long as you push your changes to at least one other machine)
+##Can be used to enforce standards
+
 
 
 
@@ -50,13 +57,14 @@
 
 
 
-#Let's talk about the file system for a moment
+##Let's talk about the file system for a moment
 ![alt text](assets/messy-file-folder.jpeg "Messy File Folders")
 
 
 
 
-Git puts everything it needs to keep track of changes in a hidden directory .git in each repository
+Git puts everything it needs to keep track of changes in a hidden directory called
+.git in the root directory of each repository
 
 
 
@@ -64,6 +72,36 @@ Git puts everything it needs to keep track of changes in a hidden directory .git
 #Installation
 https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
 
+
+
+
+##Choices I made for this Demo
+* Command line
+* Editor: emacs
+* Git Host: Gitlab
+
+
+
+
+#Let's create a repo
+
+
+
+
+##How to set up ssh keys for authenticating - Highly recommended
+##Gitlab
+##https://docs.gitlab.com/ee/user/ssh.html
+##Github
+##https://docs.github.com/en/authentication/connecting-to-github-with-ssh
+
+
+
+
+##What's a commit?
+* one or more changes made to a repo
+* a revision
+* how the repo looks now that these changes have been made
+* a snapshot of your repo at a moment in time
 
 
 
