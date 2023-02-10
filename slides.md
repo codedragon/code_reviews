@@ -44,7 +44,7 @@ to ping me on slack later for help.
 
 
 
-#Some important concepts
+##Some important concepts
 * All contributers have their own repo copy, including Github/Gitlab
 * Contributers are responsible for keeping local copy aligned with central
 * The more contributer's copies diverge, the more painful syncing
@@ -58,12 +58,16 @@ to ping me on slack later for help.
 
 
 ##Let's talk about the file system for a moment
-![alt text](assets/color_coded_files.jpeg "organized folders ©Elena Elisseeva | Dreamstime.com")
+![alt text](assets/color_coded_files.jpg "organized folders ©Elena Elisseeva | Dreamstime.com")
 
 
 
 
 ![alt text](assets/messy-file-folder.jpeg "Messy File Folders")
+
+
+
+
 
 
 
