@@ -39,14 +39,15 @@ to ping me on slack later for help.
 ##Some definitions
 * Repo: repository, a collection of files and folders that make a body of work
 * Git:  a tool for saving history along with the body of work
-* Github/Gitlab:  a central repository that everyone can reach and use
+* Github/Gitlab:  a central repository copy that everyone can reach and use
 
 
 
 
 #Some important concepts
-* Goal is to have everyone's local repo the same, including Github/Gitlab
-* Git keeps track of all history
+* All contributers have their own repo copy, including Github/Gitlab
+* Contributers are responsible for keeping local copy aligned with central
+* The more contributer's copies diverge, the more painful syncing
 
 
 
@@ -82,7 +83,7 @@ https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
 ##Choices I made for this Demo
 * Command line
 * Editor: emacs
-* Git Host: Gitlab
+* Git Central Repo: Gitlab
 
 
 
@@ -106,6 +107,7 @@ https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
 * a revision
 * how the repo looks now that these changes have been made
 * a snapshot of your repo at a moment in time
+
 
 
 
