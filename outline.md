@@ -26,6 +26,7 @@ An opinionated intro to git guide
       	 1. imagine scenario where you are making the easy changes, then you start on the hard changes, and
 	    decide you better save what you already have before going too far. Or you finish the hard part, and
 	    decide it would be better to keep it separate from the other changes.
+	 2. gitignore
       5. git add: to make a bundle of work (just include the pages of the manuscript you made changes to)
       6. git commit: to verify that bundle of work
       (put a note on it: Sorry it took me so long to write that proof you asked for.)

@@ -36,7 +36,6 @@ to ping me on slack later for help.
 
 
 
-
 ##Some definitions
 * Repo: repository, a collection of files and folders that make a body of work
 * Git:  a tool for saving history along with the body of work
@@ -58,6 +57,11 @@ to ping me on slack later for help.
 
 
 ##Let's talk about the file system for a moment
+![alt text](assets/color_coded_files.jpeg "organized folders ©Elena Elisseeva | Dreamstime.com")
+
+
+
+
 ![alt text](assets/messy-file-folder.jpeg "Messy File Folders")
 
 
