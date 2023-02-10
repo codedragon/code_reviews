@@ -34,7 +34,7 @@ An opinionated intro to git guide
 4. Working with others
    1. How different
    2. Get existing repo
-   3. Branches
+   3. Branches (Main not Master)
    4. workflow
 5. Security
    1. git saves everything, so don't even temporarily save passwords, tokens, sensitive data

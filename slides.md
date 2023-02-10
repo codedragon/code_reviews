@@ -39,13 +39,13 @@ to ping me on slack later for help.
 ##Some definitions
 * Repo: repository, a collection of files and folders that make a body of work
 * Git:  a tool for saving history along with the body of work
-* Github/Gitlab:  a central repository copy that everyone can reach and use
+* GitHub/GitLab:  a central repository copy that everyone can reach and use
 
 
 
 
 ##Some important concepts
-* All contributers have their own repo copy, including Github/Gitlab
+* All contributers have their own repo copy, including GitHub/GitLab
 * Contributers are responsible to keep local copy aligned with central
 * The more contributer's copies diverge, the more painful syncing
 
@@ -76,8 +76,10 @@ Git puts everything it needs to keep track of changes in a hidden directory call
 
 
 
-#Installation
-https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
+#Installation: I like GitLab's instructions, but others are available
+https://docs.gitlab.com/ee/topics/git/how_to_install_git/index.html
+#Full, well laid out tutorial
+https://docs.gitlab.com/ee/tutorials/make_your_first_git_commit.html
 
 
 
@@ -91,6 +93,8 @@ https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
 
 
 #Let's create a repo
+command line: git init 
+https://gitlab.disney.com/projects/new
 
 
 
