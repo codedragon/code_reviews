@@ -96,10 +96,10 @@ https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
 
 
 ##How to set up ssh keys for authenticating - Highly recommended
-##Gitlab
-##https://docs.gitlab.com/ee/user/ssh.html
-##Github
-##https://docs.github.com/en/authentication/connecting-to-github-with-ssh
+###Gitlab
+####https://docs.gitlab.com/ee/user/ssh.html
+###Github
+####https://docs.github.com/en/authentication/connecting-to-github-with-ssh
 
 
 
