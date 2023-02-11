@@ -109,6 +109,16 @@ https://docs.gitlab.com/ee/tutorials/make_your_first_git_commit.html
 
 
 
+##What's an origin?
+###shorthand name for remote repo a project was cloned from
+###default for further communication
+###name is just a convention
+##How do I see what is the origin?
+`{git remote -v}`
+
+
+
+
 ##What's a commit?
 * one or more changes made to a repo
 * a revision

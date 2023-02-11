@@ -20,11 +20,12 @@ An opinionated intro to git guide
       1. configuration, keeps track of repo history
       2. you can safely move an entire repo around on your computer 
    4. workflow
-      1. git status: check to see what you were working on, forgot about
+      1. `{git status}`: check to see what you were working on, forgot about
       	 1. break down git status, show what it looks like with no changes, some changes, explain commit right off
-      2. git pull: (see what others have been doing or what you did on a different machine) Needs network
+      2. `{git pull}`: (see what others have been doing or what you did on a different machine) Needs network
+         1. shorthand for `{git pull origin main}`
       3. do some work
-      4. git diff: decide if everything you have done should be included in the same bundle of work.
+      4. `{git diff}`: decide if everything you have done should be included in the same bundle of work.
       (the revision your prof asked for)
       	 1. imagine scenario where you are making the easy changes, then you start on the hard changes, and
 	 decide you better save what you already have before going too far. Or you finish the hard part, and
@@ -35,8 +36,8 @@ An opinionated intro to git guide
 	    2. security
 	    3. don't break things :)
 	    4. readme important
-      5. git add: to make a bundle of work (just include the pages of the manuscript you made changes to)
-      6. git commit: to verify that bundle of work
+      5. `{git add}`: to make a bundle of work (just include the pages of the manuscript you made changes to)
+      6. `{git commit -m "my commit message}`: to verify that bundle of work, will dump in editor without `{-m "my commit message"}`
       (put a note on it: Sorry it took me so long to write that proof you asked for.)
       7. git push: send it up to a central repository (mail that manuscript) Needs network
 4. Working with others
