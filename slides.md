@@ -93,7 +93,7 @@ https://docs.gitlab.com/ee/tutorials/make_your_first_git_commit.html
 
 
 #Let's create a repo
-* command line: <font size= "2">`git init` </font size> 
+* command line: <font size= "2">`git init` </font> 
 * https://gitlab.disney.com/projects/new
 * https://docs.github.com/en/get-started/quickstart/create-a-repo
 
