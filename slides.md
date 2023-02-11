@@ -37,9 +37,9 @@ to ping me on slack later for help.
 
 
 ##Some definitions
-* Repo: repository, a collection of files and folders that make a body of work
+* Repo (Repository): a collection of files and folders that make a body of work
 * Git:  a tool for saving history along with the body of work
-* GitHub/GitLab:  a central repository copy that everyone can reach and use
+* GitHub/GitLab:  a repository copy that everyone can reach and use
 
 
 

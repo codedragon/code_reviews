@@ -22,7 +22,7 @@ An opinionated intro to git guide
    4. workflow
       1. git status: check to see what you were working on, forgot about
       	 1. break down git status, show what it looks like with no changes, some changes, explain commit right off
-      2. git pull: (see what others have been doing or what you did on a different machine)
+      2. git pull: (see what others have been doing or what you did on a different machine) Needs network
       3. do some work
       4. git diff: decide if everything you have done should be included in the same bundle of work.
       (the revision your prof asked for)
@@ -38,7 +38,7 @@ An opinionated intro to git guide
       5. git add: to make a bundle of work (just include the pages of the manuscript you made changes to)
       6. git commit: to verify that bundle of work
       (put a note on it: Sorry it took me so long to write that proof you asked for.)
-      7. git push: send it up to a central repository (mail that manuscript)
+      7. git push: send it up to a central repository (mail that manuscript) Needs network
 4. Working with others
    1. How different
    2. Get existing repo
