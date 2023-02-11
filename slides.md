@@ -7,7 +7,7 @@
 
 
 
-#Outline
+# Outline
 * Introduction to GIT
 * Demonstration of using GIT
 
@@ -28,15 +28,15 @@ to ping me on slack later for help.
 
 
 
-##Git keeps track of history
-##Serves as a backup
-###(as long as you push your changes to at least one other machine)
-##Can be used to enforce standards
+## Git keeps track of history
+## Serves as a backup
+### (as long as you push your changes to at least one other machine)
+## Can be used to enforce standards
 
 
 
 
-##Some definitions
+## Some definitions
 * Repo (Repository): a collection of files and folders that make a body of work
 * Git:  a tool for saving history along with the body of work
 * GitHub/GitLab:  a repository copy that everyone can reach and use
@@ -44,7 +44,7 @@ to ping me on slack later for help.
 
 
 
-##Some important concepts
+## Some important concepts
 * All contributers have their own repo copy, including GitHub/GitLab
 * Contributers are responsible to keep local copy aligned with central
 * The more contributer's copies diverge, the more painful syncing
@@ -57,7 +57,7 @@ to ping me on slack later for help.
 
 
 
-##Let's talk about the computer file system for a moment
+## Let's talk about the computer file system for a moment
 ![alt text](assets/color_coded_files.jpg "organized folders ©Elena Elisseeva | Dreamstime.com")
 
 
@@ -76,15 +76,15 @@ Git puts everything it needs to keep track of changes in a hidden directory call
 
 
 
-##Installation: I like GitLab's instructions, but others are available
+## Installation: I like GitLab's instructions, but others are available
 https://docs.gitlab.com/ee/topics/git/how_to_install_git/index.html
-##Full, well laid out tutorial
+## Full, well laid out tutorial
 https://docs.gitlab.com/ee/tutorials/make_your_first_git_commit.html
 
 
 
 
-##Tools I chose for this Demo
+## Tools I chose for this Demo
 * Command line
 * Editor: emacs
 * Git Central Repo: GitLab
@@ -92,7 +92,7 @@ https://docs.gitlab.com/ee/tutorials/make_your_first_git_commit.html
 
 
 
-#Let's create a repo
+# Let's create a repo
 * command line: <font size= "5">`git init` </font> 
 * https://gitlab.disney.com/projects/new
 * https://docs.github.com/en/get-started/quickstart/create-a-repo
@@ -100,26 +100,26 @@ https://docs.gitlab.com/ee/tutorials/make_your_first_git_commit.html
 
 
 
-##How to set up ssh keys for authenticating - Highly recommended
-###GitLab
-####https://docs.gitlab.com/ee/user/ssh.html
-###Github
-####https://docs.github.com/en/authentication/connecting-to-github-with-ssh
+## How to set up ssh keys for authenticating - Highly recommended
+### GitLab
+https://docs.gitlab.com/ee/user/ssh.html
+### Github
+https://docs.github.com/en/authentication/connecting-to-github-with-ssh
 
 
 
 
-##What's an origin?
+## What's an origin?
 * shorthand name for remote repo a project was cloned from
 * default for further communication
 * name is just a convention
-##How do I see what is the origin?
+## How do I see what is the origin?
 `git remote -v`
 
 
 
 
-##What's a commit?
+## What's a commit?
 * one or more changes made to a repo
 * a revision
 * how the repo looks now that these changes have been made
