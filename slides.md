@@ -28,10 +28,10 @@ to ping me on slack later for help.
 
 
 
-## Git keeps track of history
-## Serves as a backup
-### (as long as you push your changes to at least one other machine)
-## Can be used to enforce standards
+* Git keeps track of history
+* Serves as a backup
+  (as long as you push your changes to at least one other machine)
+* Can be used to enforce standards
 
 
 
