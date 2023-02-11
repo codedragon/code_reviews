@@ -93,7 +93,7 @@ https://docs.gitlab.com/ee/tutorials/make_your_first_git_commit.html
 
 
 #Let's create a repo
-* command line: <font size= "2">`{git init}` </font size> 
+* command line: <font size= "2">`git init` </font size> 
 * https://gitlab.disney.com/projects/new
 * https://docs.github.com/en/get-started/quickstart/create-a-repo
 
@@ -114,7 +114,7 @@ https://docs.gitlab.com/ee/tutorials/make_your_first_git_commit.html
 ###default for further communication
 ###name is just a convention
 ##How do I see what is the origin?
-`{git remote -v}`
+`git remote -v`
 
 
 
