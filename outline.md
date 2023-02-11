@@ -22,8 +22,10 @@ An opinionated intro to git guide
    4. workflow
       1. `git status`: check to see what you were working on, forgot about
       	 1. break down git status, show what it looks like with no changes, some changes, explain commit right off
-      2. `git pull`: (see what others have been doing or what you did on a different machine) Needs network
-         1. shorthand for `git pull origin main`
+      2. `git pull`:
+      	 1. see what others have been doing or what you did on a different machine
+	 2. Needs network, Disney vpn
+         3. shorthand for `git pull origin main`
       3. do some work
       4. `git diff`: decide if everything you have done should be included in the same bundle of work.
       (the revision your prof asked for)
