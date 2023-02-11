@@ -3,13 +3,16 @@ An opinionated intro to git guide
 1. Why GIT - what problems does it solve
    1. cartoon, revision history
    2. multiple people working on one project
+      or one person, many computers
    3. enforce standards
-2. Install/configure GIT
-   Git from the command line, once you understand everything in this talk, feel free to use the gui :)
-   default editor
+2. Intro to GIT
    1. an aside about directories/folders 
       Still kind of feels like the messy folders in folders, files are misnamed.
    2. git vs repo vs github/gitlab
+   3. link to Install/configure GIT
+   4. tools
+      1. Git from the command line, once you understand everything in this talk, feel free to use the gui :)
+      2. default editor
 3. Working by myself
    1. New repo, first steps: create a repo, follow directions, take notes for new repo
    2. git structure: git clone will create a directory in the directory your terminal is currently showing
@@ -27,6 +30,11 @@ An opinionated intro to git guide
 	    decide you better save what you already have before going too far. Or you finish the hard part, and
 	    decide it would be better to keep it separate from the other changes.
 	 2. gitignore
+	 3. review the commit (slide):
+	    1. this saves stuff!
+	    2. security
+	    3. don't break things :)
+	    4. readme important
       5. git add: to make a bundle of work (just include the pages of the manuscript you made changes to)
       6. git commit: to verify that bundle of work
       (put a note on it: Sorry it took me so long to write that proof you asked for.)

@@ -57,7 +57,7 @@ to ping me on slack later for help.
 
 
 
-##Let's talk about the file system for a moment
+##Let's talk about the computer file system for a moment
 ![alt text](assets/color_coded_files.jpg "organized folders ©Elena Elisseeva | Dreamstime.com")
 
 
@@ -76,31 +76,31 @@ Git puts everything it needs to keep track of changes in a hidden directory call
 
 
 
-#Installation: I like GitLab's instructions, but others are available
+##Installation: I like GitLab's instructions, but others are available
 https://docs.gitlab.com/ee/topics/git/how_to_install_git/index.html
-#Full, well laid out tutorial
+##Full, well laid out tutorial
 https://docs.gitlab.com/ee/tutorials/make_your_first_git_commit.html
 
 
 
 
-##Choices I made for this Demo
+##Tools I chose for this Demo
 * Command line
 * Editor: emacs
-* Git Central Repo: Gitlab
+* Git Central Repo: GitLab
 
 
 
 
 #Let's create a repo
-command line: git init 
-https://gitlab.disney.com/projects/new
+* command line: git init 
+* https://gitlab.disney.com/projects/new 
 
 
 
 
 ##How to set up ssh keys for authenticating - Highly recommended
-###Gitlab
+###GitLab
 ####https://docs.gitlab.com/ee/user/ssh.html
 ###Github
 ####https://docs.github.com/en/authentication/connecting-to-github-with-ssh
