@@ -9,7 +9,7 @@ An opinionated intro to git guide
    1. an aside about directories/folders 
       Still kind of feels like the messy folders in folders, files are misnamed.
    2. git vs repo vs github/gitlab
-   3. link to Install/configure GIT
+   3. link to Install GIT
    4. tools
       1. Git from the command line, once you understand everything in this talk, feel free to use the gui :)
       2. default editor
@@ -27,8 +27,8 @@ An opinionated intro to git guide
       4. git diff: decide if everything you have done should be included in the same bundle of work.
       (the revision your prof asked for)
       	 1. imagine scenario where you are making the easy changes, then you start on the hard changes, and
-	    decide you better save what you already have before going too far. Or you finish the hard part, and
-	    decide it would be better to keep it separate from the other changes.
+	 decide you better save what you already have before going too far. Or you finish the hard part, and
+	 decide it would be better to keep it separate from the other changes.
 	 2. gitignore
 	 3. review the commit (slide):
 	    1. this saves stuff!
