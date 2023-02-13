@@ -183,10 +183,10 @@ https://docs.github.com/en/authentication/connecting-to-github-with-ssh
 ### Workflow continued
 | Command | Description |
 | ------- | --------- |
-| <font size= "10">`git diff` and/or `git status` </font> | tools to decide on content |
-| <font size= "10">`git add` </font> | select what's included |
-| <font size= "10">`git commit` </font> | add a descriptive note |
-| <font size= "10">`git push` </font> | add changes to the common repo  *needs network* |
+| <font size= "8">`git diff` and/or `git status` </font> | tools to decide on content |
+| <font size= "7">`git add` </font> | select what's included |
+| <font size= "6">`git commit` </font> | add a descriptive note |
+| <font size= "5">`git push` </font> | add changes to the common repo  *needs network* |
 
 
 
@@ -200,7 +200,7 @@ https://docs.github.com/en/authentication/connecting-to-github-with-ssh
 
 
 
-## Anatomy of a status response:
+## Anatomy of a status response
 | Output | Description |
 | ------ | --------- |
 | `On branch main` | which branch currently on |
