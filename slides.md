@@ -8,7 +8,7 @@
 
 
 # Outline
-* <span style="background-color: #B42E12">Introduction to GIT</span>
+* <span style="background-color: #C43415">Introduction to GIT</span>
 * Demonstration of using GIT
 
 Disclosure: This talk is about understanding how to use git, so I will not be going into
