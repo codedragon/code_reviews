@@ -186,7 +186,7 @@ https://docs.github.com/en/authentication/connecting-to-github-with-ssh
 | <font size= "6">`git diff` and/or `git status` </font> | tools to decide on content |
 | <font size= "6">`git add` </font> | select what's included |
 | <font size= "6">`git commit` </font> | add a descriptive note |
-| <font size= "6">`git push` </font> | add changes to the common repo  *needs network* |
+| <font size= "6">`git push` </font> | add changes to the common repo <span style="background-color: #E3735B">needs network</span> |
 
 
 
