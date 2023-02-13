@@ -8,7 +8,7 @@
 
 
 # Outline
-* Introduction to GIT
+* <span style="background-color: #B42E12">Introduction to GIT</span>
 * Demonstration of using GIT
 
 Disclosure: This talk is about understanding how to use git, so I will not be going into
@@ -112,6 +112,13 @@ https://docs.gitlab.com/ee/tutorials/make_your_first_git_commit.html
 * Command line
 * Editor: emacs
 * Git Central Repo: GitLab
+
+
+
+
+# Outline
+* Introduction to GIT
+* <span style="background-color: #B42E12">Demonstration of using GIT</span>
 
 
 
