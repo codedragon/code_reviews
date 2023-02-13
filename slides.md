@@ -153,22 +153,6 @@ https://docs.github.com/en/authentication/connecting-to-github-with-ssh
 
 
 
-## What's a commit?
-* one or more changes made to a repo
-* a revision
-* how the repo looks now that these changes have been made
-* a snapshot of your repo at a moment in time
-
-
-
-
-## Anatomy of a status response:
-* which branch currently on: *On branch main*
-* which branch following on remote: *Your branch is up to date with 'origin/main'.*
-* what files have changes not recorded in git: *Untracked files*
-* what files have changes that have been recorded in git: *
-
-
 ## Workflow
 * re-orient yourself to work
 * see if others have made changes
@@ -189,6 +173,25 @@ https://docs.github.com/en/authentication/connecting-to-github-with-ssh
 * git add: choose what will be in the change
 * git commit: add a note to your change about what you changed
 * git push: put your changes in the common repo *need network*
+
+
+
+
+## What's a commit?
+* one or more changes made to a repo
+* a revision
+* how the repo looks now that these changes have been made
+* a snapshot of your repo at a moment in time
+
+
+
+
+## Anatomy of a status response:
+* which branch currently on: *On branch main*
+* which branch following on remote, commits not pushed: *Your branch is up to date with 'origin/main'.*
+  or *Your branch is ahead of 'origin/main' by 1 commit.*
+* what files have changes that have been recorded in git: *Changes to be committed:*
+* what files have changes not recorded in git: *Untracked files*
 
 
 
