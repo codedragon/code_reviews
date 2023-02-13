@@ -203,10 +203,11 @@ https://docs.github.com/en/authentication/connecting-to-github-with-ssh
 ## Anatomy of a status response
 | Output | Description |
 | ------ | --------- |
-| <font size= "6">`On branch main`</font> | which branch currently on |
-| <font size= "6">`Your branch is up to date with 'origin/main'.` or `Your branch is ahead of 'origin/main' by 1 commit.`</font> | which branch following on remote, commits not pushed |
-| <font size= "6">`Changes to be committed:`</font> | what files have changes that have been recorded in git |
-| <font size= "6">`Untracked files`</font> | what files have changes not recorded in git |
+| <font size= "5">`On branch main`</font> | which branch currently on |
+| <font size= "5">`Your branch is up to date with 'origin/main'.` or  
+`Your branch is ahead of 'origin/main' by 1 commit.`</font> | which branch following on remote, commits not pushed |
+| <font size= "5">`Changes to be committed:`</font> | what files have changes that have been recorded in git |
+| <font size= "5">`Untracked files`</font> | what files have changes not recorded in git |
 
 
 
