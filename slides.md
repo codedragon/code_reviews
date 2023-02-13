@@ -23,12 +23,25 @@ to ping me on slack later for help.
 
 
 
+Problems with the "system" in the cartoon:
+* often not obvious which version contains which changes
+* often not easy to "revert" changes
+* often not clear who made what changes
+* often not clear how to combine changes from different versions
+
+
+
+
 ![alt text](assets/share_manuscript.png "One document, many authors")
 
 
 
 
-Version Control Systems
+## Version Control is
+## the practice of tracking and managing changes to software code.
+
+## Version control systems are
+## software tools that help software teams manage changes to source code over time.
 
 
 
