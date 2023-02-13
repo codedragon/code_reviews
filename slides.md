@@ -37,9 +37,9 @@ to ping me on slack later for help.
 
 
 
-## <span style="background-color: #E3735B">Version control</span>
+## <span style="background-color: #E3A95B">Version control</span>
 ## is the practice of tracking and managing changes to software code.
-## <span style="background-color: #E3735B">Version control systems</span>
+## <span style="background-color: #E3A95B">Version control systems</span>
 ## are software tools that help software teams manage changes to source code over time.
 
 
@@ -117,7 +117,7 @@ https://docs.gitlab.com/ee/tutorials/make_your_first_git_commit.html
 
 # Outline
 * Introduction to GIT
-* <span style="background-color: #E3735B">Demonstration of using GIT</span>
+* <span style="background-color: #E3A95B">Demonstration of using GIT</span>
 
 
 
@@ -173,8 +173,8 @@ https://docs.github.com/en/authentication/connecting-to-github-with-ssh
 ## Workflow
 | Command | Description |
 | ------- | --------- |
-| <font size= "8">`git status` </font> | re-orient yourself to work |
-| <font size= "8">`git pull` </font> | see if others have made changes <span style="background-color: #E3735B">needs network</span> |
+| <font size= "6">`git status` </font> | re-orient yourself to work |
+| <font size= "6">`git pull` </font> | see if others have made changes <span style="background-color: #E3735B">needs network</span> |
 |                                     | do work |
 
 
@@ -183,10 +183,10 @@ https://docs.github.com/en/authentication/connecting-to-github-with-ssh
 ### Workflow continued
 | Command | Description |
 | ------- | --------- |
-| <font size= "8">`git diff` and/or `git status` </font> | tools to decide on content |
-| <font size= "7">`git add` </font> | select what's included |
+| <font size= "6">`git diff` and/or `git status` </font> | tools to decide on content |
+| <font size= "6">`git add` </font> | select what's included |
 | <font size= "6">`git commit` </font> | add a descriptive note |
-| <font size= "5">`git push` </font> | add changes to the common repo  *needs network* |
+| <font size= "6">`git push` </font> | add changes to the common repo  *needs network* |
 
 
 
