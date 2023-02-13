@@ -23,7 +23,7 @@ to ping me on slack later for help.
 
 
 
-Problems with the "system" in the cartoon:
+## Problems with the "system" in the cartoon:
 * often not obvious which version contains which changes
 * often not easy to "revert" changes
 * often not clear who made what changes
@@ -37,11 +37,10 @@ Problems with the "system" in the cartoon:
 
 
 
-## Version Control is
-## the practice of tracking and managing changes to software code.
-
-## Version control systems are
-## software tools that help software teams manage changes to source code over time.
+## <span style="background-color: #C43415">Version control</span>
+## is the practice of tracking and managing changes to software code.
+## <span style="background-color: #C43415">Version control systems</span>
+## are software tools that help software teams manage changes to source code over time.
 
 
 
@@ -161,6 +160,13 @@ https://docs.github.com/en/authentication/connecting-to-github-with-ssh
 * a snapshot of your repo at a moment in time
 
 
+
+
+## Anatomy of a status response:
+* which branch currently on: *On branch main*
+* which branch following on remote: *Your branch is up to date with 'origin/main'.*
+* what files have changes not recorded in git: *Untracked files*
+* what files have changes that have been recorded in git: *
 
 
 ## Workflow
