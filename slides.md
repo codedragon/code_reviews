@@ -153,26 +153,26 @@ https://docs.github.com/en/authentication/connecting-to-github-with-ssh
 
 
 
-## Workflow
+### Workflow
 * re-orient yourself to work
 * see if others have made changes
 * do your work
-* decide if everything you did should be in the current change
+* decide on content for current change
 * choose what will be in the change
-* add a note to your change about what you changed
-* put your changes in the common repo so everyone can see your changes
+* add a descriptive note to your change
+* put your changes in the common repo so everyone sees your changes
 
 
 
 
-## Workflow
+### Workflow
 * git status: re-orient yourself to work
 * git pull: see if others have made changes *need network*
 * do work
-* git diff: decide if everything you did should be in the current change *optinal* 
-* git add: choose what will be in the change
-* git commit: add a note to your change about what you changed
-* git push: put your changes in the common repo *need network*
+* git diff: tool to decide on content *optional* 
+* git add: choose what's included
+* git commit: add a descriptive note
+* git push: add changes to the common repo *need network*
 
 
 
