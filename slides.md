@@ -197,6 +197,8 @@ https://docs.github.com/en/authentication/connecting-to-github-with-ssh
 
 
 ## Anatomy of a status response:
+| Output | Description |
+| ------ | --------- |
 | `On branch main` | which branch currently on |
 | `Your branch is up to date with 'origin/main'.` or `Your branch is ahead of 'origin/main' by 1 commit.` | which branch following on remote, commits not pushed |
 | `Changes to be committed:` | what files have changes that have been recorded in git |
