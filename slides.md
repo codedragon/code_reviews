@@ -171,7 +171,7 @@ https://docs.github.com/en/authentication/connecting-to-github-with-ssh
 
 
 ## Workflow
-* <span style="background-color: #E3735B">git status</span>: re-orient yourself to work
+* `git status`: re-orient yourself to work
 * <span style="background-color: #E3735B">git pull</span>: see if others have made changes  *needs network*
 * do work
 
@@ -179,7 +179,7 @@ https://docs.github.com/en/authentication/connecting-to-github-with-ssh
 
 
 ### Workflow continued
-* <span style="background-color: #E3735B">git diff *and/or* git status </span>: tools to decide on content  *optional*
+* <span style="background-color: #E3735B">git diff</span> *and/or* <span style="background-color: #E3735B">git status</span>: tools to decide on content
 * <span style="background-color: #E3735B">git add</span>: select what's included
 * <span style="background-color: #E3735B">git commit</span>: add a descriptive note
 * <span style="background-color: #E3735B">git push</span>: add changes to the common repo  *needs network*
