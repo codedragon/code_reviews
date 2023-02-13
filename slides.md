@@ -28,6 +28,11 @@ to ping me on slack later for help.
 
 
 
+Version Control Systems
+
+
+
+
 * Git keeps track of history
 * Serves as a backup
 * Assists you to create a system for easier collaboration
