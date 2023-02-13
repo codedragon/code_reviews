@@ -153,7 +153,7 @@ https://docs.github.com/en/authentication/connecting-to-github-with-ssh
 
 
 
-### Workflow
+## Workflow
 * re-orient yourself to work
 * see if others have made changes
 * do your work
@@ -170,19 +170,19 @@ https://docs.github.com/en/authentication/connecting-to-github-with-ssh
 
 
 
-### Workflow
-* git status: re-orient yourself to work
-* git pull: see if others have made changes  *needs network*
+## Workflow
+* <span style="background-color: #E3735B">git status</span>: re-orient yourself to work
+* <span style="background-color: #E3735B">git pull</span>: see if others have made changes  *needs network*
 * do work
 
 
 
 
 ### Workflow continued
-* git diff: tool to decide on content  *optional* 
-* git add: choose what's included
-* git commit: add a descriptive note
-* git push: add changes to the common repo  *needs network*
+* <span style="background-color: #E3735B">git diff</span>: tool to decide on content  *optional* 
+* <span style="background-color: #E3735B">git add</span>: choose what's included
+* <span style="background-color: #E3735B">git commit</span>: add a descriptive note
+* <span style="background-color: #E3735B">git push</span>: add changes to the common repo  *needs network*
 
 
 
