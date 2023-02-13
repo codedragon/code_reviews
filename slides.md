@@ -30,7 +30,7 @@ to ping me on slack later for help.
 
 * Git keeps track of history
 * Serves as a backup
-  (as long as you push your changes to at least one other machine)
+* Assists you to create a system for easier collaboration
 * Can be used to enforce standards
 
 
@@ -53,6 +53,12 @@ to ping me on slack later for help.
 
 
 ![alt text](assets/github_gitlab.png "Git repo, many authors")
+
+
+
+
+## More Definitions
+* Merge: Combine changes from more than one copy
 
 
 
@@ -93,7 +99,6 @@ https://docs.gitlab.com/ee/tutorials/make_your_first_git_commit.html
 
 
 # Let's create a repo
-* command line: `git init`
 * command line: <font size= "10">`git init` </font> 
 * https://gitlab.disney.com/projects/new
 * https://docs.github.com/en/get-started/quickstart/create-a-repo
