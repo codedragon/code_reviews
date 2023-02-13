@@ -204,7 +204,7 @@ https://docs.github.com/en/authentication/connecting-to-github-with-ssh
 | Output | Description |
 | ------ | --------- |
 | <font size= "5">`On branch main`</font> | branch currently on |
-| <font size= "5">`Your branch is up to date with 'origin/main'.`</font> or  | commits all pushed to branch 'origin/main'|
+| <font size= "5">`Your branch is up to date with 'origin/main'.`</font> | commits all pushed to branch 'origin/main'|
 | <font size= "5">`Your branch is ahead of 'origin/main' by 1 commit.`</font> | commits not pushed to branch 'origin/main' |
 | <font size= "5">`Changes not staged for commit:`</font> | files with changes that have not been tagged for commit |
 | <font size= "5">`Changes to be committed:`</font> | files with changes that have been tagged for commit |
