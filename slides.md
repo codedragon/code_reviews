@@ -93,8 +93,8 @@ to ping me on slack later for help.
 
 
 
-Git puts everything it needs to keep track of changes in a hidden directory called
-.git in the root directory of each repository
+## Git puts everything it needs to keep track of changes in a hidden directory called
+## .git in the root directory of each repository
 
 
 
@@ -163,7 +163,7 @@ https://docs.github.com/en/authentication/connecting-to-github-with-ssh
 
 ### Workflow continued
 * decide on content for current change
-* choose what will be in the change
+* select what will be in the change
 * add a descriptive note to your change
 * put your changes in the common repo so everyone sees your changes
 
@@ -179,8 +179,8 @@ https://docs.github.com/en/authentication/connecting-to-github-with-ssh
 
 
 ### Workflow continued
-* <span style="background-color: #E3735B">git diff</span>: tool to decide on content  *optional* 
-* <span style="background-color: #E3735B">git add</span>: choose what's included
+* <span style="background-color: #E3735B">git diff *and/or* git status </span>: tools to decide on content  *optional*
+* <span style="background-color: #E3735B">git add</span>: select what's included
 * <span style="background-color: #E3735B">git commit</span>: add a descriptive note
 * <span style="background-color: #E3735B">git push</span>: add changes to the common repo  *needs network*
 
@@ -197,11 +197,11 @@ https://docs.github.com/en/authentication/connecting-to-github-with-ssh
 
 
 ## Anatomy of a status response:
-* which branch currently on: *On branch main*
-* which branch following on remote, commits not pushed: *Your branch is up to date with 'origin/main'.*
+which branch currently on: *On branch main*
+which branch following on remote, commits not pushed: *Your branch is up to date with 'origin/main'.*
   or *Your branch is ahead of 'origin/main' by 1 commit.*
-* what files have changes that have been recorded in git: *Changes to be committed:*
-* what files have changes not recorded in git: *Untracked files*
+what files have changes that have been recorded in git: *Changes to be committed:*
+what files have changes not recorded in git: *Untracked files*
 
 
 
