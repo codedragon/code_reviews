@@ -26,7 +26,7 @@ to ping me on slack later for help.
 ## Problems with the "system" in the cartoon:
 * often not obvious which version contains which changes
 * often not easy to "revert" changes
-* often not clear who made what changes
+* often not clear who changed what
 * often not clear how to combine changes from different versions
 
 
@@ -37,9 +37,9 @@ to ping me on slack later for help.
 
 
 
-## <span style="background-color: #C43415">Version control</span>
+## <span style="background-color: #E3735B">Version control</span>
 ## is the practice of tracking and managing changes to software code.
-## <span style="background-color: #C43415">Version control systems</span>
+## <span style="background-color: #E3735B">Version control systems</span>
 ## are software tools that help software teams manage changes to source code over time.
 
 
@@ -117,7 +117,7 @@ https://docs.gitlab.com/ee/tutorials/make_your_first_git_commit.html
 
 # Outline
 * Introduction to GIT
-* <span style="background-color: #B42E12">Demonstration of using GIT</span>
+* <span style="background-color: #E3735B">Demonstration of using GIT</span>
 
 
 
@@ -157,6 +157,11 @@ https://docs.github.com/en/authentication/connecting-to-github-with-ssh
 * re-orient yourself to work
 * see if others have made changes
 * do your work
+
+
+
+
+### Workflow continued
 * decide on content for current change
 * choose what will be in the change
 * add a descriptive note to your change
@@ -167,12 +172,17 @@ https://docs.github.com/en/authentication/connecting-to-github-with-ssh
 
 ### Workflow
 * git status: re-orient yourself to work
-* git pull: see if others have made changes *need network*
+* git pull: see if others have made changes  *needs network*
 * do work
-* git diff: tool to decide on content *optional* 
+
+
+
+
+### Workflow continued
+* git diff: tool to decide on content  *optional* 
 * git add: choose what's included
 * git commit: add a descriptive note
-* git push: add changes to the common repo *need network*
+* git push: add changes to the common repo  *needs network*
 
 
 
