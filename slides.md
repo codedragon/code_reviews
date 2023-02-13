@@ -197,11 +197,10 @@ https://docs.github.com/en/authentication/connecting-to-github-with-ssh
 
 
 ## Anatomy of a status response:
-which branch currently on: *On branch main*
-which branch following on remote, commits not pushed: *Your branch is up to date with 'origin/main'.*
-  or *Your branch is ahead of 'origin/main' by 1 commit.*
-what files have changes that have been recorded in git: *Changes to be committed:*
-what files have changes not recorded in git: *Untracked files*
+| `On branch main` | which branch currently on |
+| `Your branch is up to date with 'origin/main'.` or `Your branch is ahead of 'origin/main' by 1 commit.` | which branch following on remote, commits not pushed |
+| `Changes to be committed:` | what files have changes that have been recorded in git |
+| `Untracked files` | what files have changes not recorded in git |
 
 
 
