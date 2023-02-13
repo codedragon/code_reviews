@@ -8,7 +8,7 @@
 
 
 # Outline
-* <span style="background-color: #E3735B">Introduction to GIT</span>
+* <span style="background-color: #E3A95B">Introduction to GIT</span>
 * Demonstration of using GIT
 
 Disclosure: This talk is about understanding how to use git, so I will not be going into
@@ -173,8 +173,8 @@ https://docs.github.com/en/authentication/connecting-to-github-with-ssh
 ## Workflow
 | Command | Description |
 | ------- | --------- |
-| <font size= "10">`git status` </font> | re-orient yourself to work |
-| <font size= "10">`git pull` </font> | see if others have made changes <span style="background-color: #E3735B">needs network</span> |
+| <font size= "8">`git status` </font> | re-orient yourself to work |
+| <font size= "8">`git pull` </font> | see if others have made changes <span style="background-color: #E3735B">needs network</span> |
 |                                     | do work |
 
 
