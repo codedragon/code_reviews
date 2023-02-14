@@ -75,7 +75,16 @@ to ping me on slack later for help.
 
 
 ## More Definitions
-* Merge: Combine changes from more than one copy
+* Merge: Combine changes from two copies of a repo
+
+
+
+
+## What's a commit?
+* one or more changes made to a repo at one time
+* a revision
+* how the repo looks now that these changes have been made
+* a snapshot of your repo at a moment in time
 
 
 
@@ -99,6 +108,13 @@ to ping me on slack later for help.
 
 
 
+# Outline
+* Introduction to GIT
+* <span style="background-color: #E3A95B">Demonstration of using GIT</span>
+
+
+
+
 ## Installation: I like GitLab's instructions, but others are available
 https://docs.gitlab.com/ee/topics/git/how_to_install_git/index.html
 ## Full, well laid out tutorial
@@ -111,13 +127,6 @@ https://docs.gitlab.com/ee/tutorials/make_your_first_git_commit.html
 * Command line
 * Editor: emacs
 * Git Central Repo: GitLab
-
-
-
-
-# Outline
-* Introduction to GIT
-* <span style="background-color: #E3A95B">Demonstration of using GIT</span>
 
 
 
@@ -140,7 +149,7 @@ https://docs.github.com/en/authentication/connecting-to-github-with-ssh
 
 
 ## What's an origin?
-* shorthand name for remote repo a project was cloned from
+* shorthand name for the address of the remote repo a project was cloned from
 * default for further communication
 * name is just a convention
 
@@ -175,7 +184,7 @@ https://docs.github.com/en/authentication/connecting-to-github-with-ssh
 | ------- | --------- |
 | <font size= "6">`git status` </font> | re-orient yourself to work |
 | <font size= "6">`git pull` </font> | see if others have made changes <span style="background-color: #E3735B">needs network</span> |
-|                                     | do work |
+|         | do work |
 
 
 
@@ -191,21 +200,13 @@ https://docs.github.com/en/authentication/connecting-to-github-with-ssh
 
 
 
-## What's a commit?
-* one or more changes made to a repo
-* a revision
-* how the repo looks now that these changes have been made
-* a snapshot of your repo at a moment in time
-
-
-
-
 ## Anatomy of a status response
 | Output | Description |
 | ------ | --------- |
 | <font size= "5">`On branch main`</font> | branch currently on |
-| <font size= "5">`Your branch is up to date with 'origin/main'.`</font> | commits all pushed to branch 'origin/main'|
-| <font size= "5">`Your branch is ahead of 'origin/main' by 1 commit.`</font> | commits not pushed to branch 'origin/main' |
+| <font size= "5">`Your branch is up to date with 'origin/main'.`</font> | commits all pushed to branch 'address/branch'|
+| <font size= "5">`Your branch is ahead of 'origin/main' by 1 commit.`</font> | commits not pushed to branch 'address/branch' |
+* up-to-date with the upstream status that was retrieved last time we "talked" to the origin
 
 
 
