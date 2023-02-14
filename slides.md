@@ -256,6 +256,10 @@ https://docs.github.com/en/authentication/connecting-to-github-with-ssh
 | Command | Description |
 | ------- | ----------- |
 | <font size= "5">`git merge branchname`</font> | brings changes from branchname into current branch |
+
+
+
+
 # Thank you
 ## A git pull a day keeps the conflicts away
 
