@@ -228,6 +228,19 @@ https://docs.github.com/en/authentication/connecting-to-github-with-ssh
 
 
 
+## Other Useful Git Commands
+
+| Command | Description |
+| ------- | ----------- |
+| <font size= "5">`git checkout filename`</font> | reverts filename to last commit |
+| <font size= "5">`git branch`</font> | shows all local branchs, highlights current |
+| <font size= "5">`git switch branchname`</font> | switch to a different branch |
+| <font size= "5">`git switch -c branchname`</font> | switch to a new branch named branchname |
+| <font size= "5">`git merge branchname`</font> | brings changes from branchname into current branch |
+ 
+
+
+
 # Thank you
 ## A git pull a day keeps the conflicts away
 
