@@ -185,7 +185,7 @@ https://docs.github.com/en/authentication/connecting-to-github-with-ssh
 | Command | Description |
 | ------- | --------- |
 | <font size= "6">`git status` </font> | re-orient yourself to work |
-| <font size= "6">`git pull origin main`</font> or <font size= "6">`git pull`</font> | see if others have made changes <span style="background-color: #E3735B">needs network</span> |
+| <font size= "6">`git pull`</font> or<br> <font size= "5">`git pull origin main`</font> | see if others have made changes <span style="background-color: #E3735B">needs network</span> |
 |         | do work |
 
 
@@ -194,7 +194,7 @@ https://docs.github.com/en/authentication/connecting-to-github-with-ssh
 ### Workflow continued
 | Command | Description |
 | ------- | --------- |
-| <font size= "6">`git diff` and/or `git status` </font> | tools to proofread, decide on content |
+| <font size= "6">`git diff` and/or<br> `git status` </font> | tools to proofread, decide on content |
 | <font size= "6">`git add` </font> | select what's included |
 | <font size= "6">`git commit -m` </font> | add a descriptive note |
 | <font size= "6">`git push` </font> | add changes to the common repo <span style="background-color: #E3735B">needs network</span> |
