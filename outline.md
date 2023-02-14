@@ -29,13 +29,13 @@ Outline
       2. default editor
    3. create a repo
       1. demo gitlab
+	 1. readme important
       2. ssh keys
       3. what's an origin?
       4. demo it
    4. Workflow
       1. Without git commands
       2. With git commands
-      	 
       3. demo it
       	 1. `git status`: check to see what you were working on, forgot about
 	    1. slide
@@ -47,27 +47,21 @@ Outline
 	 4. proofread/decide on content
       	    1. `git diff`: decide if everything you have done should be included in the same bundle of work.
       	       (the revision your prof asked for)
+	       1. Security: git saves everything, so don't even temporarily save passwords, tokens, sensitive data
       	    2. imagine scenario where you are making the easy changes, then you start on the hard changes, and
 	    decide you better save what you already have before going too far. Or you finish the hard part, and
 	    decide it would be better to keep it separate from the other changes.
 	    3. git status
 	       1. break down git status, show what it looks like with no changes, some changes
 	    4. .gitignore
-	 3. review the commit (slide):
-	    1. this saves stuff!
-	    2. security
-	    3. don't break things :)
-	    4. readme important
-      5. `git add`: to make a bundle of work (just include the pages of the manuscript you made changes to)
-      6. `git commit -m "my commit message"`: to verify that bundle of work, will dump in editor without `-m "my commit message"`
+      	 5. `git add`: to make a bundle of work (just include the pages of the manuscript you made changes to)
+      	 6. `git commit -m "my commit message"`: to verify that bundle of work, will dump in editor without `-m "my commit message"`
       (put a note on it: Sorry it took me so long to write that proof you asked for.)
-      7. `git push`: send it up to a central repository (mail that manuscript) Needs network
+      	 7. `git push`: send it up to a central repository (mail that manuscript) Needs network
 4. Working with others
    1. How different
    2. Get existing repo
    3. Branches (Main not Master)
    4. workflow
 5. Security
-   1. git saves everything, so don't even temporarily save passwords, tokens, sensitive data
-
-
+   
