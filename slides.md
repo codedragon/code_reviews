@@ -105,6 +105,8 @@ to ping me on slack later for help.
 ## Git puts everything it needs to keep track of changes in a hidden directory called
 ## .git in the root directory of each repository
 
+## ~/.gitconfig
+
 
 
 
@@ -171,7 +173,7 @@ https://docs.github.com/en/authentication/connecting-to-github-with-ssh
 
 
 ### Workflow continued
-* decide on content for current change
+* proofread, decide on content for current change
 * select what will be in the change
 * add a descriptive note to your change
 * put your changes in the common repo so everyone sees your changes
@@ -183,7 +185,7 @@ https://docs.github.com/en/authentication/connecting-to-github-with-ssh
 | Command | Description |
 | ------- | --------- |
 | <font size= "6">`git status` </font> | re-orient yourself to work |
-| <font size= "6">`git pull` </font> | see if others have made changes <span style="background-color: #E3735B">needs network</span> |
+| <font size= "6">`git pull origin main`</font> or <font size= "6">`git pull`</font> | see if others have made changes <span style="background-color: #E3735B">needs network</span> |
 |         | do work |
 
 
@@ -192,10 +194,15 @@ https://docs.github.com/en/authentication/connecting-to-github-with-ssh
 ### Workflow continued
 | Command | Description |
 | ------- | --------- |
-| <font size= "6">`git diff` and/or `git status` </font> | tools to decide on content |
+| <font size= "6">`git diff` and/or `git status` </font> | tools to proofread, decide on content |
 | <font size= "6">`git add` </font> | select what's included |
 | <font size= "6">`git commit` </font> | add a descriptive note |
 | <font size= "6">`git push` </font> | add changes to the common repo <span style="background-color: #E3735B">needs network</span> |
+
+
+
+
+# Demo
 
 
 

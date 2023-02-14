@@ -1,38 +1,58 @@
 An opinionated intro to git guide
 
-1. Why GIT - what problems does it solve
+Outline
+
+1. Introduction
    1. cartoon, revision history
-   2. multiple people working on one project
-      or one person, many computers
-   3. enforce standards
-2. Intro to GIT
-   1. an aside about directories/folders 
-      Still kind of feels like the messy folders in folders, files are misnamed.
-   2. git vs repo vs github/gitlab
-   3. link to Install GIT
-   4. tools
+   2. Why GIT - what problems does it solve
+      1. problems with system in cartoon
+      2. multiple people working on one project
+         or one person, many computers
+      3. Version Control
+      4. purpose
+   3. Definitions
+      1. Repo vs Git vs GitHub
+   4. Concepts
+      1. many people, one shared repo address
+      2. Merge
+      3. Commit
+      4. .git folder
+      	 1. an aside about directories/folders
+            Still kind of feels like the messy folders in folders, files are misnamed.
+      	 2. git structure: git clone will create a directory in the directory your terminal is currently showing
+	 3. configuration, keeps track of repo history
+	 4. you can safely move an entire repo around on your computer 
+2. Demo
+   1. link to Install GIT
+   2. tools
       1. Git from the command line, once you understand everything in this talk, feel free to use the gui :)
       2. default editor
-3. Working by myself
-   1. New repo, first steps: create a repo, follow directions, take notes for new repo
-   2. git structure: git clone will create a directory in the directory your terminal is currently showing
-   3. .git folder "hidden"
-      1. configuration, keeps track of repo history
-      2. you can safely move an entire repo around on your computer 
-   4. workflow
-      1. `git status`: check to see what you were working on, forgot about
-      	 1. break down git status, show what it looks like with no changes, some changes, explain commit right off
-      2. `git pull`:
-      	 1. see what others have been doing or what you did on a different machine
-	 2. Needs network, Disney vpn
-         3. shorthand for `git pull origin main`
-      3. do some work
-      4. `git diff`: decide if everything you have done should be included in the same bundle of work.
-      (the revision your prof asked for)
-      	 1. imagine scenario where you are making the easy changes, then you start on the hard changes, and
-	 decide you better save what you already have before going too far. Or you finish the hard part, and
-	 decide it would be better to keep it separate from the other changes.
-	 2. gitignore
+   3. create a repo
+      1. demo gitlab
+      2. ssh keys
+      3. what's an origin?
+      4. demo it
+   4. Workflow
+      1. Without git commands
+      2. With git commands
+      	 
+      3. demo it
+      	 1. `git status`: check to see what you were working on, forgot about
+	    1. slide
+	 2. `git pull`:
+      	    1. see what others have been doing or what you did on a different machine
+	    2. Needs network, Disney vpn
+            3. shorthand for `git pull origin main`
+      	 3. do some work
+	 4. proofread/decide on content
+      	    1. `git diff`: decide if everything you have done should be included in the same bundle of work.
+      	       (the revision your prof asked for)
+      	    2. imagine scenario where you are making the easy changes, then you start on the hard changes, and
+	    decide you better save what you already have before going too far. Or you finish the hard part, and
+	    decide it would be better to keep it separate from the other changes.
+	    3. git status
+	       1. break down git status, show what it looks like with no changes, some changes
+	    4. .gitignore
 	 3. review the commit (slide):
 	    1. this saves stuff!
 	    2. security
