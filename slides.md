@@ -221,7 +221,7 @@ https://docs.github.com/en/authentication/connecting-to-github-with-ssh
 
 
 # Thank you
-# Good luck on your journey to get git
+# A git pull a day keeps the conflicts away
 
 ### https://codedragon.github.io/beginning_git
 ### maria@mariakathryn.net
