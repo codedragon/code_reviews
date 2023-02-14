@@ -84,7 +84,7 @@ to ping me on slack later for help.
 * one or more changes made to a repo at one time
 * a revision
 * how the repo looks now that these changes have been made
-* a snapshot of your repo at a moment in time
+* a snapshot of a repo at one moment
 
 
 
@@ -213,7 +213,7 @@ https://docs.github.com/en/authentication/connecting-to-github-with-ssh
 | <font size= "5">`On branch main`</font> | branch currently on |
 | <font size= "5">`Your branch is up to date with 'origin/main'.`</font> | commits all pushed to branch 'address/branch'|
 | <font size= "5">`Your branch is ahead of 'origin/main' by 1 commit.`</font> | commits not pushed to branch 'address/branch' |
-* up-to-date with the upstream status that was retrieved last time we "talked" to the origin
+#### * up-to-date with the upstream status that was retrieved last time we "talked" to the origin
 
 
 
