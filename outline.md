@@ -58,10 +58,7 @@ Outline
       	 6. `git commit -m "my commit message"`: to verify that bundle of work, will dump in editor without `-m "my commit message"`
       (put a note on it: Sorry it took me so long to write that proof you asked for.)
       	 7. `git push`: send it up to a central repository (mail that manuscript) Needs network
-4. Working with others
-   1. How different
-   2. Get existing repo
-   3. Branches (Main not Master)
-   4. workflow
-5. Security
-   
+   5. Working with others
+      1. How different
+      2. Get existing repo
+      3. Branches (Main not Master)
