@@ -266,6 +266,7 @@ https://docs.github.com/en/authentication/connecting-to-github-with-ssh
 
 | Command | Description |
 | ------- | ----------- |
+| <font size= "5">`git clone repo_address`</font> | create a directory containing a new repo from repo_address |
 | <font size= "5">`git merge branchname`</font> | brings changes from branchname into current branch |
 
 
