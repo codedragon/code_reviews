@@ -1,5 +1,5 @@
 # Introduction to GIT
-### An opionated guide
+### Git into Good Habits
 
 ## Maria Mckinley
 ## Assisted by Franco Mattos Neto
