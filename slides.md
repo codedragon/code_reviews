@@ -228,6 +228,17 @@ https://docs.github.com/en/authentication/connecting-to-github-with-ssh
 
 
 
+## Workflow Condensed
+| Before Work | After Work |
+| ------- | --------- |
+| <font size= "5">`git status` </font> | <font size= "5">`git diff` and/or<br> `git status` </font> |
+| <font size= "5">`git pull`</font> | <font size= "5">`git add` </font> |
+| do work | <font size= "5">`git commit -m` </font> |
+|         | <font size= "5">`git push` </font> |
+
+
+
+
 ## Git Branching
 ![alt text](assets/git_branch.png "git branching")
 
