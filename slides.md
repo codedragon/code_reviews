@@ -32,7 +32,7 @@
 
 
 
-![Mental Model of Tree by Child](assets/TreeByChild.jpg "xmas tree with presents drawn by 'child'") 
+![Mental Model of Tree by Child](assets/TreeByChild.JPG "xmas tree with presents drawn by 'child'") 
 
 
 
