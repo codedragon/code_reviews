@@ -1,24 +1,25 @@
-# Introduction to GIT
-### Git into Good Habits
+# Code Reviews
+### The Art and the Science
 
 ## Maria Mckinley
-## Assisted by Franco Mattos Neto
+## Staff Software Engineer and SRE at Disney
 
 
 
 
 # Outline
-* <span style="background-color: #E3A95B">Introduction to GIT</span>
-* Demonstration of using GIT
-
-Disclosure: This talk is about understanding how to use git, so I will not be going into
-certain details, like installing git. I will have links for instructions and feel free
-to ping me on slack later for help.
-
-
+* <span style="background-color: #E3A95B">Code Reviews</span>
+* Mental Models
+* The trials of code reviews
+* But, why?
+* About Failure
+* Making Code Reviews better
 
 
-![alt text](assets/final_doc.gif "'Piled Higher and Deeper' by Jorge Cham www.phdcomics.com")
+
+
+![alt text](assets/child_tree.jpg "xmas tree with presents drawn by 'child'") 
+![alt text](assets/PartsOfTree.jpeg "parts of tree by scientist")
 
 
 
