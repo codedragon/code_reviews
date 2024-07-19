@@ -8,7 +8,6 @@
 
 
 # Outline
-* <span style="background-color: #E3A95B">Code Reviews</span>
 * Mental Models
 * The trials of code reviews
 * But, why?
@@ -18,22 +17,22 @@
 
 
 
-![Tree by Scientist](assets/TreeByChild.jpg "xmas tree with presents drawn by 'child'") 
-![Tree by Child](assets/PartsOfTree.jpeg "parts of tree by scientist")
+# Outline
+* <span style="background-color: #E3A95B">Mental Models</span>
+* The trials of code reviews
+* But, why?
+* About Failure
+* Making Code Reviews better
 
 
 
 
-## Problems with the "system" in the cartoon:
-* often not obvious which version contains which changes
-* often not easy to "revert" changes
-* often not clear who changed what
-* often not clear how to combine changes from different versions
+![Mental Model of Tree by Scientist](assets/PartsOfTree.jpeg "parts of tree by scientist")
 
 
 
 
-![alt text](assets/share_manuscript.png "One document, many authors")
+![Mental Model of Tree by Child](assets/TreeByChild.jpg "xmas tree with presents drawn by 'child'") 
 
 
 
@@ -111,9 +110,6 @@
 
 
 
-# Outline
-* Introduction to GIT
-* <span style="background-color: #E3A95B">Demonstration of using GIT</span>
 
 
 
