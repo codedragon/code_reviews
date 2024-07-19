@@ -18,8 +18,8 @@
 
 
 
-![alt text](assets/TreeByChild.jpg "xmas tree with presents drawn by 'child'") 
-![alt text](assets/PartsOfTree.jpeg "parts of tree by scientist")
+![Tree by Scientist](assets/TreeByChild.jpg "xmas tree with presents drawn by 'child'") 
+![Tree by Child](assets/PartsOfTree.jpeg "parts of tree by scientist")
 
 
 
