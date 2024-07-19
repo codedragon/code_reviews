@@ -7,7 +7,7 @@ https://github.com/MaptimeCalgary/presentation-example
 Please go there for the original slide framwork example
 
 To see my slides:
-https://codedragon.github.io/beginning_git/#/
+https://codedragon.github.io/code_review/#/
 
 To see changes push to gh-pages
 git push origin gh-pages
