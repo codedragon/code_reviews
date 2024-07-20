@@ -92,7 +92,7 @@
 
 
 <!-- .slide: data-background-image="assets/newspaper.jpg"
-     	     background-size="cover"
+     	     background-size="100% auto"
 	     background-repeat="no-repeat"-->
 # Developer failed!
 ## fear of failure
