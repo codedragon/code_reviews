@@ -27,11 +27,13 @@
 
 
 
+## Mental Model of a Tree by a Scientist
 ![Mental Model of Tree by Scientist](assets/PartsOfTree.jpeg "parts of tree by scientist")
 
 
 
 
+## Mental Model of a Tree by a Child
 ![Mental Model of Tree by Child](assets/TreeByChild.JPG "xmas tree with presents drawn by 'child'") 
 
 
