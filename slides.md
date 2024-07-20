@@ -37,26 +37,56 @@
 
 
 
-## <span style="background-color: #E3A95B">Version control</span>
-## is the practice of tracking and managing changes to software code.
-## <span style="background-color: #E3A95B">Version control systems</span>
-## are software tools that help software teams manage changes to source code over time.
+## <span style="background-color: #E3A95B">Code Reviews</span>
+## According to Gitlab:
+## A code review is a peer review of code that helps developers ensure or improve the
+## code quality before they merge and ship it.
 
 
 
 
-* Git keeps track of history
-* Serves as a backup
-* Assists you to create a system for easier collaboration
-* Can be used to enforce standards
+## <span style="background-color: #E3A95B">Code Reviews</span>
+## A better mental model:
+## A code review is a way for a team to share knowledge and learn together in order to
+## ensure the quality of the code they are shipping before they ship it.
 
 
 
 
-## Some definitions
-* Repo (Repository): a collection of files and folders that make a body of work
-* Git:  a tool for saving history along with the body of work
-* GitHub/GitLab:  a repository copy that everyone can reach and use
+## Emphasize team growth and learning over code quality.
+
+
+
+
+## Lots of research backs up the importance of teamwork on software development
+### Leave it as an exercise for the audience, good place to start:
+### https://www.atlassian.com/blog/teamwork/the-importance-of-teamwork
+
+
+
+
+## I want to convince you that code reviews can be the pathway to a better team
+
+
+
+
+# Outline
+* Mental Models
+* <span style="background-color: #E3A95B">The trials of code reviews</span>
+* But, why?
+* About Failure
+* Making Code Reviews better
+
+
+
+
+## What makes code reviews hard?
+
+
+
+
+<!-- .slide: data-background="newspaper-412811_1280.jpg" -->
+# Developer panics!
 
 
 
