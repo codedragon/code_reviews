@@ -86,29 +86,42 @@
 
 
 
-<!-- .slide: data-background-image="assets/newspaper-412811_1280.jpg"
+## Wait, am I paid to think?
+
+
+
+
+<!-- .slide: data-background-image="assets/newspaper.jpg"
      	     background-size="contain"
 	     background-repeat="no-repeat"-->
-# Developer panics!
+# Developer failed!
+## fear of failure
+## fear of bad news
 
 
 
 
-## Some important concepts
-* All contributers have their own repo copy, including GitHub/GitLab
-* Contributers are responsible to keep local copy aligned with central
-* The more contributer's copies diverge, the more painful syncing
+<!-- .slide: data-background-image="assets/newspaper.jpg"
+     	     background-size="contain"
+	     background-repeat="no-repeat"-->
+# Developer gets in an argument!
+# fear of conflict
+# actual conflict, squables
 
 
 
 
-![alt text](assets/github_gitlab.png "Git repo, many authors")
+<!-- .slide: data-background-image="assets/newspaper.jpg"
+     	     background-size="contain"
+	     background-repeat="no-repeat"-->
+# Developer runs out of time!
+## fear of losing
+## fear of deadlines
 
 
 
 
-## More Definitions
-* Merge: Combine changes from two copies of a repo
+![alt text](assets/frazz.gif "FRAZZ © Jef Mallett. Dist. By ANDREWS MCMEEL SYNDICATION. Reprinted with permission. All rights reserved.")
 
 
 
@@ -123,7 +136,7 @@
 
 
 ## Let's talk about the computer file system for a moment
-![alt text](assets/color_coded_files.jpg "organized folders ©Elena Elisseeva | Dreamstime.com")
+
 
 
 
