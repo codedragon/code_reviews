@@ -39,7 +39,6 @@
 
 
 
-## <span style="background-color: #E3A95B">Code Reviews</span>
 ## According to Gitlab:
 ## A code review is a peer review of code that helps developers ensure or improve the
 ## code quality before they merge and ship it.
@@ -47,7 +46,6 @@
 
 
 
-## <span style="background-color: #E3A95B">Code Reviews</span>
 ## A better mental model:
 ## A code review is a way for a team to share knowledge and learn together in order to
 ## ensure the quality of the code they are shipping before they ship it.
@@ -56,6 +54,7 @@
 
 
 ## Emphasize team growth and learning over code quality.
+## Code quality follows from team quality
 
 
 
