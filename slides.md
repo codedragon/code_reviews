@@ -47,8 +47,8 @@
 
 
 ## A better mental model:
-## A code review is a way for a team to share knowledge and learn together in order to
-## ensure the quality of the code they are shipping before they ship it.
+## A code review is a way for a team to share knowledge, learn together and
+## assess the quality of the code they are shipping before they ship it.
 
 
 
@@ -92,7 +92,7 @@
 
 
 <!-- .slide: data-background-image="assets/newspaper.jpg"
-     	     background-size="contain"
+     	     background-size="cover"
 	     background-repeat="no-repeat"-->
 # Developer failed!
 ## fear of failure
@@ -126,11 +126,12 @@
 
 
 
-## What's a commit?
-* one or more changes made to a repo at one time
-* a revision
-* how the repo looks now that these changes have been made
-* a snapshot of a repo at one moment
+## Why? Blindspots
+* fixed mindset vs growth mindset 
+* expectation we are done learning when we leave school
+* not taught how to productively disagree
+* image of code guru producing entire operating systems in basement
+
 
 
 
