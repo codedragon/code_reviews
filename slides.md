@@ -86,7 +86,7 @@
 
 
 
-<!-- .slide: data-background="newspaper-412811_1280.jpg" -->
+<!-- .slide: data-background-image="assets/newspaper-412811_1280.jpg" -->
 # Developer panics!
 
 
