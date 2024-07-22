@@ -138,7 +138,7 @@ Frazz by Jef Mallett
 ![sprout](assets/sprout.jpg "sprout")
 
 ### fixed mindset vs growth mindset
-### https://hiddenbrain.org/podcast/innovation-2-0-multiplying-the-growth-mindset/
+#### https://hiddenbrain.org/podcast/innovation-2-0-multiplying-the-growth-mindset/
 ### expectation we are done learning when we leave school
 
 
@@ -179,6 +179,31 @@ https://news.hiddenbrain.org/i/43578267/brain-waves
 
 
 ![despair](assets/mistakes.jpg "Mistakes warning to others")
+
+
+
+
+## Easier to learn from each other's mistakes
+## Beneficial that you see other people make mistakes
+
+
+
+
+## Your new mantra:
+## The code failed.
+
+
+
+
+## Mental Model: Failure is something for us to overcome
+## Better Mental Model: Failure is a teaching tool
+* Troubleshooting
+* Systematically figuring out what does not work
+
+
+
+
+# what have we learned?
 
 
 
