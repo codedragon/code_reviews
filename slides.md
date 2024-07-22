@@ -1,6 +1,6 @@
 # Code Reviews
 ### The Art and the Science
-<img src="assets/mentimeter_qr_code.pn alt="https://www.menti.com/aln9atdjq7dp" width="300" height="auto">
+![What comes to mind when I say Code Reviews](assets/mentimeter_qr_code.png "https://www.menti.com/aln9atdjq7dp" =300x200)
 ## Maria Mckinley
 ## Staff Software Engineer and SRE at Disney
 
