@@ -91,7 +91,7 @@
 
 
 
-<!-- .slide: data-background-image="assets/headline_news.jpg"-->
+<!-- .slide: data-background-image="assets/breaking.jpg"-->
 
 ---
 ## Developer failed!
@@ -101,22 +101,18 @@
 
 
 
-<!-- .slide: data-background-image="assets/newspaper.jpg"
-     	     background-size="contain"
-	     background-repeat="no-repeat"-->
-# Developer gets in an argument!
-# fear of conflict
-# actual conflict, squables
+<!-- .slide: data-background-image="assets/headline_news.jpg"-->
+## Developer gets in an argument!
+### fear of conflict
+### actual conflict, squables
 
 
 
 
-<!-- .slide: data-background-image="assets/newspaper.jpg"
-     	     background-size="contain"
-	     background-repeat="no-repeat"-->
-# Developer runs out of time!
-## fear of losing
-## fear of deadlines
+<!-- .slide: data-background-image="assets/headline_news.jpg"-->
+## Developer runs out of time!
+### fear of losing
+### fear of deadlines
 
 
 
