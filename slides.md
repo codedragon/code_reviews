@@ -179,6 +179,11 @@ Learn more from failure than success
 
 
 
+![despair](https://despair.com/collections/demotivators/products/mistakes?variant=2457302467 "Mistakes warning to others")
+
+
+
+
 # Thank you
 
 ### https://codedragon.github.io/code_reviews
