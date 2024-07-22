@@ -92,7 +92,7 @@
 
 
 <!-- .slide: data-background-image="assets/newspaper.jpg"
-     	     background-size="100% auto"
+     	     background-size="150% auto"
 	     background-repeat="no-repeat"-->
 # Developer failed!
 ## fear of failure
@@ -142,7 +142,7 @@
 
 
 
-![alt text](assets/messy-file-folder.jpeg "Messy File Folders")
+
 
 
 
