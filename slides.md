@@ -157,6 +157,11 @@ https://news.hiddenbrain.org/i/43578267/brain-waves
 
 
 
+* taught to think of team members as our competition
+
+
+
+
 # Outline
 * Mental Models
 * The trials of code reviews
@@ -209,22 +214,23 @@ https://news.hiddenbrain.org/i/43578267/brain-waves
 
 ## Fundamentally, we take criticism too personally
 ## Ways to separate our work from our selves
-* we are not the code we write
-* we are working on something bigger than ourselves
+### we are not the code we write
+### we are working on something bigger than ourselves
 
 
 
 
 # what have we learned about failure?
-* We can learn more from failure than success
-* We can learn more from other's failures
-* Helps everyone to see that everyone makes mistakes
+### We learn more from failure than success
+### We learn more from other's failures
+### Helps everyone to see that everyone makes mistakes
 
 
 
 
 * Learn to think of your code separate from you
 * Focus on your team, your project
+* Learn to disagree constructively
 * Difficult discussions is where growth and learning happen
 
 
@@ -240,7 +246,7 @@ https://news.hiddenbrain.org/i/43578267/brain-waves
 
 
 
-## Things to keep in mind when doing code reviews
+## Big picture when doing code reviews
 * We are all humans that are taught to fear failure, be kind
 * terse communication can feel like an attack
 * switch from async to sync
@@ -249,7 +255,7 @@ https://news.hiddenbrain.org/i/43578267/brain-waves
 
 
 
-Review the code reviews, retrospective
+## Review the code reviews, retrospective
 * long back and forths in writing: talk instead!
 * bike shedding
 * rubber stamping
@@ -257,7 +263,7 @@ Review the code reviews, retrospective
 
 
 
-Reviewee:
+### Reviewee:
 * follow checklist (self review)
 * think about what you want to learn
 * stuck? draft code review
@@ -270,7 +276,45 @@ Reviewee:
 
 
 
-Reviewer:
+### Reviewer:
+* wait to write comments until you have looked at all of the code, limits issues, clears questions
+* ask for feedback, is this review helpful to you? imagine yourself reading your comments
+* find ways to complement the code
+* be humble, you could be mistaken
+* site evidence, verify beliefs, provide links
+* good enough is good enough
+
+
+
+
+### Team policies:
+* Use processes and cicd to limit nitpicking
+* limit code in a review
+* value time spent doing code reviews, emphasize learning
+* as a team, learn conflict resolution skills
+* do some code reviews "in person"
+* Think like a team: Navy Seals succeed because they trust each other and they know "shit happens", but we can survive and thrive through it (they have a learning mind set!)
+* Talk about expectations
+* Forcing process is not the way to win hearts and minds
+* Team Code of Conduct
+* Things getting heated? Take a break!
+* Foster growth mindset
+
+
+
+
+### Being a team player
+* Hey, someone reviewed my code today and I learned about this cool thing that they helped me implement, and now our code is better, and I learned something!
+* Hey, I found this article about x, which I thought might be helpful for our implementation of y. What do you all think?
+
+
+
+
+* Be curious
+* Be a team player
+
+
+
 
 # Thank you
 
