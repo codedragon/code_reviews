@@ -151,7 +151,6 @@ https://hiddenbrain.org/podcast/you-2-0-befriending-your-inner-voice/
 
 
 
-## Why? Blindspots:
 * not taught how to productively disagree
 https://news.hiddenbrain.org/i/43578267/brain-waves
 
