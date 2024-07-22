@@ -1,6 +1,6 @@
 # Code Reviews
 ### The Art and the Science
-
+![What comes to mind when I say Code Reviews](assets/mentimeter_qr_code.png "https://www.menti.com/aln9atdjq7dp")
 ## Maria Mckinley
 ## Staff Software Engineer and SRE at Disney
 
@@ -86,11 +86,6 @@
 
 
 
-## Wait, am I paid to think?
-
-
-
-
 <!-- .slide: data-background-image="assets/headline.jpg"-->
 
 ---
@@ -124,29 +119,38 @@
 
 
 
-![Frazz cartoon](assets/frazz.jpg "FRAZZ")
+# Outline
+* Mental Models
+* The trials of code reviews
+* <span style="background-color: #E3A95B">But, why?</span>
+* About Failure
+* Making Code Reviews better
 
 
 
 
-![Frazz cartoon](assets/frazz.gif "FRAZZ © Jef Mallett. Dist. By ANDREWS MCMEEL SYNDICATION. Reprinted with permission. All rights reserved.")
+![Frazz cartoon](assets/frazz.jpg "FRAZZ © Jef Mallett. Dist. By ANDREWS MCMEEL SYNDICATION. Reprinted with permission. All rights reserved.")
 
 
 
 
-## Why? Blindspots
-* fixed mindset vs growth mindset 
+## Why? Psychology!:
+* fixed mindset vs growth mindset
+https://hiddenbrain.org/podcast/innovation-2-0-multiplying-the-growth-mindset/
 * expectation we are done learning when we leave school
-* not taught how to productively disagree
 * image of code guru producing entire operating systems in basement
+https://hiddenbrain.org/podcast/you-2-0-befriending-your-inner-voice/
+
+
+
+## Why? Blindspots:
+* not taught how to productively disagree
+https://news.hiddenbrain.org/i/43578267/brain-waves
 
 
 
 
-
-## Let's talk about the computer file system for a moment
-
-
+Code 
 ## Git puts everything it needs to keep track of changes in a hidden directory called
 ## .git in the root directory of each repository
 
