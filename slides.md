@@ -94,8 +94,11 @@
 <!-- .slide: data-background-image="assets/headline.jpg"-->
 
 ---
+
 ## Developer failed!
+
 ### fear of failure
+
 ### fear of bad news
 
 
