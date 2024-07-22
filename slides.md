@@ -189,24 +189,88 @@ https://news.hiddenbrain.org/i/43578267/brain-waves
 
 
 
-## Your new mantra:
-## The code failed.
-
-
-
-
 ## Mental Model: Failure is something for us to overcome
 ## Better Mental Model: Failure is a teaching tool
+
+
+
+
 * Troubleshooting
 * Systematically figuring out what does not work
 
 
 
 
-# what have we learned?
+## Your new mantra:
+## You did not fail. The code failed, and you learned.
 
 
 
+
+## Fundamentally, we take criticism too personally
+## Ways to separate our work from our selves
+* we are not the code we write
+* we are working on something bigger than ourselves
+
+
+
+
+# what have we learned about failure?
+* We can learn more from failure than success
+* We can learn more from other's failures
+* Helps everyone to see that everyone makes mistakes
+
+
+
+
+* Learn to think of your code separate from you
+* Focus on your team, your project
+* Difficult discussions is where growth and learning happen
+
+
+
+
+# Outline
+* Mental Models
+* The trials of code reviews
+* But, why?
+* About Failure
+* <span style="background-color: #E3A95B">Making Code Reviews better</span>
+
+
+
+
+## Things to keep in mind when doing code reviews
+* We are all humans that are taught to fear failure, be kind
+* terse communication can feel like an attack
+* switch from async to sync
+* pair coding for the win
+
+
+
+
+Review the code reviews, retrospective
+* long back and forths in writing: talk instead!
+* bike shedding
+* rubber stamping
+
+
+
+
+Reviewee:
+* follow checklist (self review)
+* think about what you want to learn
+* stuck? draft code review
+* expect to learn something
+* respond, don't react (create distance to digest and get past the initial punch to the gut)
+* play around with suggestions, request to hop on a call together
+* patience with yourself
+* practice saysing, "that is interesting, let me think about that" to reviews
+
+
+
+
+Reviewer:
 
 # Thank you
 
