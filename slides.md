@@ -104,7 +104,8 @@
 
 
 
-<!-- .slide: data-background-image="assets/headline_news.jpg"-->
+<!-- .slide: data-background-image="assets/headline.jpg"-->
+---
 ## Developer gets in an argument!
 ### fear of conflict
 ### actual conflict, squables
@@ -112,7 +113,9 @@
 
 
 
-<!-- .slide: data-background-image="assets/headline_news.jpg"-->
+<!-- .slide: data-background-image="assets/headline.jpg"-->
+---
+
 ## Developer runs out of time!
 ### fear of losing
 ### fear of deadlines
