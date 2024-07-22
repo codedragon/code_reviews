@@ -1,8 +1,8 @@
-## Code Reviews
-### The Art and the Science
+### Code Reviews
+#### The Art and the Science
 ![What comes to mind when I say Code Reviews](assets/mentimeter_qr_code.png "https://www.menti.com/aln9atdjq7dp")
-### Maria Mckinley
-### Staff Software Engineer and SRE at Disney
+#### Maria Mckinley
+#### Staff Software Engineer and SRE at Disney
 
 
 
@@ -82,6 +82,7 @@
 
 
 ## What makes code reviews hard?
+![What makes Code Reviews hard?](assets/mentimeter_qr_code.png "https://www.menti.com/aln9atdjq7dp")
 
 
 
@@ -103,7 +104,7 @@
 
 ## Developer gets in an argument!
 ### fear of conflict
-### actual conflict, squables
+### actual conflict, squabbles
 
 
 
@@ -134,12 +135,18 @@
 
 
 
-## Why? Psychology!:
+## Why? Psychology!
 * fixed mindset vs growth mindset
 https://hiddenbrain.org/podcast/innovation-2-0-multiplying-the-growth-mindset/
 * expectation we are done learning when we leave school
-* image of code guru producing entire operating systems in basement
+
+
+
+
+* Images of who is a software dev
+![WarGames 1983](assets/wargames.jpg "WarGames 1983")
 https://hiddenbrain.org/podcast/you-2-0-befriending-your-inner-voice/
+
 
 
 
