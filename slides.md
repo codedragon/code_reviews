@@ -96,9 +96,7 @@
 ---
 
 ## Developer failed!
-
 ### fear of failure
-
 ### fear of bad news
 
 
@@ -126,7 +124,7 @@
 
 
 
-![alt text](assets/frazz.gif "FRAZZ © Jef Mallett. Dist. By ANDREWS MCMEEL SYNDICATION. Reprinted with permission. All rights reserved.")
+![Frazz cartoon](assets/frazz.gif "FRAZZ © Jef Mallett. Dist. By ANDREWS MCMEEL SYNDICATION. Reprinted with permission. All rights reserved.")
 
 
 
@@ -142,16 +140,6 @@
 
 
 ## Let's talk about the computer file system for a moment
-
-
-
-
-
-
-
-
-
-
 
 
 ## Git puts everything it needs to keep track of changes in a hidden directory called
