@@ -129,13 +129,14 @@
 
 
 
-
+Frazz by Jef Mallett
 ![Frazz cartoon](assets/frazz.jpg "FRAZZ © Jef Mallett. Dist. By ANDREWS MCMEEL SYNDICATION. Reprinted with permission. All rights reserved.")
 
 
 
 
-## Why? Psychology!
+
+![sprout](assets/sproute.jpg "sprout")
 * fixed mindset vs growth mindset
 https://hiddenbrain.org/podcast/innovation-2-0-multiplying-the-growth-mindset/
 * expectation we are done learning when we leave school
