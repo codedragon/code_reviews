@@ -93,7 +93,7 @@
 
 <!-- .slide: data-background-image="assets/headline_news.jpg"-->
 
-## Developer failed!
+## Developer failed?
 ### fear of failure
 ### fear of bad news
 
