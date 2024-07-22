@@ -91,7 +91,7 @@
 
 
 
-<!-- .slide: data-background-image="assets/breaking.jpg"-->
+<!-- .slide: data-background-image="assets/headline.jpg"-->
 
 ---
 ## Developer failed!
