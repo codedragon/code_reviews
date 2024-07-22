@@ -104,8 +104,8 @@
 
 
 
-<!-- .slide: data-background-image="assets/headline.jpg"-->
----
+<!-- .slide: data-background-image="assets/headline_news.jpg"-->
+
 ## Developer gets in an argument!
 ### fear of conflict
 ### actual conflict, squables
