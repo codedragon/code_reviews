@@ -166,13 +166,13 @@ https://news.hiddenbrain.org/i/43578267/brain-waves
 
 
 
-# Better Ways to Think of Failure
+## Better Ways to Think of Failure
 ![movie](assets/movie.jpg "movie")
 
 
 
 
-# Better Ways to Think of Failure
+## Better Ways to Think of Failure
 ![movie](assets/movie.jpg "movie")
 Learn more from failure than success
 
