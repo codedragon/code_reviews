@@ -136,6 +136,7 @@ Frazz by Jef Mallett
 
 
 ![sprout](assets/sprout.jpg "sprout")
+
 * fixed mindset vs growth mindset
 https://hiddenbrain.org/podcast/innovation-2-0-multiplying-the-growth-mindset/
 * expectation we are done learning when we leave school
@@ -177,7 +178,7 @@ https://news.hiddenbrain.org/i/43578267/brain-waves
 
 
 
-![despair](https://despair.com/collections/demotivators/products/mistakes?variant=2457302467 "Mistakes warning to others")
+![despair](assets/mistakes.jpg "Mistakes warning to others")
 
 
 
