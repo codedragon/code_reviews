@@ -124,8 +124,7 @@
 
 
 
-![Frazz cartoon](assets/frazz.gif "FRAZZ")
-
+![Frazz cartoon](assets/frazz.jpg "FRAZZ")
 
 
 
