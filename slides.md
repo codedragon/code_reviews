@@ -124,6 +124,12 @@
 
 
 
+![Frazz cartoon](assets/frazz.gif "FRAZZ")
+
+
+
+
+
 ![Frazz cartoon](assets/frazz.gif "FRAZZ © Jef Mallett. Dist. By ANDREWS MCMEEL SYNDICATION. Reprinted with permission. All rights reserved.")
 
 
