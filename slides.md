@@ -347,6 +347,10 @@ https://news.hiddenbrain.org/i/43578267/brain-waves
 
 * Be curious
 * Look out for your teammates
+
+
+
+
 Goal: to get people enthusiastic and curious about exploring varied ways to solve a coding problem, discussing what we my have missed, and how we as a team can improve our code
 
 
@@ -356,6 +360,7 @@ Goal: to get people enthusiastic and curious about exploring varied ways to solv
 
 Code Review Champion by Dan Goslen
 store.dangoslen.me
+
 Hidden Brain
 hiddenbrain.org
 
