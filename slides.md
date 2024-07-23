@@ -228,14 +228,6 @@ https://news.hiddenbrain.org/i/43578267/brain-waves
 
 
 
-* Learn to think of your code separate from you
-* Focus on your team, your project
-* Learn to disagree constructively
-* Difficult discussions is where growth and learning happen
-
-
-
-
 # Outline
 * Mental Models
 * The trials of code reviews
@@ -246,11 +238,18 @@ https://news.hiddenbrain.org/i/43578267/brain-waves
 
 
 
-## Big picture when doing code reviews
-* We are all humans that are taught to fear failure, be kind
+We are all humans that are taught to fear failure, be kind
 * terse communication can feel like an attack
 * switch from async to sync
 * pair coding for the win
+
+
+
+
+* Learn to think of your code separate from you
+* Focus on your team, your project
+* Learn to disagree constructively
+* Difficult discussions is where growth and learning happen
 
 
 
@@ -281,7 +280,8 @@ https://news.hiddenbrain.org/i/43578267/brain-waves
 
 
 ### Reviewee (continued):
-* practice saysing, "that is interesting, let me think about that" to reviews
+* practice saying, "that is interesting, let me think about that" to reviews
+* remember, you are paid to think
 
 
 
@@ -304,39 +304,50 @@ https://news.hiddenbrain.org/i/43578267/brain-waves
 
 ### Team policies:
 * Use processes and cicd to limit nitpicking
-* limit code in a review
+* limit code in a review (early review!)
 * value time spent doing code reviews, emphasize learning
-* learn conflict resolution skills together
 
 
 
 
 ### Team policies (continued):
 * do some code reviews "in person"
-* Think like a team: Navy Seals succeed because they trust each other and they know "shit happens", but we can survive and thrive through it (they have a learning mind set!)
-* Talk about expectations
+* Think like a team: Navy Seals succeed because they trust each other "shit happens", but we can survive and thrive through it (they have a learning mind set!)
+
 
 
 
 
 ### Team policies (continued):
+* learn conflict resolution skills together
 * Forcing process is not the way to win hearts and minds
 * Team Code of Conduct
+
+
+
+
+### Team policies (continued):
 * Things getting heated? Take a break!
 * Foster growth mindset
+* Talk about expectations
 
 
 
 
 ### Being a team player
 * Hey, someone reviewed my code today and I learned about this cool thing that they helped me implement, and now our code is better, and I learned something!
+
+
+
+
+### Being a team player
 * Hey, I found this article about x, which I thought might be helpful for our implementation of y. What do you all think?
 
 
 
 
 * Be curious
-* Be a team player
+* Look out for your teammates
 
 
 
@@ -345,3 +356,12 @@ https://news.hiddenbrain.org/i/43578267/brain-waves
 
 ### https://codedragon.github.io/code_reviews
 ### maria@mariakathryn.net
+
+
+
+
+Things for checklist:
+* requirements
+* tests
+* docs
+* amount of code in review
