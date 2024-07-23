@@ -177,7 +177,7 @@ https://news.hiddenbrain.org/i/43578267/brain-waves
 
 
 
-### Learn more from failure than success 
+### We learn more from failure than success 
 ![movie](assets/movie.jpg "movie")
 
 
@@ -238,7 +238,7 @@ https://news.hiddenbrain.org/i/43578267/brain-waves
 
 
 
-We are all humans that are taught to fear failure, be kind
+## We are all humans that are taught to fear failure, be kind
 * terse communication can feel like an attack
 * switch from async to sync
 * pair coding for the win
@@ -313,7 +313,6 @@ We are all humans that are taught to fear failure, be kind
 ### Team policies (continued):
 * do some code reviews "in person"
 * Think like a team: Navy Seals succeed because they trust each other "shit happens", but we can survive and thrive through it (they have a learning mind set!)
-
 
 
 
