@@ -351,7 +351,9 @@ https://news.hiddenbrain.org/i/43578267/brain-waves
 
 
 
-Goal: to get people enthusiastic and curious about exploring varied ways to solve a coding problem, discussing what we my have missed, and how we as a team can improve our code
+Goal:
+
+To get people enthusiastic and curious about exploring varied ways to solve coding problems, discussing what may have been missed, and how we as a team can improve our code
 
 
 
@@ -370,8 +372,9 @@ hiddenbrain.org
 
 
 
-## Consider for code review checklist:
+## Consider for code review checklist (or cicd):
 * requirements
 * tests
 * docs
 * amount of code in review
+* linter/formatter
