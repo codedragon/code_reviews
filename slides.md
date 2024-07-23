@@ -255,7 +255,7 @@ https://news.hiddenbrain.org/i/43578267/brain-waves
 
 
 
-## Review the code reviews, retrospective
+## Review the code reviews, retrospectives
 * long back and forths in writing: talk instead!
 * bike shedding
 * rubber stamping
@@ -268,6 +268,11 @@ https://news.hiddenbrain.org/i/43578267/brain-waves
 * think about what you want to learn
 * stuck? draft code review
 * expect to learn something
+
+
+
+
+### Reviewee (continued):
 * respond, don't react (create distance to digest and get past the initial punch to the gut)
 * play around with suggestions, request to hop on a call together
 * patience with yourself
@@ -277,9 +282,14 @@ https://news.hiddenbrain.org/i/43578267/brain-waves
 
 
 ### Reviewer:
-* wait to write comments until you have looked at all of the code, limits issues, clears questions
+* write comments only after you have looked at all of the code: limits issues, clears questions
 * ask for feedback, is this review helpful to you? imagine yourself reading your comments
 * find ways to complement the code
+
+
+
+
+### Reviewer (continued):
 * be humble, you could be mistaken
 * site evidence, verify beliefs, provide links
 * good enough is good enough
