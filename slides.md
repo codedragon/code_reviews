@@ -276,6 +276,11 @@ https://news.hiddenbrain.org/i/43578267/brain-waves
 * respond, don't react (create distance to digest and get past the initial punch to the gut)
 * play around with suggestions, request to hop on a call together
 * patience with yourself
+
+
+
+
+### Reviewee (continued):
 * practice saysing, "that is interesting, let me think about that" to reviews
 
 
@@ -284,12 +289,12 @@ https://news.hiddenbrain.org/i/43578267/brain-waves
 ### Reviewer:
 * write comments only after you have looked at all of the code: limits issues, clears questions
 * ask for feedback, is this review helpful to you? imagine yourself reading your comments
-* find ways to complement the code
 
 
 
 
 ### Reviewer (continued):
+* find ways to complement the code
 * be humble, you could be mistaken
 * site evidence, verify beliefs, provide links
 * good enough is good enough
@@ -301,10 +306,20 @@ https://news.hiddenbrain.org/i/43578267/brain-waves
 * Use processes and cicd to limit nitpicking
 * limit code in a review
 * value time spent doing code reviews, emphasize learning
-* as a team, learn conflict resolution skills
+* learn conflict resolution skills together
+
+
+
+
+### Team policies (continued):
 * do some code reviews "in person"
 * Think like a team: Navy Seals succeed because they trust each other and they know "shit happens", but we can survive and thrive through it (they have a learning mind set!)
 * Talk about expectations
+
+
+
+
+### Team policies (continued):
 * Forcing process is not the way to win hearts and minds
 * Team Code of Conduct
 * Things getting heated? Take a break!
