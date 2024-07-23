@@ -347,11 +347,17 @@ https://news.hiddenbrain.org/i/43578267/brain-waves
 
 * Be curious
 * Look out for your teammates
+Goal: to get people enthusiastic and curious about exploring varied ways to solve a coding problem, discussing what we my have missed, and how we as a team can improve our code
 
 
 
 
 # Thank you
+
+Code Review Champion by Dan Goslen
+store.dangoslen.me
+Hidden Brain
+hiddenbrain.org
 
 ### https://codedragon.github.io/code_reviews
 ### maria@mariakathryn.net
@@ -359,7 +365,7 @@ https://news.hiddenbrain.org/i/43578267/brain-waves
 
 
 
-Things for checklist:
+## Consider for code review checklist:
 * requirements
 * tests
 * docs
