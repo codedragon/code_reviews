@@ -47,8 +47,8 @@
 
 
 ## A better mental model:
-## A code review is a way for a team to share knowledge, learn together and
-## assess the quality of the code they are shipping before they ship it.
+## A code review is a way for a team to share knowledge and learn together (and
+## assess the quality of the code they are shipping before they ship it).
 
 
 
@@ -177,7 +177,7 @@ https://news.hiddenbrain.org/i/43578267/brain-waves
 
 
 
-### We learn more from failure than success 
+### We could learn more from failure than success 
 ![movie](assets/movie.jpg "movie")
 
 
@@ -190,6 +190,7 @@ https://news.hiddenbrain.org/i/43578267/brain-waves
 
 ## Easier to learn from each other's mistakes
 ## Beneficial that you see other people make mistakes
+https://hiddenbrain.org/podcast/learning-from-your-mistakes/
 
 
 
@@ -212,7 +213,7 @@ https://news.hiddenbrain.org/i/43578267/brain-waves
 
 
 
-## Fundamentally, we take criticism too personally
+## Fundamentally, we take criticism about our work toao personally
 ## Ways to separate our work from our selves
 ### we are not the code we write
 ### we are working on something bigger than ourselves
@@ -221,7 +222,7 @@ https://news.hiddenbrain.org/i/43578267/brain-waves
 
 
 # what have we learned about failure?
-### We learn more from failure than success
+### We can learn more from failure than success
 ### We learn more from other's failures
 ### Helps everyone to see that everyone makes mistakes
 
@@ -239,14 +240,18 @@ https://news.hiddenbrain.org/i/43578267/brain-waves
 
 
 ## We are all humans that are taught to fear failure, be kind
-* terse communication can feel like an attack
-* switch from async to sync
-* pair coding for the win
 
 
 
 
+* Terse communication can feel like an attack
+* Switch from async to sync
+* Pair coding for the win
 * Learn to think of your code separate from you
+
+
+
+
 * Focus on your team, your project
 * Learn to disagree constructively
 * Difficult discussions is where growth and learning happen
