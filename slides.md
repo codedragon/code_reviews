@@ -9,20 +9,20 @@
 
 # Outline
 * Mental Models
-* The trials of code reviews
-* But, why?
-* About Failure
-* Making Code Reviews better
+* What Makes Code Reviews Hard
+* But, Why?
+* What the Science Says About Failure
+* Making Code Reviews Better
 
 
 
 
 # Outline
 * <span style="background-color: #E3A95B">Mental Models</span>
-* The trials of code reviews
-* But, why?
-* About Failure
-* Making Code Reviews better
+* What Makes Code Reviews Hard
+* But, Why?
+* What the Science Says About Failure
+* Making Code Reviews Better
 
 
 
@@ -59,6 +59,11 @@
 
 
 
+![Teamwork and Communication May be Important](assets/code_reviews.png "https://goomics.net/67/")
+
+
+
+
 ## Lots of research backs up the importance of teamwork on software development
 ### Leave it as an exercise for the audience, good place to start:
 ### https://www.atlassian.com/blog/teamwork/the-importance-of-teamwork
@@ -70,13 +75,12 @@
 
 
 
-
 # Outline
 * Mental Models
-* <span style="background-color: #E3A95B">The trials of code reviews</span>
-* But, why?
-* About Failure
-* Making Code Reviews better
+* <span style="background-color: #E3A95B">What Makes Code Reviews Hard</span>
+* But, Why?
+* What the Science Says About Failure
+* Making Code Reviews Better
 
 
 
@@ -122,10 +126,11 @@
 
 # Outline
 * Mental Models
-* The trials of code reviews
-* <span style="background-color: #E3A95B">But, why?</span>
-* About Failure
-* Making Code Reviews better
+* What Makes Code Reviews Hard
+* <span style="background-color: #E3A95B">But, Why?</span>
+* What the Science Says About Failure
+* Making Code Reviews Better
+
 
 
 
@@ -164,10 +169,10 @@ https://news.hiddenbrain.org/i/43578267/brain-waves
 
 # Outline
 * Mental Models
-* The trials of code reviews
-* But, why?
-* <span style="background-color: #E3A95B">About Failure</span>
-* Making Code Reviews better
+* What Makes Code Reviews Hard
+* But, Why?
+* <span style="background-color: #E3A95B">What the Science Says About Failure</span>
+* Making Code Reviews Better
 
 
 
@@ -231,10 +236,10 @@ https://hiddenbrain.org/podcast/learning-from-your-mistakes/
 
 # Outline
 * Mental Models
-* The trials of code reviews
-* But, why?
-* About Failure
-* <span style="background-color: #E3A95B">Making Code Reviews better</span>
+* What Makes Code Reviews Hard
+* But, Why?
+* What the Science Says About Failure
+* <span style="background-color: #E3A95B">Making Code Reviews Better</span>
 
 
 
