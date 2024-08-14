@@ -1,5 +1,5 @@
 ### Code Reviews Are Your Friend!
-![What comes to mind when I say Code Reviews](assets/mentimeter_qr_code.png "https://www.menti.com/aln9atdjq7dp")
+![What comes to mind when I say Code Reviews](assets/first_qr_code.png "https://www.menti.com/aln9atdjq7dp")
 #### Maria Mckinley
 #### Staff Software Engineer and SRE at Disney
 
@@ -86,7 +86,7 @@
 
 
 ## What makes code reviews hard?
-![What makes Code Reviews hard?](assets/mentimeter_qr_code.png "https://www.menti.com/aln9atdjq7dp")
+![What makes Code Reviews hard?](assets/second_qr_code.png "https://www.menti.com/aln9atdjq7dp")
 
 
 
