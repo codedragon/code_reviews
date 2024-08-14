@@ -1,5 +1,4 @@
-### Code Reviews
-#### The Art and the Science
+### Code Reviews Are Your Friend!
 ![What comes to mind when I say Code Reviews](assets/mentimeter_qr_code.png "https://www.menti.com/aln9atdjq7dp")
 #### Maria Mckinley
 #### Staff Software Engineer and SRE at Disney
@@ -59,6 +58,7 @@
 
 
 
+## Teamwork and Communication May be Important
 ![Teamwork and Communication May be Important](assets/code_reviews.png "https://goomics.net/67/")
 
 
@@ -124,6 +124,16 @@
 
 
 
+<!-- .slide: data-background-image="assets/headline.jpg"-->
+
+---
+
+## Developer feels shame
+### internalizes criticism
+
+
+
+
 # Outline
 * Mental Models
 * What Makes Code Reviews Hard
@@ -149,20 +159,26 @@ Frazz by Jef Mallett
 
 
 
-* Images of who is a software dev
+## Images of who is a software dev
 ![WarGames 1983](assets/wargames.jpg "WarGames 1983")
 https://hiddenbrain.org/podcast/you-2-0-befriending-your-inner-voice/
 
 
 
 
-* not taught how to productively disagree
+## We are not taught how to productively disagree
 https://news.hiddenbrain.org/i/43578267/brain-waves
 
 
 
 
-* taught to think of team members as our competition
+## We are taught to think of team members as our competition
+
+
+
+
+## We learn to internalize criticism
+https://psychcentral.com/lib/what-is-toxic-shame
 
 
 
@@ -200,12 +216,19 @@ https://hiddenbrain.org/podcast/learning-from-your-mistakes/
 
 
 
+## Difficult discussions is where growth and learning happen
+https://hbr.org/2019/08/learning-is-supposed-to-feel-uncomfortable
+
+
+
+
 ## Mental Model: Failure is something for us to overcome
 ## Better Mental Model: Failure is a teaching tool
 
 
 
 
+## As developers, we already do this...
 * Troubleshooting
 * Systematically figuring out what does not work
 
@@ -218,18 +241,29 @@ https://hiddenbrain.org/podcast/learning-from-your-mistakes/
 
 
 
-## Fundamentally, we take criticism about our work toao personally
-## Ways to separate our work from our selves
-### we are not the code we write
-### we are working on something bigger than ourselves
+## Fundamentally, we often take criticism about our work too personally
 
 
 
 
-# what have we learned about failure?
+## To help us separate our work from our selves, remember:
+* we are not the code we write
+* we are working on something bigger than ourselves
+
+
+
+
+* pause and pay attention to how we react to criticism
+* take a break to re-set
+
+
+
+
+## what have we learned about failure?
 ### We can learn more from failure than success
 ### We learn more from other's failures
-### Helps everyone to see that everyone makes mistakes
+### Transparent failure helps everyone see everyone makes mistakes
+### We learn more with less Ego
 
 
 
@@ -244,22 +278,39 @@ https://hiddenbrain.org/podcast/learning-from-your-mistakes/
 
 
 
-## We are all humans that are taught to fear failure, be kind
+## We are all imperfect humans.
+## Our culture has taught us to fear failure. Be kind.
+### consider creating a team code of conduct
 
 
 
 
 * Terse communication can feel like an attack
-* Switch from async to sync
-* Pair coding for the win
-* Learn to think of your code separate from you
-
-
-
-
-* Focus on your team, your project
+* Consider your audience
+* Consider switch from async to sync
 * Learn to disagree constructively
-* Difficult discussions is where growth and learning happen
+
+
+
+
+### Incorporate pair coding for the win
+Some of the very first programmers were the women who worked on the ENIAC (Electronic Numerical Integrator and Computer). These women worked in pairs, allowing them to discuss ideas and improve each other's work.
+https://martinfowler.com/articles/on-pair-programming.html
+
+
+
+
+* Learn to think of your code separate from you
+* Focus on your team and your project, not "your" code
+* Difficult discussions is where growth and learning happen, practice embracing them
+
+
+
+
+## What if the person requesting the code review was required to come up with one suggestion to improve the existing code?
+* more big picture focus
+* chips away at tech debt
+* one person is no longer the focus of entire review
 
 
 
@@ -268,6 +319,34 @@ https://hiddenbrain.org/podcast/learning-from-your-mistakes/
 * long back and forths in writing: talk instead!
 * bike shedding
 * rubber stamping
+
+
+
+
+# TL;DR
+* Be curious
+* Look out for your teammates
+
+
+
+
+Code Review Goal:
+
+To get people enthusiastic and curious about exploring varied ways to solve coding problems, discussing what may have been missed, and how we as a team can improve our code
+
+
+
+
+# Thank you
+
+Code Review Champion by Dan Goslen
+store.dangoslen.me
+
+Hidden Brain
+hiddenbrain.org
+
+### https://codedragon.github.io/code_reviews
+### maria@mariakathryn.net
 
 
 
@@ -351,33 +430,6 @@ https://hiddenbrain.org/podcast/learning-from-your-mistakes/
 
 ### Being a team player
 * Hey, I found this article about x, which I thought might be helpful for our implementation of y. What do you all think?
-
-
-
-
-* Be curious
-* Look out for your teammates
-
-
-
-
-Goal:
-
-To get people enthusiastic and curious about exploring varied ways to solve coding problems, discussing what may have been missed, and how we as a team can improve our code
-
-
-
-
-# Thank you
-
-Code Review Champion by Dan Goslen
-store.dangoslen.me
-
-Hidden Brain
-hiddenbrain.org
-
-### https://codedragon.github.io/code_reviews
-### maria@mariakathryn.net
 
 
 
