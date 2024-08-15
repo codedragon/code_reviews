@@ -4,6 +4,11 @@
 
 
 
+## Disclaimer
+### All opinions are my own, and not necessarily those of my employer. All errors are also my own. I encourage submitting issues, pull requests or contacting me if you find errors or wish to offer improvemements.
+
+
+
 
 # Outline
 * Mental Models
