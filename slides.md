@@ -348,6 +348,8 @@ store.dangoslen.me
 Hidden Brain
 hiddenbrain.org
 
+Following this slide is more advice tailored for the the reviewee, reviewer, and the team in general
+
 ### https://codedragon.github.io/code_reviews
 ### maria@mariakathryn.net
 
