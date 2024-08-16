@@ -318,12 +318,6 @@ https://martinfowler.com/articles/on-pair-programming.html
 
 
 
-## For more thoughts on this:
-https://mckim055.pages.gitlab.disney.com/great_software/posts/an-idea-for-code-reviews
-
-
-
-
 ## Review the code reviews, retrospectives
 * long back and forths in writing: talk instead!
 * bike shedding
@@ -451,3 +445,14 @@ Following this slide is more advice tailored for the the reviewee, reviewer, and
 * docs
 * amount of code in review
 * linter/formatter
+
+
+
+
+## For more thoughts on my idea to improve code reviews, please contact me
+## This document is currently only available internally at TWDC:
+https://mckim055.pages.gitlab.disney.com/great_software/posts/an-idea-for-code-reviews
+
+
+
+
