@@ -310,10 +310,16 @@ https://martinfowler.com/articles/on-pair-programming.html
 
 
 
-## What if the person requesting the code review was required to come up with one suggestion to improve the existing code?
-* more big picture focus
+### What if the person requesting the code review was required to come up with a suggestion to improve the existing code?
+* bigger picture focus
 * chips away at tech debt
-* one person is no longer the focus of entire review
+* take the focus of review away from one person
+
+
+
+
+## For more thoughts on this:
+https://mckim055.pages.gitlab.disney.com/great_software/posts/an-idea-for-code-reviews
 
 
 
