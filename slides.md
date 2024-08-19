@@ -351,6 +351,7 @@ hiddenbrain.org
 Following this slide is more advice tailored for the the reviewee, reviewer, and the team in general
 
 ### https://codedragon.github.io/code_reviews
+### repo: https://github.com/codedragon/code_reviews
 ### maria@mariakathryn.net
 
 

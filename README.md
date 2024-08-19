@@ -1,6 +1,5 @@
-# My Intro to GIT Talk
+# Code Reviews are your Friend
 
-Talk about how and why to use git
 
 I copied the basic slide framework from:
 https://github.com/MaptimeCalgary/presentation-example
