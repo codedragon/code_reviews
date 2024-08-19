@@ -181,6 +181,7 @@ https://news.hiddenbrain.org/i/43578267/brain-waves
 
 
 ## We learn to internalize criticism
+https://www.psychologytoday.com/us/basics/shame
 https://psychcentral.com/lib/what-is-toxic-shame
 
 
